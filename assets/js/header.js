@@ -3,7 +3,7 @@
   if(!host||!window.SYLLABUS)return;
   const s=window.SYLLABUS;
   const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const mobileView=window.matchMedia('(max-width: 620px)').matches;
+  const mobileView=window.matchMedia('(max-width: 760px)').matches;
   const categories=s.groups.map((g,gi)=>{
     const units=s.units.filter(u=>u.group===g.id).map(u=>{
       const subs=u.subunits.map(sub=>{
@@ -16,11 +16,11 @@
   }).join('');
   host.innerHTML='<header class="site-header"><div class="header-inner"><a class="brand" href="#home"><span class="brand-mark">LS</span><span><span class="brand-name">LIFE SCIENCE ACADEMY</span><span class="brand-tag">ONE PLATFORM · MULTIPLE EXAMINATIONS</span></span></a><div class="header-search"><span class="search-symbol">⌕</span><input id="site-search" type="search" placeholder="Search units, subunits, topics…" autocomplete="off" aria-label="Search syllabus"><div class="search-results" id="search-results"></div></div><div class="header-actions"><a class="nav-link" href="#approach">Our approach</a><div class="mega-wrap" id="mega-wrap"><button class="mega-trigger" id="mega-trigger" type="button" aria-expanded="false" aria-controls="syllabus-mega-panel">Explore syllabus <span aria-hidden="true">▾</span></button><div class="mega-panel" id="syllabus-mega-panel" aria-label="Complete syllabus navigation"><div class="mega-topbar"><div><p class="mega-title">COMPLETE SYLLABUS</p><span class="mega-count">3 categories · 14 units · 108 subunits · 863 specific topics</span></div><div class="mega-tools"><input id="nav-tree-search" type="search" placeholder="Find in syllabus…" aria-label="Find in complete syllabus"><button type="button" id="nav-expand-all">Expand all</button></div></div><div class="nav-category-grid">'+categories+'</div><p class="nav-empty" id="nav-empty" hidden>No matching syllabus topics.</p></div></div><button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">◐ Dark mode</button><button class="menu-toggle" id="menu-toggle" type="button" aria-controls="syllabus-mega-panel" aria-expanded="false">Menu</button></div></div></header>';
   const trigger=document.getElementById('mega-trigger'),wrap=document.getElementById('mega-wrap'),panel=document.getElementById('syllabus-mega-panel'),mobile=document.getElementById('menu-toggle');
-  function setOpen(open){wrap.classList.toggle('open',open);trigger.setAttribute('aria-expanded',String(open));mobile.setAttribute('aria-expanded',String(open));}
+  function setOpen(open){wrap.classList.toggle('open',open);document.body.classList.toggle('menu-open',open&&mobileView);trigger.setAttribute('aria-expanded',String(open));mobile.setAttribute('aria-expanded',String(open));mobile.textContent=open?'Close':'Menu';}
   trigger.addEventListener('click',()=>setOpen(!wrap.classList.contains('open')));
   mobile.addEventListener('click',()=>setOpen(!wrap.classList.contains('open')));
-  document.addEventListener('click',e=>{if(!wrap.contains(e.target))setOpen(false)});
-  panel.addEventListener('keydown',e=>{if(e.key==='Escape'){setOpen(false);trigger.focus()}});
+  document.addEventListener('click',e=>{if(!wrap.contains(e.target)&&!mobile.contains(e.target))setOpen(false)});
+  panel.addEventListener('keydown',e=>{if(e.key==='Escape'){setOpen(false);mobileView?mobile.focus():trigger.focus()}});
   panel.querySelectorAll('.nav-node').forEach(a=>a.addEventListener('click',()=>setOpen(false)));
   panel.querySelectorAll('.nav-category').forEach(cat=>cat.addEventListener('toggle',()=>{if(mobileView&&cat.open)panel.querySelectorAll('.nav-category').forEach(other=>{if(other!==cat)other.open=false})}));
   const expand=document.getElementById('nav-expand-all');
@@ -46,6 +46,7 @@
     });
     empty.hidden=!q||total>0;
   });
+  window.addEventListener('resize',()=>{const now=window.matchMedia('(max-width: 760px)').matches;if(!now){document.body.classList.remove('menu-open');wrap.classList.remove('open');mobile.setAttribute('aria-expanded','false');mobile.textContent='Menu'}});
   const saved=localStorage.getItem('lsa-theme');if(saved==='dark')document.documentElement.dataset.theme='dark';
   const theme=document.getElementById('theme-toggle');function label(){theme.textContent=document.documentElement.dataset.theme==='dark'?'☀ Light mode':'◐ Dark mode'}label();
   theme.addEventListener('click',()=>{const dark=document.documentElement.dataset.theme!=='dark';if(dark)document.documentElement.dataset.theme='dark';else delete document.documentElement.dataset.theme;localStorage.setItem('lsa-theme',dark?'dark':'light');label()});
