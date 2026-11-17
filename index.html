@@ -3,84 +3,61 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A simple sample landing page">
-  <title>Welcome</title>
-  <style>
-    :root {
-      color-scheme: light;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      color: #172033;
-      background: #f4f7fb;
-    }
-
-    * { box-sizing: border-box; }
-    body { margin: 0; min-height: 100vh; }
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1.25rem clamp(1.25rem, 6vw, 5rem);
-      background: #fff;
-      border-bottom: 1px solid #e6eaf0;
-    }
-    .brand { font-weight: 750; letter-spacing: .02em; }
-    nav { display: flex; gap: 1.25rem; }
-    nav a { color: #526078; text-decoration: none; font-size: .95rem; }
-    nav a:hover { color: #315eea; }
-    main {
-      min-height: calc(100vh - 76px);
-      display: grid;
-      place-items: center;
-      padding: 4rem 1.25rem;
-      text-align: center;
-    }
-    .hero { max-width: 720px; }
-    .eyebrow {
-      display: inline-block;
-      margin-bottom: 1rem;
-      padding: .4rem .8rem;
-      border-radius: 999px;
-      color: #315eea;
-      background: #e9efff;
-      font-size: .85rem;
-      font-weight: 650;
-    }
-    h1 { margin: 0; font-size: clamp(2.5rem, 7vw, 4.5rem); line-height: 1.05; }
-    .intro { margin: 1.25rem auto 2rem; max-width: 560px; color: #647087; font-size: 1.1rem; line-height: 1.7; }
-    .button {
-      display: inline-block;
-      padding: .85rem 1.25rem;
-      border-radius: .65rem;
-      color: #fff;
-      background: #315eea;
-      text-decoration: none;
-      font-weight: 650;
-      box-shadow: 0 8px 20px #315eea33;
-    }
-    .button:hover { background: #244bc4; }
-    footer { padding: 1rem; color: #8791a3; text-align: center; font-size: .85rem; }
-    @media (max-width: 480px) { nav { gap: .75rem; } nav a { font-size: .85rem; } }
-  </style>
+  <meta name="description" content="LIFE SCIENCE ACADEMY — One Platform, Multiple Examinations. Explore structured Life Science syllabus and learning pathways.">
+  <meta name="theme-color" content="#f7f9fc">
+  <title>LIFE SCIENCE ACADEMY | One Platform · Multiple Examinations</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/syllabus.js"></script>
+  <script defer src="assets/js/header.js"></script>
+  <script defer src="assets/js/footer.js"></script>
+  <script defer src="assets/js/app.js"></script>
 </head>
 <body>
-  <header>
-    <div class="brand">Your Project</div>
-    <nav aria-label="Main navigation">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <div id="site-header"></div>
+  <main>
+    <section class="hero-wrap" id="home">
+      <div class="hero">
+        <span class="eyebrow">ONE PLATFORM · MULTIPLE EXAMINATIONS</span>
+        <h1>Build your Life Science<br><span>knowledge, step by step.</span></h1>
+        <p class="hero-copy">A structured learning space for Life Science competitive examinations — from core concepts to focused revision.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#syllabus">Explore syllabus <span aria-hidden="true">↗</span></a>
+          <a class="text-button" href="#approach">Explore the learning system</a>
+        </div>
+        <div class="hero-meta"><span class="meta-dot"></span> Organised learning · Clear pathways · Exam-focused structure</div>
+      </div>
+      <div class="hero-side" aria-label="Syllabus overview">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="molecule-card">
+          <div class="molecule-top"><span>LEARNING MAP</span><span class="live-mark">● STRUCTURED</span></div>
+          <div class="molecule-center">LS</div>
+          <div class="molecule-caption">LIFE SCIENCE<br><strong>ACADEMY</strong></div>
+          <div class="molecule-stats"><div><strong>13</strong><span>Units</span></div><div><strong>130</strong><span>Subunits</span></div><div><strong>1,300</strong><span>Nodes</span></div></div>
+        </div>
+      </div>
+    </section>
 
-  <main id="home">
-    <section class="hero" aria-labelledby="page-title">
-      <span class="eyebrow">A sample landing page</span>
-      <h1 id="page-title">A great place to start.</h1>
-      <p class="intro">This is a clean, responsive starter page for your project. Update the text, links, and colors to make it your own.</p>
-      <a class="button" href="#about">Explore the page</a>
+    <section class="stats-strip" aria-label="Syllabus counts">
+      <div><strong>13</strong><span>Major units</span></div><div><strong>130</strong><span>Subunits</span></div><div><strong>1,300</strong><span>Learning nodes</span></div><div><strong>3</strong><span>Major categories</span></div>
+    </section>
+
+    <section class="section" id="approach">
+      <div class="section-heading"><div><span class="eyebrow">A CLEAR LEARNING STRUCTURE</span><h2>One subject. Three major domains.</h2></div><p>Move from molecular foundations to organismal systems, then connect life, environment and applications.</p></div>
+      <div class="category-grid" id="category-grid"></div>
+    </section>
+
+    <section class="section syllabus-section" id="syllabus">
+      <div class="section-heading"><div><span class="eyebrow">EXPLORE THE 13-UNIT TRACK</span><h2>Complete syllabus map</h2></div><p>Choose a category or open any unit to explore its ten subunits and learning nodes.</p></div>
+      <div class="track-note"><span class="note-icon">i</span><span><strong>Track note:</strong> This is the 13-unit CSIR Life Sciences syllabus track (up to June 2026 cycle). The revised CSIR-UGC-DBT Life Sciences & Biotechnology syllabus is a separate 14-unit track.</span><a href="https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20201221135711180LS_Sylbs_29Jan2026.pdf" target="_blank" rel="noopener">Official syllabus ↗</a></div>
+      <div class="unit-toolbar"><div class="unit-count" id="unit-count">Loading syllabus…</div><button class="outline-button" id="expand-all" type="button">Expand all units</button></div>
+      <div class="unit-list" id="unit-list"></div>
+    </section>
+
+    <section class="closing-panel">
+      <div><span class="eyebrow">THE LEARNING JOURNEY</span><h2>Strong foundations.<br>Connected understanding.</h2><p>This first release establishes the shared syllabus architecture. Notes, practice questions, progress tracking and exam-specific pathways can build on the same structure.</p></div>
+      <a class="primary-button" href="#syllabus">Start with the syllabus <span aria-hidden="true">↗</span></a>
     </section>
   </main>
-
-  <footer id="contact">© 2026 Your Project. Made with care.</footer>
+  <div id="site-footer"></div>
 </body>
 </html>
