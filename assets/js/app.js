@@ -10,6 +10,7 @@
     if(!location.hash)return;
     let id;try{id=decodeURIComponent(location.hash.slice(1))}catch(e){id=location.hash.slice(1)}
     const target=document.getElementById(id);if(!target)return;
+    if(target.tagName==='DETAILS')target.open=true;
     let parent=target.parentElement;
     while(parent){if(parent.tagName==='DETAILS')parent.open=true;parent=parent.parentElement}
     requestAnimationFrame(()=>target.scrollIntoView({behavior:'smooth',block:'start'}));
