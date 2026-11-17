@@ -1,12 +1,12 @@
-/* LIFE SCIENCE ACADEMY | Structured syllabus data */
+/* LIFE SCIENCE ACADEMY | Revised Joint CSIR-UGC-DBT LS&BT syllabus map */
 window.SYLLABUS = {
-  "title": "CSIR-UGC NET Life Sciences — 13-Unit Syllabus Track",
-  "version": "Legacy 13-unit Life Sciences syllabus (up to June 2026 cycle)",
-  "note": "This structured learning map is an editorial organisation of the 13-unit syllabus. Check the official notification for the exam cycle you are targeting; the revised CSIR-UGC-DBT Life Sciences & Biotechnology syllabus is a separate 14-unit track.",
-  "source": "https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20201221135711180LS_Sylbs_29Jan2026.pdf",
+  "title": "Joint CSIR-UGC-DBT NET — Life Sciences and Biotechnology (LS&BT)",
+  "version": "Revised 14-unit syllabus (CSIR-HRDG, January 2026)",
+  "note": "This learning map is organized from the official revised LS&BT syllabus. Subunits follow official syllabus headings; topic titles expand the listed examinable concepts into study-sized entries. Check the official notification for the applicable exam cycle.",
+  "source": "https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf",
   "groups": [
     {
-      "id": "foundations",
+      "id": "molecular",
       "name": "Molecular & Cellular Foundations",
       "range": "Units 1–4",
       "unitIndexes": [
@@ -15,13 +15,7 @@ window.SYLLABUS = {
         2,
         3
       ],
-      "description": "Biomolecules, cell architecture, molecular genetics and signaling.",
-      "units": [
-        1,
-        2,
-        3,
-        4
-      ]
+      "description": "Biomolecules, cell architecture, molecular processes and signaling."
     },
     {
       "id": "organismal",
@@ -33,609 +27,497 @@ window.SYLLABUS = {
         6,
         7
       ],
-      "description": "Development, plant and animal physiology, and inheritance.",
-      "units": [
-        5,
-        6,
-        7,
-        8
-      ]
+      "description": "Development, plant and animal physiology, and genetics."
     },
     {
-      "id": "life-systems",
-      "name": "Diversity, Ecology & Applied Biology",
-      "range": "Units 9–13",
+      "id": "diversity",
+      "name": "Evolution, Ecology & Biotechnology",
+      "range": "Units 9–14",
       "unitIndexes": [
         8,
         9,
         10,
         11,
-        12
-      ],
-      "description": "Biodiversity, ecology, evolution, applications and research methods.",
-      "units": [
-        9,
-        10,
-        11,
         12,
         13
-      ]
+      ],
+      "description": "Evolution, ecology, computational biology, industrial and modern biotechnology, and research methods."
     }
   ],
   "units": [
     {
       "id": "unit-01",
       "number": 1,
-      "title": "Molecules and their Interaction Relevant to Biology",
-      "group": "foundations",
+      "title": "Structure and Function of Biomolecules",
+      "group": "molecular",
       "subunits": [
         {
           "id": "u1-s01",
           "number": 1,
-          "title": "Atomic Structure, Chemical Bonds and Molecular Forces",
+          "title": "Atomic structure and chemical bonding",
           "nodes": [
             {
               "id": "u1-s1-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Atomic number and mass number"
             },
             {
               "id": "u1-s1-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Isotopes and radioisotopes"
             },
             {
               "id": "u1-s1-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Electron configuration and valence electrons"
             },
             {
               "id": "u1-s1-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Ionic and covalent bonds"
             },
             {
               "id": "u1-s1-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Coordinate covalent bonds"
             },
             {
               "id": "u1-s1-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Electronegativity and bond polarity"
             },
             {
               "id": "u1-s1-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Molecular orbital basics"
             },
             {
               "id": "u1-s1-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u1-s1-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u1-s1-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Bond energy and bond length"
             }
           ]
         },
         {
           "id": "u1-s02",
           "number": 2,
-          "title": "Carbohydrates: Structure and Function",
+          "title": "Biomolecular composition and classification",
           "nodes": [
             {
               "id": "u1-s2-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Monosaccharides and oligosaccharides"
             },
             {
               "id": "u1-s2-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Polysaccharides and glycoconjugates"
             },
             {
               "id": "u1-s2-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Fatty acids and triacylglycerols"
             },
             {
               "id": "u1-s2-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Phospholipids and sphingolipids"
             },
             {
               "id": "u1-s2-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Steroids and isoprenoids"
             },
             {
               "id": "u1-s2-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Amino acids and peptide bonds"
             },
             {
               "id": "u1-s2-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "DNA and RNA components"
             },
             {
               "id": "u1-s2-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u1-s2-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u1-s2-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Water-soluble and fat-soluble vitamins"
             }
           ]
         },
         {
           "id": "u1-s03",
           "number": 3,
-          "title": "Lipids: Structure, Membranes and Function",
+          "title": "Non-covalent interactions and molecular forces",
           "nodes": [
             {
               "id": "u1-s3-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Hydrogen bonding"
             },
             {
               "id": "u1-s3-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Electrostatic interactions and ionic strength"
             },
             {
               "id": "u1-s3-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "van der Waals forces"
             },
             {
               "id": "u1-s3-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Hydrophobic effect"
             },
             {
               "id": "u1-s3-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Dipole-dipole interactions"
             },
             {
               "id": "u1-s3-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "London dispersion forces"
             },
             {
               "id": "u1-s3-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Salt bridges in proteins"
             },
             {
               "id": "u1-s3-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u1-s3-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u1-s3-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Molecular recognition and binding specificity"
             }
           ]
         },
         {
           "id": "u1-s04",
           "number": 4,
-          "title": "Amino Acids and Protein Structure",
+          "title": "Biophysical chemistry",
           "nodes": [
             {
               "id": "u1-s4-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "pH and pKa"
             },
             {
               "id": "u1-s4-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Henderson-Hasselbalch equation"
             },
             {
               "id": "u1-s4-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Buffer capacity"
             },
             {
               "id": "u1-s4-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Acid-base titration curves"
             },
             {
               "id": "u1-s4-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Colligative properties"
             },
             {
               "id": "u1-s4-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Osmotic pressure"
             },
             {
               "id": "u1-s4-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Chemical equilibrium and reaction quotient"
             },
             {
               "id": "u1-s4-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u1-s4-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u1-s4-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Free energy and equilibrium constant"
             }
           ]
         },
         {
           "id": "u1-s05",
           "number": 5,
-          "title": "Protein Folding, Domains and Motifs",
+          "title": "Bioenergetics and energy transduction",
           "nodes": [
             {
               "id": "u1-s5-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Gibbs free energy and standard free energy"
             },
             {
               "id": "u1-s5-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "ATP hydrolysis and phosphoryl transfer potential"
             },
             {
               "id": "u1-s5-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Coupled biochemical reactions"
             },
             {
               "id": "u1-s5-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Redox potential and electron transfer"
             },
             {
               "id": "u1-s5-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Glycolytic pathway and energy yield"
             },
             {
               "id": "u1-s5-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Pyruvate oxidation and TCA cycle"
             },
             {
               "id": "u1-s5-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Electron transport chain complexes"
             },
             {
               "id": "u1-s5-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u1-s5-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u1-s5-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Oxidative phosphorylation and chemiosmosis"
             }
           ]
         },
         {
           "id": "u1-s06",
           "number": 6,
-          "title": "Nucleic Acid Structure and Stability",
+          "title": "Enzymes and catalysis",
           "nodes": [
             {
               "id": "u1-s6-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Enzyme classes and nomenclature"
             },
             {
               "id": "u1-s6-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Active-site architecture"
             },
             {
               "id": "u1-s6-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Transition-state stabilization"
             },
             {
               "id": "u1-s6-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Michaelis-Menten equation"
             },
             {
               "id": "u1-s6-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Km and Vmax"
             },
             {
               "id": "u1-s6-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Lineweaver-Burk and other kinetic plots"
             },
             {
               "id": "u1-s6-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Competitive and non-competitive inhibition"
             },
             {
               "id": "u1-s6-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u1-s6-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u1-s6-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Allosteric regulation and isozymes"
             }
           ]
         },
         {
           "id": "u1-s07",
           "number": 7,
-          "title": "Vitamins, Cofactors and Micronutrients",
+          "title": "Protein conformation and folding",
           "nodes": [
             {
               "id": "u1-s7-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Peptide bond geometry and Ramachandran plot"
             },
             {
               "id": "u1-s7-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Alpha helices and beta sheets"
             },
             {
               "id": "u1-s7-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Turns and loops"
             },
             {
               "id": "u1-s7-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Supersecondary structures"
             },
             {
               "id": "u1-s7-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Protein domains and motifs"
             },
             {
               "id": "u1-s7-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Protein folds and structural classes"
             },
             {
               "id": "u1-s7-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Molecular chaperones and folding pathways"
             },
             {
               "id": "u1-s7-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u1-s7-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u1-s7-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Protein misfolding and aggregation"
             }
           ]
         },
         {
           "id": "u1-s08",
           "number": 8,
-          "title": "Biophysical Chemistry and Thermodynamics",
+          "title": "Nucleic acid conformation",
           "nodes": [
             {
               "id": "u1-s8-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "A-DNA, B-DNA and Z-DNA"
             },
             {
               "id": "u1-s8-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Major and minor grooves"
             },
             {
               "id": "u1-s8-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "DNA supercoiling and topology"
             },
             {
               "id": "u1-s8-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "RNA secondary structures"
             },
             {
               "id": "u1-s8-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "tRNA cloverleaf and L-shaped structure"
             },
             {
               "id": "u1-s8-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Ribozymes and catalytic RNA"
             },
             {
               "id": "u1-s8-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Non-canonical DNA structures"
             },
             {
               "id": "u1-s8-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u1-s8-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u1-s8-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "DNA-protein recognition"
             }
           ]
         },
         {
           "id": "u1-s09",
           "number": 9,
-          "title": "Enzymes, Catalysis and Kinetics",
+          "title": "Stability of proteins and nucleic acids",
           "nodes": [
             {
               "id": "u1-s9-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Protein denaturation and renaturation"
             },
             {
               "id": "u1-s9-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Thermal and chemical stability"
             },
             {
               "id": "u1-s9-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Disulfide bonds and protein stability"
             },
             {
               "id": "u1-s9-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "pH and ionic strength effects"
             },
             {
               "id": "u1-s9-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Nucleic acid melting temperature"
             },
             {
               "id": "u1-s9-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "DNA hybridization and stringency"
             },
             {
               "id": "u1-s9-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Factors affecting RNA stability"
             },
             {
               "id": "u1-s9-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u1-s9-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u1-s9-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Protein and nucleic acid stabilization"
             }
           ]
         },
         {
           "id": "u1-s10",
           "number": 10,
-          "title": "Bioenergetics and Metabolism",
+          "title": "Biomolecular metabolism",
           "nodes": [
             {
               "id": "u1-s10-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Glycolysis and gluconeogenesis"
             },
             {
               "id": "u1-s10-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Glycogen metabolism"
             },
             {
               "id": "u1-s10-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Pentose phosphate pathway"
             },
             {
               "id": "u1-s10-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Fatty acid synthesis and beta-oxidation"
             },
             {
               "id": "u1-s10-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Ketone body metabolism"
             },
             {
               "id": "u1-s10-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Amino acid catabolism and urea cycle"
             },
             {
               "id": "u1-s10-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Purine and pyrimidine metabolism"
             },
             {
               "id": "u1-s10-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u1-s10-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u1-s10-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Vitamin activation and coenzyme metabolism"
             }
           ]
         }
@@ -645,575 +527,376 @@ window.SYLLABUS = {
       "id": "unit-02",
       "number": 2,
       "title": "Cellular Organization",
-      "group": "foundations",
+      "group": "molecular",
       "subunits": [
         {
           "id": "u2-s01",
           "number": 1,
-          "title": "Cell Theory, Cell Types and Microscopy",
+          "title": "Cell wall and membrane architecture",
           "nodes": [
             {
               "id": "u2-s1-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Bacterial cell wall and peptidoglycan"
             },
             {
               "id": "u2-s1-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Archaeal cell envelope"
             },
             {
               "id": "u2-s1-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Plant cell wall cellulose and pectin"
             },
             {
               "id": "u2-s1-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Fungal chitin wall"
             },
             {
               "id": "u2-s1-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Fluid mosaic model"
             },
             {
               "id": "u2-s1-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Lipid bilayer asymmetry and fluidity"
             },
             {
               "id": "u2-s1-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Integral and peripheral membrane proteins"
             },
             {
               "id": "u2-s1-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u2-s1-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u2-s1-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Membrane rafts and microdomains"
             }
           ]
         },
         {
           "id": "u2-s02",
           "number": 2,
-          "title": "Plasma Membrane Structure and Transport",
+          "title": "Membrane transport and electrical properties",
           "nodes": [
             {
               "id": "u2-s2-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Simple and facilitated diffusion"
             },
             {
               "id": "u2-s2-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Osmosis and osmotic pressure"
             },
             {
               "id": "u2-s2-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Primary active transport"
             },
             {
               "id": "u2-s2-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Secondary active transport"
             },
             {
               "id": "u2-s2-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "ABC transporters"
             },
             {
               "id": "u2-s2-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Ion channels and gating"
             },
             {
               "id": "u2-s2-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Na+/K+-ATPase and proton pumps"
             },
             {
               "id": "u2-s2-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u2-s2-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u2-s2-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Membrane potential and electrochemical gradients"
             }
           ]
         },
         {
           "id": "u2-s03",
           "number": 3,
-          "title": "Cell Organelles and Compartmentalization",
+          "title": "Intracellular organelles",
           "nodes": [
             {
               "id": "u2-s3-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Nuclear envelope and nuclear pore complex"
             },
             {
               "id": "u2-s3-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Mitochondrial structure and genome"
             },
             {
               "id": "u2-s3-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Chloroplast and plastid organization"
             },
             {
               "id": "u2-s3-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Rough and smooth endoplasmic reticulum"
             },
             {
               "id": "u2-s3-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Golgi cisternae and vesicle trafficking"
             },
             {
               "id": "u2-s3-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Lysosomes and endosomal system"
             },
             {
               "id": "u2-s3-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Peroxisomes and glyoxysomes"
             },
             {
               "id": "u2-s3-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u2-s3-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u2-s3-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Vacuoles and organelle dynamics"
             }
           ]
         },
         {
           "id": "u2-s04",
           "number": 4,
-          "title": "Endomembrane System and Protein Sorting",
+          "title": "Cytoskeleton and cellular motility",
           "nodes": [
             {
               "id": "u2-s4-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Actin filaments and microfilaments"
             },
             {
               "id": "u2-s4-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Microtubules and tubulin"
             },
             {
               "id": "u2-s4-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Intermediate filaments"
             },
             {
               "id": "u2-s4-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Kinesin and dynein motors"
             },
             {
               "id": "u2-s4-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Myosin-based movement"
             },
             {
               "id": "u2-s4-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Cilia and flagella axoneme"
             },
             {
               "id": "u2-s4-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Microtubule organizing centres"
             },
             {
               "id": "u2-s4-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u2-s4-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u2-s4-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Cell migration and cytoskeletal remodeling"
             }
           ]
         },
         {
           "id": "u2-s05",
           "number": 5,
-          "title": "Mitochondria and Chloroplasts",
+          "title": "Gene and chromosome organization",
           "nodes": [
             {
               "id": "u2-s5-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Prokaryotic operons"
             },
             {
               "id": "u2-s5-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Unique and repetitive DNA"
             },
             {
               "id": "u2-s5-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Interrupted genes and introns"
             },
             {
               "id": "u2-s5-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Gene families and pseudogenes"
             },
             {
               "id": "u2-s5-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Transposable elements"
             },
             {
               "id": "u2-s5-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Nucleosome and chromatin fiber"
             },
             {
               "id": "u2-s5-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Euchromatin and heterochromatin"
             },
             {
               "id": "u2-s5-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u2-s5-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u2-s5-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Metaphase chromosome organization"
             }
           ]
         },
         {
           "id": "u2-s06",
           "number": 6,
-          "title": "Cytoskeleton and Cell Motility",
+          "title": "Cell cycle and division",
           "nodes": [
             {
               "id": "u2-s6-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "G1, S, G2 and M phases"
             },
             {
               "id": "u2-s6-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Cyclins and cyclin-dependent kinases"
             },
             {
               "id": "u2-s6-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Cell-cycle checkpoints"
             },
             {
               "id": "u2-s6-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Mitosis and chromosome segregation"
             },
             {
               "id": "u2-s6-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Meiosis and crossing over"
             },
             {
               "id": "u2-s6-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Spindle assembly checkpoint"
             },
             {
               "id": "u2-s6-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Cell-cycle control pathways"
             },
             {
               "id": "u2-s6-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u2-s6-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u2-s6-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Mitotic and meiotic errors"
             }
           ]
         },
         {
           "id": "u2-s07",
           "number": 7,
-          "title": "Chromatin, Nucleus and Chromosomes",
+          "title": "Programmed cell death and cellular recycling",
           "nodes": [
             {
               "id": "u2-s7-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Apoptosis and caspases"
             },
             {
               "id": "u2-s7-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Intrinsic and extrinsic apoptotic pathways"
             },
             {
               "id": "u2-s7-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Necrosis and regulated necrosis"
             },
             {
               "id": "u2-s7-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Autophagy and autophagosome formation"
             },
             {
               "id": "u2-s7-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Lysosomal degradation"
             },
             {
               "id": "u2-s7-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Cell survival signaling"
             },
             {
               "id": "u2-s7-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u2-s7-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u2-s7-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u2-s7-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Cell death assays and markers"
             }
           ]
         },
         {
           "id": "u2-s08",
           "number": 8,
-          "title": "Cell Cycle and Cell Division",
+          "title": "Microbial growth physiology",
           "nodes": [
             {
               "id": "u2-s8-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Bacterial growth curve and phases"
             },
             {
               "id": "u2-s8-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Specific growth rate and generation time"
             },
             {
               "id": "u2-s8-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Batch and continuous culture growth"
             },
             {
               "id": "u2-s8-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Binary fission and alternative division strategies"
             },
             {
               "id": "u2-s8-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Nutrient limitation and growth yield"
             },
             {
               "id": "u2-s8-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Bacterial stress response"
             },
             {
               "id": "u2-s8-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Biofilm formation and physiology"
             },
             {
               "id": "u2-s8-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u2-s8-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u2-s8-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u2-s09",
-          "number": 9,
-          "title": "Cellular Junctions and Extracellular Matrix",
-          "nodes": [
-            {
-              "id": "u2-s9-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u2-s9-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u2-s9-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u2-s9-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u2-s9-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u2-s9-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u2-s9-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u2-s9-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u2-s9-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u2-s9-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u2-s10",
-          "number": 10,
-          "title": "Microbial and Eukaryotic Cell Organization",
-          "nodes": [
-            {
-              "id": "u2-s10-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u2-s10-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u2-s10-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u2-s10-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u2-s10-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u2-s10-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u2-s10-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u2-s10-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u2-s10-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u2-s10-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Antimicrobial resistance mechanisms"
             }
           ]
         }
@@ -1223,575 +906,287 @@ window.SYLLABUS = {
       "id": "unit-03",
       "number": 3,
       "title": "Fundamental Processes",
-      "group": "foundations",
+      "group": "molecular",
       "subunits": [
         {
           "id": "u3-s01",
           "number": 1,
-          "title": "Genome Organization and DNA Replication",
+          "title": "DNA replication",
           "nodes": [
             {
               "id": "u3-s1-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Semiconservative replication and Meselson-Stahl experiment"
             },
             {
               "id": "u3-s1-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Replication origins and replicons"
             },
             {
               "id": "u3-s1-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Initiation in prokaryotes"
             },
             {
               "id": "u3-s1-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Initiation in eukaryotes"
             },
             {
               "id": "u3-s1-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Leading and lagging strand synthesis"
             },
             {
               "id": "u3-s1-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "DNA polymerases and accessory proteins"
             },
             {
               "id": "u3-s1-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Replication fork dynamics and replisome"
             },
             {
               "id": "u3-s1-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u3-s1-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u3-s1-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Telomeres and telomerase"
             }
           ]
         },
         {
           "id": "u3-s02",
           "number": 2,
-          "title": "DNA Damage, Repair and Recombination",
+          "title": "DNA repair and recombination",
           "nodes": [
             {
               "id": "u3-s2-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Direct reversal and photoreactivation"
             },
             {
               "id": "u3-s2-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Base excision repair"
             },
             {
               "id": "u3-s2-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Nucleotide excision repair"
             },
             {
               "id": "u3-s2-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Mismatch repair"
             },
             {
               "id": "u3-s2-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Double-strand break repair"
             },
             {
               "id": "u3-s2-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Homologous recombination"
             },
             {
               "id": "u3-s2-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Site-specific recombination"
             },
             {
               "id": "u3-s2-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u3-s2-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u3-s2-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Transposition and mobile genetic elements"
             }
           ]
         },
         {
           "id": "u3-s03",
           "number": 3,
-          "title": "Transcription in Prokaryotes and Eukaryotes",
+          "title": "Transcription and RNA synthesis",
           "nodes": [
             {
               "id": "u3-s3-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Prokaryotic RNA polymerase"
             },
             {
               "id": "u3-s3-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Eukaryotic RNA polymerases I, II and III"
             },
             {
               "id": "u3-s3-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Promoters and transcription initiation"
             },
             {
               "id": "u3-s3-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Elongation and termination"
             },
             {
               "id": "u3-s3-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Transcription factors and mediator"
             },
             {
               "id": "u3-s3-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Enhancers and silencers"
             },
             {
               "id": "u3-s3-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Transcriptional inhibitors"
             },
             {
               "id": "u3-s3-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u3-s3-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u3-s3-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Transcriptional regulation in phages and viruses"
             }
           ]
         },
         {
           "id": "u3-s04",
           "number": 4,
-          "title": "RNA Processing and RNA Editing",
+          "title": "RNA processing and regulation",
           "nodes": [
             {
               "id": "u3-s4-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "5-prime capping and 3-prime polyadenylation"
             },
             {
               "id": "u3-s4-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Spliceosome and pre-mRNA splicing"
             },
             {
               "id": "u3-s4-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Alternative splicing"
             },
             {
               "id": "u3-s4-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "RNA editing"
             },
             {
               "id": "u3-s4-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "mRNA export and localization"
             },
             {
               "id": "u3-s4-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "tRNA and rRNA processing"
             },
             {
               "id": "u3-s4-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Riboswitches and ribozymes"
             },
             {
               "id": "u3-s4-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u3-s4-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u3-s4-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "miRNA, siRNA and long non-coding RNA"
             }
           ]
         },
         {
           "id": "u3-s05",
           "number": 5,
-          "title": "Translation and Genetic Code",
+          "title": "Translation and protein processing",
           "nodes": [
             {
               "id": "u3-s5-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Ribosome structure and subunits"
             },
             {
               "id": "u3-s5-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Genetic code and codon-anticodon pairing"
             },
             {
               "id": "u3-s5-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Aminoacyl-tRNA synthetases"
             },
             {
               "id": "u3-s5-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Initiation, elongation and termination"
             },
             {
               "id": "u3-s5-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Translation regulation"
             },
             {
               "id": "u3-s5-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Translational inhibitors"
             },
             {
               "id": "u3-s5-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Post-translational modifications"
             },
             {
               "id": "u3-s5-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u3-s5-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u3-s5-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Protein targeting, trafficking and degradation"
             }
           ]
         },
         {
           "id": "u3-s06",
           "number": 6,
-          "title": "Regulation of Gene Expression",
+          "title": "Gene expression control and epigenetics",
           "nodes": [
             {
               "id": "u3-s6-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Lac and trp operons"
             },
             {
               "id": "u3-s6-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Lambda phage gene regulation"
             },
             {
               "id": "u3-s6-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Viral gene expression strategies"
             },
             {
               "id": "u3-s6-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Transcriptional control in eukaryotes"
             },
             {
               "id": "u3-s6-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Chromatin remodeling complexes"
             },
             {
               "id": "u3-s6-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "DNA methylation"
             },
             {
               "id": "u3-s6-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Histone modifications"
             },
             {
               "id": "u3-s6-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u3-s6-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u3-s6-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u3-s07",
-          "number": 7,
-          "title": "RNA Interference and Non-coding RNA",
-          "nodes": [
-            {
-              "id": "u3-s7-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u3-s7-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u3-s7-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u3-s7-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u3-s7-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u3-s7-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u3-s7-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u3-s7-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u3-s7-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u3-s7-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u3-s08",
-          "number": 8,
-          "title": "Protein Processing and Degradation",
-          "nodes": [
-            {
-              "id": "u3-s8-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u3-s8-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u3-s8-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u3-s8-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u3-s8-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u3-s8-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u3-s8-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u3-s8-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u3-s8-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u3-s8-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u3-s09",
-          "number": 9,
-          "title": "Mobile Genetic Elements and Genome Dynamics",
-          "nodes": [
-            {
-              "id": "u3-s9-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u3-s9-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u3-s9-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u3-s9-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u3-s9-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u3-s9-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u3-s9-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u3-s9-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u3-s9-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u3-s9-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u3-s10",
-          "number": 10,
-          "title": "Molecular Techniques for Gene Analysis",
-          "nodes": [
-            {
-              "id": "u3-s10-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u3-s10-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u3-s10-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u3-s10-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u3-s10-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u3-s10-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u3-s10-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u3-s10-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u3-s10-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u3-s10-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Genomic imprinting and epigenetic inheritance"
             }
           ]
         }
@@ -1801,575 +1196,287 @@ window.SYLLABUS = {
       "id": "unit-04",
       "number": 4,
       "title": "Cell Communication and Cell Signaling",
-      "group": "foundations",
+      "group": "molecular",
       "subunits": [
         {
           "id": "u4-s01",
           "number": 1,
-          "title": "Principles of Cell Signaling",
+          "title": "Receptors and signal transduction",
           "nodes": [
             {
               "id": "u4-s1-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Peptide and steroid hormone receptors"
             },
             {
               "id": "u4-s1-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "GPCR structure and activation"
             },
             {
               "id": "u4-s1-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "G-protein GDP-GTP cycle"
             },
             {
               "id": "u4-s1-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Receptor tyrosine kinases"
             },
             {
               "id": "u4-s1-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Cytokine receptors and JAK-STAT"
             },
             {
               "id": "u4-s1-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Ligand-gated ion channels"
             },
             {
               "id": "u4-s1-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Receptor desensitization and internalization"
             },
             {
               "id": "u4-s1-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u4-s1-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u4-s1-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Signal amplification and termination"
             }
           ]
         },
         {
           "id": "u4-s02",
           "number": 2,
-          "title": "Receptors and Ligand Recognition",
+          "title": "Second messengers and signaling pathways",
           "nodes": [
             {
               "id": "u4-s2-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "cAMP and protein kinase A"
             },
             {
               "id": "u4-s2-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "cGMP and protein kinase G"
             },
             {
               "id": "u4-s2-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "IP3 and DAG signaling"
             },
             {
               "id": "u4-s2-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Calcium-calmodulin signaling"
             },
             {
               "id": "u4-s2-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "MAP kinase cascades"
             },
             {
               "id": "u4-s2-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "PI3K-AKT-mTOR pathway"
             },
             {
               "id": "u4-s2-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Wnt-beta-catenin pathway"
             },
             {
               "id": "u4-s2-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u4-s2-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u4-s2-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Notch and Hedgehog signaling"
             }
           ]
         },
         {
           "id": "u4-s03",
           "number": 3,
-          "title": "G-protein Coupled Receptor Pathways",
+          "title": "Microbial and plant signaling",
           "nodes": [
             {
               "id": "u4-s3-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Bacterial two-component systems"
             },
             {
               "id": "u4-s3-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Histidine kinase and response regulator"
             },
             {
               "id": "u4-s3-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Quorum sensing molecules"
             },
             {
               "id": "u4-s3-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Bacterial chemotaxis pathway"
             },
             {
               "id": "u4-s3-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Plant two-component cytokinin signaling"
             },
             {
               "id": "u4-s3-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Phytochrome signaling"
             },
             {
               "id": "u4-s3-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Cryptochrome and phototropin signaling"
             },
             {
               "id": "u4-s3-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u4-s3-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u4-s3-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Light-regulated gene expression"
             }
           ]
         },
         {
           "id": "u4-s04",
           "number": 4,
-          "title": "Enzyme-linked Receptors and Kinase Cascades",
+          "title": "Cell adhesion and intercellular communication",
           "nodes": [
             {
               "id": "u4-s4-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Cadherins and adherens junctions"
             },
             {
               "id": "u4-s4-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Integrins and focal adhesions"
             },
             {
               "id": "u4-s4-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Selectins and immunoglobulin superfamily CAMs"
             },
             {
               "id": "u4-s4-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Tight junctions"
             },
             {
               "id": "u4-s4-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Gap junctions and connexins"
             },
             {
               "id": "u4-s4-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Extracellular matrix components"
             },
             {
               "id": "u4-s4-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Cell-matrix signaling"
             },
             {
               "id": "u4-s4-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u4-s4-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u4-s4-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Neurotransmitter release and synaptic transmission"
             }
           ]
         },
         {
           "id": "u4-s05",
           "number": 5,
-          "title": "Second Messengers and Calcium Signaling",
+          "title": "Immunology and host-pathogen interactions",
           "nodes": [
             {
               "id": "u4-s5-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Innate immune cells and pattern recognition receptors"
             },
             {
               "id": "u4-s5-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Antigens, epitopes and immunogenicity"
             },
             {
               "id": "u4-s5-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Antibody structure and classes"
             },
             {
               "id": "u4-s5-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "V(D)J recombination and antibody diversity"
             },
             {
               "id": "u4-s5-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "MHC class I and II antigen presentation"
             },
             {
               "id": "u4-s5-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "T-cell and B-cell activation"
             },
             {
               "id": "u4-s5-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Complement and inflammatory pathways"
             },
             {
               "id": "u4-s5-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u4-s5-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u4-s5-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Vaccines, hypersensitivity and immunodeficiency"
             }
           ]
         },
         {
           "id": "u4-s06",
           "number": 6,
-          "title": "MAPK, PI3K-AKT and Other Pathways",
+          "title": "Cancer biology",
           "nodes": [
             {
               "id": "u4-s6-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Proto-oncogenes and oncogenes"
             },
             {
               "id": "u4-s6-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Tumor suppressor genes"
             },
             {
               "id": "u4-s6-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Cell-cycle deregulation in cancer"
             },
             {
               "id": "u4-s6-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Cancer-associated mutations and rearrangements"
             },
             {
               "id": "u4-s6-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Viral oncogenesis"
             },
             {
               "id": "u4-s6-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Tumor microenvironment"
             },
             {
               "id": "u4-s6-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Invasion and metastasis"
             },
             {
               "id": "u4-s6-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u4-s6-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u4-s6-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u4-s07",
-          "number": 7,
-          "title": "Nuclear Receptors and Gene Regulation",
-          "nodes": [
-            {
-              "id": "u4-s7-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u4-s7-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u4-s7-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u4-s7-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u4-s7-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u4-s7-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u4-s7-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u4-s7-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u4-s7-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u4-s7-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u4-s08",
-          "number": 8,
-          "title": "Cell Adhesion and Cell-Cell Communication",
-          "nodes": [
-            {
-              "id": "u4-s8-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u4-s8-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u4-s8-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u4-s8-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u4-s8-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u4-s8-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u4-s8-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u4-s8-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u4-s8-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u4-s8-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u4-s09",
-          "number": 9,
-          "title": "Cell Cycle, Apoptosis and Survival Signals",
-          "nodes": [
-            {
-              "id": "u4-s9-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u4-s9-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u4-s9-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u4-s9-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u4-s9-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u4-s9-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u4-s9-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u4-s9-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u4-s9-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u4-s9-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u4-s10",
-          "number": 10,
-          "title": "Signal Integration and Experimental Analysis",
-          "nodes": [
-            {
-              "id": "u4-s10-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u4-s10-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u4-s10-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u4-s10-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u4-s10-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u4-s10-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u4-s10-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u4-s10-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u4-s10-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u4-s10-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Cancer diagnosis and therapeutic strategies"
             }
           ]
         }
@@ -2384,570 +1491,282 @@ window.SYLLABUS = {
         {
           "id": "u5-s01",
           "number": 1,
-          "title": "Basic Concepts and Model Organisms",
+          "title": "Principles of development",
           "nodes": [
             {
               "id": "u5-s1-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Potency and cell fate"
             },
             {
               "id": "u5-s1-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Specification and determination"
             },
             {
               "id": "u5-s1-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Commitment and competence"
             },
             {
               "id": "u5-s1-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Induction and signaling centers"
             },
             {
               "id": "u5-s1-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Morphogen gradients and positional information"
             },
             {
               "id": "u5-s1-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Cell lineage and fate mapping"
             },
             {
               "id": "u5-s1-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Cytoplasmic determinants and genomic equivalence"
             },
             {
               "id": "u5-s1-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u5-s1-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u5-s1-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Stem cells, mutants and transgenic models"
             }
           ]
         },
         {
           "id": "u5-s02",
           "number": 2,
-          "title": "Gametogenesis and Fertilization",
+          "title": "Gametogenesis and fertilization",
           "nodes": [
             {
               "id": "u5-s2-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Spermatogenesis"
             },
             {
               "id": "u5-s2-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Oogenesis"
             },
             {
               "id": "u5-s2-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Meiosis in gamete formation"
             },
             {
               "id": "u5-s2-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Sperm-egg recognition molecules"
             },
             {
               "id": "u5-s2-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Acrosome reaction and egg activation"
             },
             {
               "id": "u5-s2-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Prevention of polyspermy"
             },
             {
               "id": "u5-s2-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Zygote formation"
             },
             {
               "id": "u5-s2-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u5-s2-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u5-s2-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Maternal and paternal contributions"
             }
           ]
         },
         {
           "id": "u5-s03",
           "number": 3,
-          "title": "Early Embryonic Development",
+          "title": "Early embryonic development",
           "nodes": [
             {
               "id": "u5-s3-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Cleavage patterns"
             },
             {
               "id": "u5-s3-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Blastulation and blastula types"
             },
             {
               "id": "u5-s3-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Embryonic axes and fields"
             },
             {
               "id": "u5-s3-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Gastrulation movements"
             },
             {
               "id": "u5-s3-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Germ layer formation"
             },
             {
               "id": "u5-s3-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Neurulation"
             },
             {
               "id": "u5-s3-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Extraembryonic membranes"
             },
             {
               "id": "u5-s3-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u5-s3-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u5-s3-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Early vertebrate embryonic patterning"
             }
           ]
         },
         {
           "id": "u5-s04",
           "number": 4,
-          "title": "Axis Formation and Patterning",
+          "title": "Plant reproduction and embryogenesis",
           "nodes": [
             {
               "id": "u5-s4-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Microsporogenesis and pollen development"
             },
             {
               "id": "u5-s4-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Male gametophyte maturation"
             },
             {
               "id": "u5-s4-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Megasporogenesis and embryo sac formation"
             },
             {
               "id": "u5-s4-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Pollination and pollen tube guidance"
             },
             {
               "id": "u5-s4-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Double fertilization"
             },
             {
               "id": "u5-s4-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Endosperm development"
             },
             {
               "id": "u5-s4-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Plant embryo patterning and symmetry"
             },
             {
               "id": "u5-s4-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u5-s4-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u5-s4-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Seed maturation and germination"
             }
           ]
         },
         {
           "id": "u5-s05",
           "number": 5,
-          "title": "Gastrulation and Germ Layer Specification",
+          "title": "Animal morphogenesis and organogenesis",
           "nodes": [
             {
               "id": "u5-s5-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Drosophila segmentation and homeotic genes"
             },
             {
               "id": "u5-s5-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Amphibian axis formation"
             },
             {
               "id": "u5-s5-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Chick limb bud development"
             },
             {
               "id": "u5-s5-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "C. elegans vulva development"
             },
             {
               "id": "u5-s5-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Eye lens induction"
             },
             {
               "id": "u5-s5-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Vertebrate limb patterning and regeneration"
             },
             {
               "id": "u5-s5-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Neural differentiation"
             },
             {
               "id": "u5-s5-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u5-s5-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u5-s5-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Metamorphosis and sex determination"
             }
           ]
         },
         {
           "id": "u5-s06",
           "number": 6,
-          "title": "Organogenesis and Tissue Differentiation",
+          "title": "Plant morphogenesis and aging",
           "nodes": [
             {
               "id": "u5-s6-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Shoot apical meristem organization"
             },
             {
               "id": "u5-s6-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Root apical meristem organization"
             },
             {
               "id": "u5-s6-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Leaf initiation and phyllotaxy"
             },
             {
               "id": "u5-s6-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Vascular tissue differentiation"
             },
             {
               "id": "u5-s6-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Floral transition and floral meristems"
             },
             {
               "id": "u5-s6-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Flower organ identity genes"
             },
             {
               "id": "u5-s6-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Programmed cell death in plants and animals"
             },
             {
               "id": "u5-s6-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u5-s6-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u5-s6-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u5-s07",
-          "number": 7,
-          "title": "Plant Development and Meristems",
-          "nodes": [
-            {
-              "id": "u5-s7-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u5-s7-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u5-s7-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u5-s7-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u5-s7-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u5-s7-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u5-s7-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u5-s7-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u5-s7-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u5-s7-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u5-s08",
-          "number": 8,
-          "title": "Developmental Signaling Pathways",
-          "nodes": [
-            {
-              "id": "u5-s8-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u5-s8-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u5-s8-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u5-s8-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u5-s8-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u5-s8-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u5-s8-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u5-s8-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u5-s8-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u5-s8-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u5-s09",
-          "number": 9,
-          "title": "Stem Cells, Regeneration and Aging",
-          "nodes": [
-            {
-              "id": "u5-s9-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u5-s9-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u5-s9-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u5-s9-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u5-s9-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u5-s9-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u5-s9-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u5-s9-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u5-s9-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u5-s9-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u5-s10",
-          "number": 10,
-          "title": "Developmental Genetics and Experimental Models",
-          "nodes": [
-            {
-              "id": "u5-s10-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u5-s10-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u5-s10-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u5-s10-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u5-s10-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u5-s10-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u5-s10-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u5-s10-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u5-s10-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u5-s10-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Senescence and aging mechanisms"
             }
           ]
         }
@@ -2962,570 +1781,376 @@ window.SYLLABUS = {
         {
           "id": "u6-s01",
           "number": 1,
-          "title": "Plant-Water Relations and Transport",
+          "title": "Photosynthesis and light harvesting",
           "nodes": [
             {
               "id": "u6-s1-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Chloroplast ultrastructure"
             },
             {
               "id": "u6-s1-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Photosystems I and II"
             },
             {
               "id": "u6-s1-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Light-harvesting complexes"
             },
             {
               "id": "u6-s1-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Photolysis of water and oxygen evolution"
             },
             {
               "id": "u6-s1-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Linear and cyclic electron flow"
             },
             {
               "id": "u6-s1-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Photophosphorylation"
             },
             {
               "id": "u6-s1-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Photoprotection and non-photochemical quenching"
             },
             {
               "id": "u6-s1-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u6-s1-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u6-s1-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Chlorophyll fluorescence"
             }
           ]
         },
         {
           "id": "u6-s02",
           "number": 2,
-          "title": "Mineral Nutrition and Assimilation",
+          "title": "Carbon fixation pathways",
           "nodes": [
             {
               "id": "u6-s2-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Calvin-Benson cycle"
             },
             {
               "id": "u6-s2-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Rubisco carboxylase and oxygenase activities"
             },
             {
               "id": "u6-s2-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Photorespiration overview"
             },
             {
               "id": "u6-s2-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "C4 pathway and Kranz anatomy"
             },
             {
               "id": "u6-s2-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "CAM pathway and temporal separation"
             },
             {
               "id": "u6-s2-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "C3-C4-CAM comparison"
             },
             {
               "id": "u6-s2-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Environmental regulation of carbon fixation"
             },
             {
               "id": "u6-s2-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u6-s2-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u6-s2-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Source-sink relations"
             }
           ]
         },
         {
           "id": "u6-s03",
           "number": 3,
-          "title": "Photosynthesis and Carbon Fixation",
+          "title": "Plant respiration and energy metabolism",
           "nodes": [
             {
               "id": "u6-s3-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Glycolysis in plants"
             },
             {
               "id": "u6-s3-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Pyruvate dehydrogenase complex"
             },
             {
               "id": "u6-s3-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "TCA cycle in plant mitochondria"
             },
             {
               "id": "u6-s3-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Mitochondrial electron transport"
             },
             {
               "id": "u6-s3-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Alternative oxidase pathway"
             },
             {
               "id": "u6-s3-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "ATP synthesis and respiratory control"
             },
             {
               "id": "u6-s3-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Photorespiratory carbon recovery"
             },
             {
               "id": "u6-s3-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u6-s3-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u6-s3-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Respiratory quotient"
             }
           ]
         },
         {
           "id": "u6-s04",
           "number": 4,
-          "title": "Respiration and Photorespiration",
+          "title": "Nitrogen and mineral metabolism",
           "nodes": [
             {
               "id": "u6-s4-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Nitrate uptake and transport"
             },
             {
               "id": "u6-s4-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Nitrate reductase and nitrite reductase"
             },
             {
               "id": "u6-s4-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Ammonium assimilation via GS-GOGAT"
             },
             {
               "id": "u6-s4-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Amino acid biosynthesis"
             },
             {
               "id": "u6-s4-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Biological nitrogen fixation"
             },
             {
               "id": "u6-s4-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Nodulation and leghemoglobin"
             },
             {
               "id": "u6-s4-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Essential mineral elements"
             },
             {
               "id": "u6-s4-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u6-s4-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u6-s4-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Nutrient deficiency symptoms"
             }
           ]
         },
         {
           "id": "u6-s05",
           "number": 5,
-          "title": "Plant Growth Regulators",
+          "title": "Plant hormones and growth regulators",
           "nodes": [
             {
               "id": "u6-s5-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Auxin biosynthesis and polar transport"
             },
             {
               "id": "u6-s5-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Gibberellin biosynthesis and signaling"
             },
             {
               "id": "u6-s5-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Cytokinin signaling and cell division"
             },
             {
               "id": "u6-s5-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Abscisic acid and stomatal regulation"
             },
             {
               "id": "u6-s5-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Ethylene biosynthesis and responses"
             },
             {
               "id": "u6-s5-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Brassinosteroids"
             },
             {
               "id": "u6-s5-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Jasmonates and salicylic acid"
             },
             {
               "id": "u6-s5-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u6-s5-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u6-s5-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Hormonal crosstalk"
             }
           ]
         },
         {
           "id": "u6-s06",
           "number": 6,
-          "title": "Light Responses and Photomorphogenesis",
+          "title": "Photobiology and biological rhythms",
           "nodes": [
             {
               "id": "u6-s6-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Phytochrome Pr and Pfr states"
             },
             {
               "id": "u6-s6-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Cryptochrome photoreceptors"
             },
             {
               "id": "u6-s6-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Phototropin-mediated responses"
             },
             {
               "id": "u6-s6-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Photomorphogenesis and de-etiolation"
             },
             {
               "id": "u6-s6-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Photoperiodism and flowering"
             },
             {
               "id": "u6-s6-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Circadian clock components"
             },
             {
               "id": "u6-s6-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Stomatal light responses"
             },
             {
               "id": "u6-s6-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u6-s6-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u6-s6-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Biological clock entrainment"
             }
           ]
         },
         {
           "id": "u6-s07",
           "number": 7,
-          "title": "Plant Movements and Tropisms",
+          "title": "Water and solute transport",
           "nodes": [
             {
               "id": "u6-s7-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Water potential components"
             },
             {
               "id": "u6-s7-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Root water uptake pathways"
             },
             {
               "id": "u6-s7-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Aquaporins"
             },
             {
               "id": "u6-s7-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Xylem ascent and cohesion-tension theory"
             },
             {
               "id": "u6-s7-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Transpiration and stomatal control"
             },
             {
               "id": "u6-s7-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Phloem pressure-flow hypothesis"
             },
             {
               "id": "u6-s7-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Phloem loading and unloading"
             },
             {
               "id": "u6-s7-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u6-s7-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u6-s7-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Mineral ion transporters"
             }
           ]
         },
         {
           "id": "u6-s08",
           "number": 8,
-          "title": "Stress Physiology and Adaptation",
+          "title": "Secondary metabolites and plant stress",
           "nodes": [
             {
               "id": "u6-s8-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Terpenoid biosynthesis"
             },
             {
               "id": "u6-s8-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Phenylpropanoid and phenolic pathways"
             },
             {
               "id": "u6-s8-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Alkaloid biosynthesis"
             },
             {
               "id": "u6-s8-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Plant defense metabolites"
             },
             {
               "id": "u6-s8-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Metabolic engineering of plant products"
             },
             {
               "id": "u6-s8-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Abiotic stress signaling"
             },
             {
               "id": "u6-s8-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Biotic stress and plant innate immunity"
             },
             {
               "id": "u6-s8-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u6-s8-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u6-s8-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u6-s09",
-          "number": 9,
-          "title": "Flowering, Reproduction and Seed Development",
-          "nodes": [
-            {
-              "id": "u6-s9-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u6-s9-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u6-s9-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u6-s9-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u6-s9-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u6-s9-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u6-s9-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u6-s9-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u6-s9-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u6-s9-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u6-s10",
-          "number": 10,
-          "title": "Phloem Transport and Source-Sink Relations",
-          "nodes": [
-            {
-              "id": "u6-s10-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u6-s10-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u6-s10-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u6-s10-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u6-s10-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u6-s10-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u6-s10-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u6-s10-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u6-s10-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u6-s10-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Systemic acquired resistance"
             }
           ]
         }
@@ -3540,570 +2165,517 @@ window.SYLLABUS = {
         {
           "id": "u7-s01",
           "number": 1,
-          "title": "Digestion, Nutrition and Metabolism",
+          "title": "Blood and hematopoiesis",
           "nodes": [
             {
               "id": "u7-s1-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Plasma composition and functions"
             },
             {
               "id": "u7-s1-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Erythrocytes and hemoglobin"
             },
             {
               "id": "u7-s1-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Leukocyte types and functions"
             },
             {
               "id": "u7-s1-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Platelets and thrombopoiesis"
             },
             {
               "id": "u7-s1-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Hematopoietic stem cells"
             },
             {
               "id": "u7-s1-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Blood groups and transfusion compatibility"
             },
             {
               "id": "u7-s1-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Hemostasis and coagulation cascade"
             },
             {
               "id": "u7-s1-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u7-s1-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u7-s1-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Blood volume regulation"
             }
           ]
         },
         {
           "id": "u7-s02",
           "number": 2,
-          "title": "Blood, Circulation and Cardiovascular Physiology",
+          "title": "Cardiovascular physiology",
           "nodes": [
             {
               "id": "u7-s2-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Comparative heart structure"
             },
             {
               "id": "u7-s2-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Myogenic and neurogenic hearts"
             },
             {
               "id": "u7-s2-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Cardiac conduction system"
             },
             {
               "id": "u7-s2-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Cardiac cycle and pressure-volume changes"
             },
             {
               "id": "u7-s2-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "ECG waves and intervals"
             },
             {
               "id": "u7-s2-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Cardiac output and venous return"
             },
             {
               "id": "u7-s2-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Blood pressure regulation"
             },
             {
               "id": "u7-s2-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u7-s2-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u7-s2-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Autonomic and hormonal cardiovascular control"
             }
           ]
         },
         {
           "id": "u7-s03",
           "number": 3,
-          "title": "Respiration and Gas Exchange",
+          "title": "Respiratory physiology",
           "nodes": [
             {
               "id": "u7-s3-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Respiratory surfaces across taxa"
             },
             {
               "id": "u7-s3-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Lung volumes and capacities"
             },
             {
               "id": "u7-s3-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Mechanics of ventilation"
             },
             {
               "id": "u7-s3-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Alveolar gas exchange"
             },
             {
               "id": "u7-s3-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Oxygen transport and hemoglobin binding"
             },
             {
               "id": "u7-s3-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Carbon dioxide transport"
             },
             {
               "id": "u7-s3-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Ventilation-perfusion matching"
             },
             {
               "id": "u7-s3-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u7-s3-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u7-s3-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Neural and chemical control of breathing"
             }
           ]
         },
         {
           "id": "u7-s04",
           "number": 4,
-          "title": "Excretion, Kidney and Osmoregulation",
+          "title": "Nervous system and neurophysiology",
           "nodes": [
             {
               "id": "u7-s4-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Neuron structure and glial cells"
             },
             {
               "id": "u7-s4-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Resting membrane potential"
             },
             {
               "id": "u7-s4-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Action potential generation and propagation"
             },
             {
               "id": "u7-s4-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Synaptic transmission"
             },
             {
               "id": "u7-s4-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Neurotransmitters and receptors"
             },
             {
               "id": "u7-s4-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Brain and spinal cord organization"
             },
             {
               "id": "u7-s4-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Autonomic nervous system"
             },
             {
               "id": "u7-s4-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u7-s4-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u7-s4-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Neural control of posture and muscle tone"
             }
           ]
         },
         {
           "id": "u7-s05",
           "number": 5,
-          "title": "Nervous System and Neurophysiology",
+          "title": "Sensory physiology",
           "nodes": [
             {
               "id": "u7-s5-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Eye structure and retinal organization"
             },
             {
               "id": "u7-s5-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Phototransduction and visual pathway"
             },
             {
               "id": "u7-s5-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Auditory apparatus and cochlear transduction"
             },
             {
               "id": "u7-s5-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Vestibular system and balance"
             },
             {
               "id": "u7-s5-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Somatosensation and mechanoreception"
             },
             {
               "id": "u7-s5-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Pain and thermoreception"
             },
             {
               "id": "u7-s5-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Sensory adaptation"
             },
             {
               "id": "u7-s5-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u7-s5-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u7-s5-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Central processing of sensory information"
             }
           ]
         },
         {
           "id": "u7-s06",
           "number": 6,
-          "title": "Muscle Contraction and Movement",
+          "title": "Renal and excretory physiology",
           "nodes": [
             {
               "id": "u7-s6-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Comparative excretory organs"
             },
             {
               "id": "u7-s6-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Nephron structure and renal blood flow"
             },
             {
               "id": "u7-s6-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Glomerular filtration"
             },
             {
               "id": "u7-s6-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Tubular reabsorption and secretion"
             },
             {
               "id": "u7-s6-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Countercurrent multiplication"
             },
             {
               "id": "u7-s6-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Urine concentration and dilution"
             },
             {
               "id": "u7-s6-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Micturition reflex"
             },
             {
               "id": "u7-s6-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u7-s6-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u7-s6-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Water, electrolyte and acid-base balance"
             }
           ]
         },
         {
           "id": "u7-s07",
           "number": 7,
-          "title": "Endocrine System and Hormonal Regulation",
+          "title": "Thermoregulation, stress and adaptation",
           "nodes": [
             {
               "id": "u7-s7-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Endothermy and ectothermy"
             },
             {
               "id": "u7-s7-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Thermal comfort zone"
             },
             {
               "id": "u7-s7-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Physical and chemical thermoregulation"
             },
             {
               "id": "u7-s7-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Hypothalamic temperature control"
             },
             {
               "id": "u7-s7-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Heat and cold acclimatization"
             },
             {
               "id": "u7-s7-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "General adaptation syndrome"
             },
             {
               "id": "u7-s7-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Neuroendocrine stress response"
             },
             {
               "id": "u7-s7-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u7-s7-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u7-s7-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Physiological adaptation to environment"
             }
           ]
         },
         {
           "id": "u7-s08",
           "number": 8,
-          "title": "Reproduction and Reproductive Physiology",
+          "title": "Digestive physiology and energy balance",
           "nodes": [
             {
               "id": "u7-s8-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Digestive tract organization"
             },
             {
               "id": "u7-s8-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Gastric secretion and regulation"
             },
             {
               "id": "u7-s8-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Pancreatic and intestinal enzymes"
             },
             {
               "id": "u7-s8-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Digestion and absorption of nutrients"
             },
             {
               "id": "u7-s8-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Gut motility and enteric nervous system"
             },
             {
               "id": "u7-s8-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Basal metabolic rate"
             },
             {
               "id": "u7-s8-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Energy balance and metabolic rate"
             },
             {
               "id": "u7-s8-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u7-s8-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u7-s8-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Nutrient sensing and appetite regulation"
             }
           ]
         },
         {
           "id": "u7-s09",
           "number": 9,
-          "title": "Immune System and Host Defense",
+          "title": "Endocrinology and reproduction",
           "nodes": [
             {
               "id": "u7-s9-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Peptide and steroid hormone action"
             },
             {
               "id": "u7-s9-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Hypothalamic-pituitary axes"
             },
             {
               "id": "u7-s9-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Thyroid and adrenal physiology"
             },
             {
               "id": "u7-s9-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Insulin and glucagon regulation"
             },
             {
               "id": "u7-s9-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Gonadal hormones and feedback"
             },
             {
               "id": "u7-s9-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Spermatogenesis and oogenesis"
             },
             {
               "id": "u7-s9-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Ovulation and menstrual/estrous cycles"
             },
             {
               "id": "u7-s9-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u7-s9-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u7-s9-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Neuroendocrine control of reproduction"
             }
           ]
         },
         {
           "id": "u7-s10",
           "number": 10,
-          "title": "Sensory Physiology and Homeostasis",
+          "title": "Holobionts and gut-brain axis",
           "nodes": [
             {
               "id": "u7-s10-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Metaorganism and holobiont concepts"
             },
             {
               "id": "u7-s10-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Gut microbiome composition"
             },
             {
               "id": "u7-s10-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Germ-free and gnotobiotic animal models"
             },
             {
               "id": "u7-s10-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Microbiome sampling and profiling"
             },
             {
               "id": "u7-s10-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Microbial metabolites and host physiology"
             },
             {
               "id": "u7-s10-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Gut-brain axis signaling"
             },
             {
               "id": "u7-s10-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Dysbiosis and disease associations"
             },
             {
               "id": "u7-s10-n8",
               "number": 8,
-              "title": "Applications and biological significance"
+              "title": "Microbiome-host immune interactions"
+            }
+          ]
+        },
+        {
+          "id": "u7-s11",
+          "number": 11,
+          "title": "Interorgan communication and metabolic health",
+          "nodes": [
+            {
+              "id": "u7-s11-n1",
+              "number": 1,
+              "title": "Liver-adipose-muscle crosstalk"
             },
             {
-              "id": "u7-s10-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
+              "id": "u7-s11-n2",
+              "number": 2,
+              "title": "Adipokines and myokines"
             },
             {
-              "id": "u7-s10-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "id": "u7-s11-n3",
+              "number": 3,
+              "title": "Organ-to-organ endocrine signaling"
+            },
+            {
+              "id": "u7-s11-n4",
+              "number": 4,
+              "title": "Glucose homeostasis"
+            },
+            {
+              "id": "u7-s11-n5",
+              "number": 5,
+              "title": "Lipid homeostasis"
+            },
+            {
+              "id": "u7-s11-n6",
+              "number": 6,
+              "title": "Energy expenditure and thermogenesis"
+            },
+            {
+              "id": "u7-s11-n7",
+              "number": 7,
+              "title": "Metabolic syndrome and insulin resistance"
+            },
+            {
+              "id": "u7-s11-n8",
+              "number": 8,
+              "title": "Integrated metabolic regulation"
             }
           ]
         }
@@ -4118,570 +2690,282 @@ window.SYLLABUS = {
         {
           "id": "u8-s01",
           "number": 1,
-          "title": "Mendelian Genetics and Extensions",
+          "title": "Mendelian and non-Mendelian inheritance",
           "nodes": [
             {
               "id": "u8-s1-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Mendel's laws and test crosses"
             },
             {
               "id": "u8-s1-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Monohybrid and dihybrid ratios"
             },
             {
               "id": "u8-s1-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Incomplete dominance and codominance"
             },
             {
               "id": "u8-s1-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Multiple alleles"
             },
             {
               "id": "u8-s1-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Penetrance and expressivity"
             },
             {
               "id": "u8-s1-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Epistasis and gene interactions"
             },
             {
               "id": "u8-s1-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Pleiotropy"
             },
             {
               "id": "u8-s1-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u8-s1-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u8-s1-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Genomic imprinting and maternal effects"
             }
           ]
         },
         {
           "id": "u8-s02",
           "number": 2,
-          "title": "Linkage, Crossing Over and Gene Mapping",
+          "title": "Chromosomal and extranuclear inheritance",
           "nodes": [
             {
               "id": "u8-s2-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Linkage and recombination"
             },
             {
               "id": "u8-s2-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Crossing over and recombination frequency"
             },
             {
               "id": "u8-s2-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Sex-linked inheritance"
             },
             {
               "id": "u8-s2-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Sex-limited and sex-influenced traits"
             },
             {
               "id": "u8-s2-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Mitochondrial inheritance"
             },
             {
               "id": "u8-s2-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Chloroplast inheritance"
             },
             {
               "id": "u8-s2-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Maternal inheritance"
             },
             {
               "id": "u8-s2-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u8-s2-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u8-s2-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Organelle genome transmission"
             }
           ]
         },
         {
           "id": "u8-s03",
           "number": 3,
-          "title": "Chromosome Structure and Aberrations",
+          "title": "Genes, alleles and mutations",
           "nodes": [
             {
               "id": "u8-s3-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Alleles and multiple alleles"
             },
             {
               "id": "u8-s3-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Pseudoalleles and complementation"
             },
             {
               "id": "u8-s3-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Point mutations and indels"
             },
             {
               "id": "u8-s3-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Frameshift and nonsense mutations"
             },
             {
               "id": "u8-s3-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Conditional and lethal mutations"
             },
             {
               "id": "u8-s3-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Loss- and gain-of-function alleles"
             },
             {
               "id": "u8-s3-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Dominant-negative mutations"
             },
             {
               "id": "u8-s3-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u8-s3-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u8-s3-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Germline versus somatic mutations"
             }
           ]
         },
         {
           "id": "u8-s04",
           "number": 4,
-          "title": "Sex Determination and Sex-linked Inheritance",
+          "title": "Genetic mapping and analysis",
           "nodes": [
             {
               "id": "u8-s4-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Two-point and three-point test crosses"
             },
             {
               "id": "u8-s4-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Linkage maps and map distance"
             },
             {
               "id": "u8-s4-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Tetrad analysis"
             },
             {
               "id": "u8-s4-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Fine-structure mapping"
             },
             {
               "id": "u8-s4-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Transformation, conjugation and transduction"
             },
             {
               "id": "u8-s4-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Sexduction in bacteria"
             },
             {
               "id": "u8-s4-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Molecular marker mapping"
             },
             {
               "id": "u8-s4-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u8-s4-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u8-s4-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Mapping populations in plants"
             }
           ]
         },
         {
           "id": "u8-s05",
           "number": 5,
-          "title": "Quantitative and Population Genetics",
+          "title": "Human and quantitative genetics",
           "nodes": [
             {
               "id": "u8-s5-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Pedigree symbols and inheritance patterns"
             },
             {
               "id": "u8-s5-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Autosomal and sex-linked disorders"
             },
             {
               "id": "u8-s5-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Karyotyping and chromosomal diagnosis"
             },
             {
               "id": "u8-s5-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "LOD score analysis"
             },
             {
               "id": "u8-s5-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Hardy-Weinberg equilibrium"
             },
             {
               "id": "u8-s5-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Allele and genotype frequencies"
             },
             {
               "id": "u8-s5-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Polygenic inheritance and threshold traits"
             },
             {
               "id": "u8-s5-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u8-s5-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u8-s5-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Heritability and variance components"
             }
           ]
         },
         {
           "id": "u8-s06",
           "number": 6,
-          "title": "Mutations and Genetic Variation",
+          "title": "Chromosomal structural and numerical variation",
           "nodes": [
             {
               "id": "u8-s6-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Deletions and duplications"
             },
             {
               "id": "u8-s6-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Inversions and translocations"
             },
             {
               "id": "u8-s6-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Aneuploidy and nondisjunction"
             },
             {
               "id": "u8-s6-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Polyploidy and genome duplication"
             },
             {
               "id": "u8-s6-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Recombination and chromosomal rearrangements"
             },
             {
               "id": "u8-s6-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Position effects"
             },
             {
               "id": "u8-s6-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Dosage compensation"
             },
             {
               "id": "u8-s6-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u8-s6-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u8-s6-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u8-s07",
-          "number": 7,
-          "title": "Cytoplasmic and Organelle Inheritance",
-          "nodes": [
-            {
-              "id": "u8-s7-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u8-s7-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u8-s7-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u8-s7-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u8-s7-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u8-s7-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u8-s7-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u8-s7-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u8-s7-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u8-s7-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u8-s08",
-          "number": 8,
-          "title": "Microbial Genetics and Gene Transfer",
-          "nodes": [
-            {
-              "id": "u8-s8-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u8-s8-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u8-s8-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u8-s8-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u8-s8-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u8-s8-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u8-s8-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u8-s8-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u8-s8-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u8-s8-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u8-s09",
-          "number": 9,
-          "title": "Human Genetics and Pedigree Analysis",
-          "nodes": [
-            {
-              "id": "u8-s9-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u8-s9-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u8-s9-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u8-s9-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u8-s9-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u8-s9-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u8-s9-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u8-s9-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u8-s9-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u8-s9-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u8-s10",
-          "number": 10,
-          "title": "Genomics, Epigenetics and Genome-wide Analysis",
-          "nodes": [
-            {
-              "id": "u8-s10-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u8-s10-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u8-s10-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u8-s10-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u8-s10-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u8-s10-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u8-s10-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u8-s10-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u8-s10-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u8-s10-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Genetic consequences of chromosome variation"
             }
           ]
         }
@@ -4690,576 +2974,335 @@ window.SYLLABUS = {
     {
       "id": "unit-09",
       "number": 9,
-      "title": "Diversity of Life Forms",
-      "group": "life-systems",
+      "title": "Evolution and Diversity of Life Forms",
+      "group": "diversity",
       "subunits": [
         {
           "id": "u9-s01",
           "number": 1,
-          "title": "Principles of Taxonomy and Systematics",
+          "title": "Origin and evolution of life",
           "nodes": [
             {
               "id": "u9-s1-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Prebiotic chemistry and origin-of-life hypotheses"
             },
             {
               "id": "u9-s1-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "RNA world hypothesis"
             },
             {
               "id": "u9-s1-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Origin of prokaryotic cells"
             },
             {
               "id": "u9-s1-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Endosymbiotic theory"
             },
             {
               "id": "u9-s1-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Evolution of eukaryotic cell structures"
             },
             {
               "id": "u9-s1-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Origin of multicellularity"
             },
             {
               "id": "u9-s1-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Major transitions in evolution"
             },
             {
               "id": "u9-s1-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u9-s1-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u9-s1-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Human evolutionary history"
             }
           ]
         },
         {
           "id": "u9-s02",
           "number": 2,
-          "title": "Microbial Diversity: Bacteria and Archaea",
+          "title": "Evolutionary mechanisms and speciation",
           "nodes": [
             {
               "id": "u9-s2-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Natural selection and adaptation"
             },
             {
               "id": "u9-s2-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Genetic drift and founder effect"
             },
             {
               "id": "u9-s2-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Gene flow and migration"
             },
             {
               "id": "u9-s2-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Mutation and standing variation"
             },
             {
               "id": "u9-s2-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Sexual selection"
             },
             {
               "id": "u9-s2-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Allopatric and sympatric speciation"
             },
             {
               "id": "u9-s2-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Adaptive radiation"
             },
             {
               "id": "u9-s2-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u9-s2-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u9-s2-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Extinction and mass extinction events"
             }
           ]
         },
         {
           "id": "u9-s03",
           "number": 3,
-          "title": "Viruses, Viroids and Prions",
+          "title": "Taxonomy and systematics",
           "nodes": [
             {
               "id": "u9-s3-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Species concepts"
             },
             {
               "id": "u9-s3-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Taxonomic hierarchy"
             },
             {
               "id": "u9-s3-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Binomial nomenclature and codes"
             },
             {
               "id": "u9-s3-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Classical morphological taxonomy"
             },
             {
               "id": "u9-s3-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Numerical taxonomy"
             },
             {
               "id": "u9-s3-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Cladistics and character analysis"
             },
             {
               "id": "u9-s3-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Molecular systematics"
             },
             {
               "id": "u9-s3-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u9-s3-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u9-s3-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Phylogenetic tree interpretation"
             }
           ]
         },
         {
           "id": "u9-s04",
           "number": 4,
-          "title": "Protists and Algal Diversity",
+          "title": "Bacteria, Archaea and viruses",
           "nodes": [
             {
               "id": "u9-s4-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Bacterial diversity and cell plans"
             },
             {
               "id": "u9-s4-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Archaeal diversity and extremophiles"
             },
             {
               "id": "u9-s4-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Microbial ecological roles"
             },
             {
               "id": "u9-s4-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Virus structure and genome types"
             },
             {
               "id": "u9-s4-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Viral replication strategies"
             },
             {
               "id": "u9-s4-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Bacteriophages and lysogeny"
             },
             {
               "id": "u9-s4-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Economically important microorganisms"
             },
             {
               "id": "u9-s4-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u9-s4-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u9-s4-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Pathogenic microorganisms"
             }
           ]
         },
         {
           "id": "u9-s05",
           "number": 5,
-          "title": "Fungi and Lichens",
+          "title": "Protists and fungi",
           "nodes": [
             {
               "id": "u9-s5-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Algal groups and life cycles"
             },
             {
               "id": "u9-s5-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Protozoan diversity"
             },
             {
               "id": "u9-s5-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Slime molds and water molds"
             },
             {
               "id": "u9-s5-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Protist ecological roles"
             },
             {
               "id": "u9-s5-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Chytrids and zygomycetes"
             },
             {
               "id": "u9-s5-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Glomeromycetes and mycorrhizae"
             },
             {
               "id": "u9-s5-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Ascomycetes and basidiomycetes"
             },
             {
               "id": "u9-s5-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u9-s5-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u9-s5-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Fungal plant and human pathogens"
             }
           ]
         },
         {
           "id": "u9-s06",
           "number": 6,
-          "title": "Plant Diversity: Major Groups",
+          "title": "Plant diversity and evolution",
           "nodes": [
             {
               "id": "u9-s6-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Bryophyte characteristics and life cycles"
             },
             {
               "id": "u9-s6-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Pteridophyte evolution"
             },
             {
               "id": "u9-s6-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Gymnosperm diversity"
             },
             {
               "id": "u9-s6-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Angiosperm origins and radiation"
             },
             {
               "id": "u9-s6-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Alternation of generations"
             },
             {
               "id": "u9-s6-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Plant morphology and anatomy"
             },
             {
               "id": "u9-s6-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Plant reproductive adaptations"
             },
             {
               "id": "u9-s6-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u9-s6-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u9-s6-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Land plant evolution"
             }
           ]
         },
         {
           "id": "u9-s07",
           "number": 7,
-          "title": "Animal Diversity: Invertebrates",
+          "title": "Animal diversity and phylogeny",
           "nodes": [
             {
               "id": "u9-s7-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Invertebrate body plans and symmetry"
             },
             {
               "id": "u9-s7-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Porifera and Cnidaria"
             },
             {
               "id": "u9-s7-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Platyhelminthes, Nematoda and Annelida"
             },
             {
               "id": "u9-s7-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Mollusca and Arthropoda"
             },
             {
               "id": "u9-s7-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Echinodermata and Hemichordata"
             },
             {
               "id": "u9-s7-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Chordate characters and origins"
             },
             {
               "id": "u9-s7-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Vertebrate classes and adaptations"
             },
             {
               "id": "u9-s7-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u9-s7-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u9-s7-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u9-s08",
-          "number": 8,
-          "title": "Animal Diversity: Vertebrates",
-          "nodes": [
-            {
-              "id": "u9-s8-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u9-s8-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u9-s8-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u9-s8-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u9-s8-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u9-s8-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u9-s8-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u9-s8-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u9-s8-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u9-s8-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u9-s09",
-          "number": 9,
-          "title": "Evolutionary Relationships and Phylogeny",
-          "nodes": [
-            {
-              "id": "u9-s9-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u9-s9-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u9-s9-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u9-s9-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u9-s9-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u9-s9-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u9-s9-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u9-s9-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u9-s9-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u9-s9-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u9-s10",
-          "number": 10,
-          "title": "Biodiversity, Conservation and Biogeography",
-          "nodes": [
-            {
-              "id": "u9-s10-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u9-s10-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u9-s10-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u9-s10-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u9-s10-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u9-s10-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u9-s10-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u9-s10-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u9-s10-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u9-s10-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Comparative animal phylogeny"
             }
           ]
         }
@@ -5268,576 +3311,382 @@ window.SYLLABUS = {
     {
       "id": "unit-10",
       "number": 10,
-      "title": "Ecological Principles",
-      "group": "life-systems",
+      "title": "Ecology and Behavioural Biology",
+      "group": "diversity",
       "subunits": [
         {
           "id": "u10-s01",
           "number": 1,
-          "title": "Levels of Organization and Ecological Factors",
+          "title": "Ecological foundations and adaptations",
           "nodes": [
             {
               "id": "u10-s1-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Levels of ecological organization"
             },
             {
               "id": "u10-s1-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Abiotic environmental factors"
             },
             {
               "id": "u10-s1-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Biotic interactions"
             },
             {
               "id": "u10-s1-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Ecological niche and habitat"
             },
             {
               "id": "u10-s1-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Physiological and morphological adaptations"
             },
             {
               "id": "u10-s1-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Limiting factors and tolerance ranges"
             },
             {
               "id": "u10-s1-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Ecotypes and phenotypic plasticity"
             },
             {
               "id": "u10-s1-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u10-s1-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u10-s1-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Biosphere and biome patterns"
             }
           ]
         },
         {
           "id": "u10-s02",
           "number": 2,
-          "title": "Abiotic Environment and Adaptations",
+          "title": "Population ecology",
           "nodes": [
             {
               "id": "u10-s2-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Exponential and logistic growth models"
             },
             {
               "id": "u10-s2-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Intrinsic rate of increase"
             },
             {
               "id": "u10-s2-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Density-dependent regulation"
             },
             {
               "id": "u10-s2-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Density-independent regulation"
             },
             {
               "id": "u10-s2-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Life tables and survivorship curves"
             },
             {
               "id": "u10-s2-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Age structure and sex ratio"
             },
             {
               "id": "u10-s2-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "r-selected and K-selected strategies"
             },
             {
               "id": "u10-s2-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u10-s2-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u10-s2-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Metapopulation dynamics and connectivity"
             }
           ]
         },
         {
           "id": "u10-s03",
           "number": 3,
-          "title": "Population Ecology and Demography",
+          "title": "Community ecology",
           "nodes": [
             {
               "id": "u10-s3-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Community structure and diversity"
             },
             {
               "id": "u10-s3-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Trophic levels and food webs"
             },
             {
               "id": "u10-s3-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Keystone and foundation species"
             },
             {
               "id": "u10-s3-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Competition and niche partitioning"
             },
             {
               "id": "u10-s3-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Predation and herbivory"
             },
             {
               "id": "u10-s3-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Mutualism and parasitism"
             },
             {
               "id": "u10-s3-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Primary and secondary succession"
             },
             {
               "id": "u10-s3-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u10-s3-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u10-s3-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Community stability and resilience"
             }
           ]
         },
         {
           "id": "u10-s04",
           "number": 4,
-          "title": "Species Interactions and Community Ecology",
+          "title": "Ecosystem ecology and biogeochemical cycles",
           "nodes": [
             {
               "id": "u10-s4-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Primary productivity and decomposition"
             },
             {
               "id": "u10-s4-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Energy flow and ecological efficiencies"
             },
             {
               "id": "u10-s4-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Ecological pyramids"
             },
             {
               "id": "u10-s4-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Carbon cycle"
             },
             {
               "id": "u10-s4-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Nitrogen cycle"
             },
             {
               "id": "u10-s4-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Phosphorus and sulfur cycles"
             },
             {
               "id": "u10-s4-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Water cycle"
             },
             {
               "id": "u10-s4-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u10-s4-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u10-s4-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Ecosystem services"
             }
           ]
         },
         {
           "id": "u10-s05",
           "number": 5,
-          "title": "Community Structure and Succession",
+          "title": "Anthropogenic impacts and global change",
           "nodes": [
             {
               "id": "u10-s5-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Land-use and land-cover change"
             },
             {
               "id": "u10-s5-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Climate change and ecological responses"
             },
             {
               "id": "u10-s5-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Air, water and soil pollution"
             },
             {
               "id": "u10-s5-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Eutrophication and biomagnification"
             },
             {
               "id": "u10-s5-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Invasive alien species"
             },
             {
               "id": "u10-s5-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Habitat fragmentation"
             },
             {
               "id": "u10-s5-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Human-wildlife interactions"
             },
             {
               "id": "u10-s5-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u10-s5-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u10-s5-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Ecosystem restoration"
             }
           ]
         },
         {
           "id": "u10-s06",
           "number": 6,
-          "title": "Ecosystem Structure and Function",
+          "title": "Biodiversity and conservation biology",
           "nodes": [
             {
               "id": "u10-s6-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Levels and patterns of biodiversity"
             },
             {
               "id": "u10-s6-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Threat categories and IUCN Red List"
             },
             {
               "id": "u10-s6-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Threats and extinction risk"
             },
             {
               "id": "u10-s6-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Conservation genetics"
             },
             {
               "id": "u10-s6-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Population viability analysis"
             },
             {
               "id": "u10-s6-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "In-situ conservation"
             },
             {
               "id": "u10-s6-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Ex-situ conservation and seed banks"
             },
             {
               "id": "u10-s6-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u10-s6-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u10-s6-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Community-based conservation and indigenous knowledge"
             }
           ]
         },
         {
           "id": "u10-s07",
           "number": 7,
-          "title": "Energy Flow and Biogeochemical Cycles",
+          "title": "Conservation policy and legislation",
           "nodes": [
             {
               "id": "u10-s7-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Biological Diversity Act 2002"
             },
             {
               "id": "u10-s7-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "National biodiversity governance"
             },
             {
               "id": "u10-s7-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Convention on Biological Diversity"
             },
             {
               "id": "u10-s7-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "International Treaty on Plant Genetic Resources"
             },
             {
               "id": "u10-s7-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Agricultural biodiversity"
             },
             {
               "id": "u10-s7-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "PPVFR framework"
             },
             {
               "id": "u10-s7-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Plant genetic resource conservation"
             },
             {
               "id": "u10-s7-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u10-s7-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u10-s7-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "National and international conservation strategies"
             }
           ]
         },
         {
           "id": "u10-s08",
           "number": 8,
-          "title": "Landscape Ecology and Biomes",
+          "title": "Behavioural ecology",
           "nodes": [
             {
               "id": "u10-s8-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Proximate and ultimate explanations"
             },
             {
               "id": "u10-s8-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Foraging theory and optimal foraging"
             },
             {
               "id": "u10-s8-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Animal communication"
             },
             {
               "id": "u10-s8-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Aggression and conflict"
             },
             {
               "id": "u10-s8-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Migration, dispersal and navigation"
             },
             {
               "id": "u10-s8-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Social behaviour and cooperation"
             },
             {
               "id": "u10-s8-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Sexual selection and mating systems"
             },
             {
               "id": "u10-s8-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u10-s8-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u10-s8-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u10-s09",
-          "number": 9,
-          "title": "Conservation Biology and Global Change",
-          "nodes": [
-            {
-              "id": "u10-s9-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u10-s9-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u10-s9-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u10-s9-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u10-s9-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u10-s9-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u10-s9-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u10-s9-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u10-s9-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u10-s9-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u10-s10",
-          "number": 10,
-          "title": "Behavioural Ecology and Sociobiology",
-          "nodes": [
-            {
-              "id": "u10-s10-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u10-s10-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u10-s10-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u10-s10-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u10-s10-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u10-s10-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u10-s10-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u10-s10-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u10-s10-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u10-s10-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Parental investment and care"
             }
           ]
         }
@@ -5846,576 +3695,335 @@ window.SYLLABUS = {
     {
       "id": "unit-11",
       "number": 11,
-      "title": "Evolution and Behavior",
-      "group": "life-systems",
+      "title": "Bioinformatics and Computational Biology",
+      "group": "diversity",
       "subunits": [
         {
           "id": "u11-s01",
           "number": 1,
-          "title": "Origin of Life and Early Evolution",
+          "title": "Biological databases and resources",
           "nodes": [
             {
               "id": "u11-s1-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Primary nucleotide sequence databases"
             },
             {
               "id": "u11-s1-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Protein sequence databases"
             },
             {
               "id": "u11-s1-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Gene expression repositories"
             },
             {
               "id": "u11-s1-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Protein 3D structure databases"
             },
             {
               "id": "u11-s1-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Motif and domain databases"
             },
             {
               "id": "u11-s1-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Pathway and interaction databases"
             },
             {
               "id": "u11-s1-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Database search strategies"
             },
             {
               "id": "u11-s1-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u11-s1-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u11-s1-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Data formats and accession identifiers"
             }
           ]
         },
         {
           "id": "u11-s02",
           "number": 2,
-          "title": "Evidence and Mechanisms of Evolution",
+          "title": "Sequence alignment and similarity searching",
           "nodes": [
             {
               "id": "u11-s2-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Pairwise sequence alignment"
             },
             {
               "id": "u11-s2-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Global and local alignment"
             },
             {
               "id": "u11-s2-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "BLAST algorithm and output"
             },
             {
               "id": "u11-s2-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "FASTA algorithm"
             },
             {
               "id": "u11-s2-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Scoring matrices PAM and BLOSUM"
             },
             {
               "id": "u11-s2-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Gap penalties and alignment statistics"
             },
             {
               "id": "u11-s2-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Sequence identity, similarity and homology"
             },
             {
               "id": "u11-s2-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u11-s2-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u11-s2-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Orthologues, paralogues and homologues"
             }
           ]
         },
         {
           "id": "u11-s03",
           "number": 3,
-          "title": "Natural Selection and Adaptation",
+          "title": "Multiple sequence analysis and phylogeny",
           "nodes": [
             {
               "id": "u11-s3-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Multiple sequence alignment methods"
             },
             {
               "id": "u11-s3-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Conserved motifs and domains"
             },
             {
               "id": "u11-s3-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Repeat finding"
             },
             {
               "id": "u11-s3-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Phylogenetic distance methods"
             },
             {
               "id": "u11-s3-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Character-based phylogeny"
             },
             {
               "id": "u11-s3-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Tree construction and bootstrap support"
             },
             {
               "id": "u11-s3-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Molecular clock concepts"
             },
             {
               "id": "u11-s3-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u11-s3-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u11-s3-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Comparative genomics applications"
             }
           ]
         },
         {
           "id": "u11-s04",
           "number": 4,
-          "title": "Genetic Drift, Gene Flow and Speciation",
+          "title": "Gene annotation and variation analysis",
           "nodes": [
             {
               "id": "u11-s4-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Open reading frame identification"
             },
             {
               "id": "u11-s4-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Gene prediction in prokaryotes"
             },
             {
               "id": "u11-s4-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Eukaryotic gene structure prediction"
             },
             {
               "id": "u11-s4-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Functional annotation by homology"
             },
             {
               "id": "u11-s4-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Domain and motif-based annotation"
             },
             {
               "id": "u11-s4-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Variant calling and polymorphism"
             },
             {
               "id": "u11-s4-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Deleterious variant prediction"
             },
             {
               "id": "u11-s4-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u11-s4-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u11-s4-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Gene ontology and pathway annotation"
             }
           ]
         },
         {
           "id": "u11-s05",
           "number": 5,
-          "title": "Molecular Evolution and Phylogenetics",
+          "title": "Molecular modeling and dynamics",
           "nodes": [
             {
               "id": "u11-s5-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Molecular visualization tools"
             },
             {
               "id": "u11-s5-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Molecular mechanics principles"
             },
             {
               "id": "u11-s5-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Force fields and energy minimization"
             },
             {
               "id": "u11-s5-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Molecular dynamics simulation"
             },
             {
               "id": "u11-s5-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Solvent models and simulation conditions"
             },
             {
               "id": "u11-s5-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Trajectory analysis"
             },
             {
               "id": "u11-s5-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Protein-ligand interaction analysis"
             },
             {
               "id": "u11-s5-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u11-s5-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u11-s5-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Molecular docking concepts"
             }
           ]
         },
         {
           "id": "u11-s06",
           "number": 6,
-          "title": "Evolutionary Developmental Biology",
+          "title": "Protein structure prediction and classification",
           "nodes": [
             {
               "id": "u11-s6-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Protein structural hierarchy"
             },
             {
               "id": "u11-s6-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Secondary structure prediction"
             },
             {
               "id": "u11-s6-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Tertiary structure prediction"
             },
             {
               "id": "u11-s6-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Homology and comparative modeling"
             },
             {
               "id": "u11-s6-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Threading and fold recognition"
             },
             {
               "id": "u11-s6-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Ab initio structure prediction"
             },
             {
               "id": "u11-s6-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Protein structure classification"
             },
             {
               "id": "u11-s6-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u11-s6-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u11-s6-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "AI-based prediction including AlphaFold"
             }
           ]
         },
         {
           "id": "u11-s07",
           "number": 7,
-          "title": "Human Evolution",
+          "title": "Computer-aided drug design and systems biology",
           "nodes": [
             {
               "id": "u11-s7-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "PubChem and chemical databases"
             },
             {
               "id": "u11-s7-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Receptor-ligand interaction principles"
             },
             {
               "id": "u11-s7-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Structure-based drug design"
             },
             {
               "id": "u11-s7-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Ligand-based drug design"
             },
             {
               "id": "u11-s7-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "SAR and QSAR"
             },
             {
               "id": "u11-s7-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Pharmacophore modeling"
             },
             {
               "id": "u11-s7-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "ADMET prediction"
             },
             {
               "id": "u11-s7-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u11-s7-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u11-s7-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u11-s08",
-          "number": 8,
-          "title": "Animal Behaviour: Mechanisms and Development",
-          "nodes": [
-            {
-              "id": "u11-s8-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u11-s8-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u11-s8-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u11-s8-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u11-s8-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u11-s8-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u11-s8-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u11-s8-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u11-s8-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u11-s8-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u11-s09",
-          "number": 9,
-          "title": "Social Behaviour, Communication and Foraging",
-          "nodes": [
-            {
-              "id": "u11-s9-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u11-s9-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u11-s9-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u11-s9-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u11-s9-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u11-s9-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u11-s9-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u11-s9-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u11-s9-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u11-s9-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u11-s10",
-          "number": 10,
-          "title": "Evolutionary Ecology and Life-History Strategies",
-          "nodes": [
-            {
-              "id": "u11-s10-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u11-s10-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u11-s10-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u11-s10-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u11-s10-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u11-s10-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u11-s10-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u11-s10-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u11-s10-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u11-s10-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Biological network modeling and personalized medicine"
             }
           ]
         }
@@ -6424,576 +4032,382 @@ window.SYLLABUS = {
     {
       "id": "unit-12",
       "number": 12,
-      "title": "Applied Biology",
-      "group": "life-systems",
+      "title": "Biochemical Engineering and Industrial Biotechnology",
+      "group": "diversity",
       "subunits": [
         {
           "id": "u12-s01",
           "number": 1,
-          "title": "Microbial Applications and Fermentation",
+          "title": "Mathematics for bioprocessing",
           "nodes": [
             {
               "id": "u12-s1-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Differential and integral calculus"
             },
             {
               "id": "u12-s1-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "First-order ordinary differential equations"
             },
             {
               "id": "u12-s1-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Higher-order differential equations"
             },
             {
               "id": "u12-s1-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Linear algebra and matrices"
             },
             {
               "id": "u12-s1-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Eigenvalues and eigenvectors"
             },
             {
               "id": "u12-s1-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Numerical methods"
             },
             {
               "id": "u12-s1-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Curve fitting and numerical integration"
             },
             {
               "id": "u12-s1-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u12-s1-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u12-s1-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Mathematical modeling of biological systems"
             }
           ]
         },
         {
           "id": "u12-s02",
           "number": 2,
-          "title": "Plant and Animal Biotechnology Applications",
+          "title": "Engineering balances and transport phenomena",
           "nodes": [
             {
               "id": "u12-s2-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Units and dimensional analysis"
             },
             {
               "id": "u12-s2-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Material balance and mass conservation"
             },
             {
               "id": "u12-s2-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Steady-state material balance"
             },
             {
               "id": "u12-s2-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Energy balance"
             },
             {
               "id": "u12-s2-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Momentum transfer fundamentals"
             },
             {
               "id": "u12-s2-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Heat transfer mechanisms"
             },
             {
               "id": "u12-s2-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Mass transfer principles"
             },
             {
               "id": "u12-s2-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u12-s2-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u12-s2-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Mass transfer equipment"
             }
           ]
         },
         {
           "id": "u12-s03",
           "number": 3,
-          "title": "Medical and Health Biotechnology",
+          "title": "Thermodynamics of biological systems",
           "nodes": [
             {
               "id": "u12-s3-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "First law of thermodynamics"
             },
             {
               "id": "u12-s3-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Second law and entropy"
             },
             {
               "id": "u12-s3-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Biological systems as open systems"
             },
             {
               "id": "u12-s3-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Non-equilibrium thermodynamics"
             },
             {
               "id": "u12-s3-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Thermodynamic flux and force"
             },
             {
               "id": "u12-s3-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Entropy production"
             },
             {
               "id": "u12-s3-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Constitutive equations"
             },
             {
               "id": "u12-s3-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u12-s3-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u12-s3-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Thermodynamics of coupled reactions and glycolytic oscillations"
             }
           ]
         },
         {
           "id": "u12-s04",
           "number": 4,
-          "title": "Agricultural and Crop Improvement",
+          "title": "Bioprocess growth kinetics and reactors",
           "nodes": [
             {
               "id": "u12-s4-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Microbial growth parameters"
             },
             {
               "id": "u12-s4-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Monod equation and substrate utilization"
             },
             {
               "id": "u12-s4-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Batch culture kinetics"
             },
             {
               "id": "u12-s4-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Fed-batch cultivation"
             },
             {
               "id": "u12-s4-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Continuous culture and chemostat"
             },
             {
               "id": "u12-s4-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Plug-flow and enzyme reactors"
             },
             {
               "id": "u12-s4-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Bioreactor design principles"
             },
             {
               "id": "u12-s4-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u12-s4-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u12-s4-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Sterilization and contamination control"
             }
           ]
         },
         {
           "id": "u12-s05",
           "number": 5,
-          "title": "Environmental Biotechnology and Bioremediation",
+          "title": "Fermentation and bioprocess operation",
           "nodes": [
             {
               "id": "u12-s5-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Dissolved oxygen and oxygen transfer"
             },
             {
               "id": "u12-s5-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Aeration and agitation"
             },
             {
               "id": "u12-s5-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Fluid rheology in fermentation"
             },
             {
               "id": "u12-s5-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Scale of fermentation processes"
             },
             {
               "id": "u12-s5-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Antibiotic and organic acid production"
             },
             {
               "id": "u12-s5-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Alcohol, vitamin and enzyme fermentation"
             },
             {
               "id": "u12-s5-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Bioplastics and biotransformation"
             },
             {
               "id": "u12-s5-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u12-s5-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u12-s5-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Process flow sheets and economics"
             }
           ]
         },
         {
           "id": "u12-s06",
           "number": 6,
-          "title": "Industrial Enzymes and Bioproducts",
+          "title": "Enzyme and whole-cell technology",
           "nodes": [
             {
               "id": "u12-s6-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Enzymes in non-aqueous media"
             },
             {
               "id": "u12-s6-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Ionic liquids and biocatalysis"
             },
             {
               "id": "u12-s6-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Biocatalyst selection"
             },
             {
               "id": "u12-s6-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Rational protein engineering"
             },
             {
               "id": "u12-s6-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Directed evolution and random mutagenesis"
             },
             {
               "id": "u12-s6-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Enzyme immobilization methods"
             },
             {
               "id": "u12-s6-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Whole-cell immobilization"
             },
             {
               "id": "u12-s6-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u12-s6-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u12-s6-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Immobilized enzyme reactor kinetics and Thiele modulus"
             }
           ]
         },
         {
           "id": "u12-s07",
           "number": 7,
-          "title": "Transgenic Organisms and Applications",
+          "title": "Downstream processing",
           "nodes": [
             {
               "id": "u12-s7-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Cell harvesting and biomass removal"
             },
             {
               "id": "u12-s7-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Cell disruption methods"
             },
             {
               "id": "u12-s7-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Salt and solvent precipitation"
             },
             {
               "id": "u12-s7-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Membrane filtration and separation"
             },
             {
               "id": "u12-s7-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Adsorption and chromatography"
             },
             {
               "id": "u12-s7-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Solvent extraction"
             },
             {
               "id": "u12-s7-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Aqueous two-phase extraction"
             },
             {
               "id": "u12-s7-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u12-s7-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u12-s7-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Supercritical fluid extraction and drying"
             }
           ]
         },
         {
           "id": "u12-s08",
           "number": 8,
-          "title": "Diagnostics, Vaccines and Therapeutics",
+          "title": "Bioprocess plant design and synthetic biology",
           "nodes": [
             {
               "id": "u12-s8-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Process flow-sheet development"
             },
             {
               "id": "u12-s8-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Equipment selection and specification"
             },
             {
               "id": "u12-s8-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Scale-up and scale-down criteria"
             },
             {
               "id": "u12-s8-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Scale-up of downstream operations"
             },
             {
               "id": "u12-s8-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Plant layout and utilities"
             },
             {
               "id": "u12-s8-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Metabolic pathway engineering"
             },
             {
               "id": "u12-s8-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Synthetic biology design principles"
             },
             {
               "id": "u12-s8-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u12-s8-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u12-s8-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u12-s09",
-          "number": 9,
-          "title": "Aquaculture, Food and Nutritional Biotechnology",
-          "nodes": [
-            {
-              "id": "u12-s9-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u12-s9-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u12-s9-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u12-s9-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u12-s9-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u12-s9-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u12-s9-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u12-s9-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u12-s9-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u12-s9-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
-            }
-          ]
-        },
-        {
-          "id": "u12-s10",
-          "number": 10,
-          "title": "Bioethics, Biosafety and Regulatory Frameworks",
-          "nodes": [
-            {
-              "id": "u12-s10-n1",
-              "number": 1,
-              "title": "Core concepts and definitions"
-            },
-            {
-              "id": "u12-s10-n2",
-              "number": 2,
-              "title": "Classification, types and terminology"
-            },
-            {
-              "id": "u12-s10-n3",
-              "number": 3,
-              "title": "Structure, components and organization"
-            },
-            {
-              "id": "u12-s10-n4",
-              "number": 4,
-              "title": "Mechanisms and stepwise processes"
-            },
-            {
-              "id": "u12-s10-n5",
-              "number": 5,
-              "title": "Regulation, control and integration"
-            },
-            {
-              "id": "u12-s10-n6",
-              "number": 6,
-              "title": "Key examples and model systems"
-            },
-            {
-              "id": "u12-s10-n7",
-              "number": 7,
-              "title": "Experimental methods and techniques"
-            },
-            {
-              "id": "u12-s10-n8",
-              "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u12-s10-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u12-s10-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Systems-level strain optimization"
             }
           ]
         }
@@ -7002,576 +4416,813 @@ window.SYLLABUS = {
     {
       "id": "unit-13",
       "number": 13,
-      "title": "Methods in Biology",
-      "group": "life-systems",
+      "title": "Advances in Biotechnology",
+      "group": "diversity",
       "subunits": [
         {
           "id": "u13-s01",
           "number": 1,
-          "title": "Microscopy and Imaging Methods",
+          "title": "Recombinant DNA and molecular cloning",
           "nodes": [
             {
               "id": "u13-s1-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Restriction endonucleases and DNA ligases"
             },
             {
               "id": "u13-s1-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Cloning vectors and selectable markers"
             },
             {
               "id": "u13-s1-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Gene libraries and screening"
             },
             {
               "id": "u13-s1-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Molecular cloning workflows"
             },
             {
               "id": "u13-s1-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Recombinant protein expression systems"
             },
             {
               "id": "u13-s1-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "In-vitro mutagenesis and deletion"
             },
             {
               "id": "u13-s1-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Gene knockout in bacteria"
             },
             {
               "id": "u13-s1-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u13-s1-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u13-s1-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Gene knockout in eukaryotes"
             }
           ]
         },
         {
           "id": "u13-s02",
           "number": 2,
-          "title": "Centrifugation and Cell Fractionation",
+          "title": "Genome editing and sequencing technologies",
           "nodes": [
             {
               "id": "u13-s2-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "CRISPR-Cas systems"
             },
             {
               "id": "u13-s2-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "TALEN and zinc-finger nucleases"
             },
             {
               "id": "u13-s2-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Genome editing outcomes and validation"
             },
             {
               "id": "u13-s2-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Sanger DNA sequencing"
             },
             {
               "id": "u13-s2-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Next-generation sequencing principles"
             },
             {
               "id": "u13-s2-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Third-generation sequencing"
             },
             {
               "id": "u13-s2-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Whole-genome sequencing strategies"
             },
             {
               "id": "u13-s2-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u13-s2-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u13-s2-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Gene expression analysis platforms"
             }
           ]
         },
         {
           "id": "u13-s03",
           "number": 3,
-          "title": "Chromatography and Electrophoresis",
+          "title": "Medical biotechnology and immunotherapy",
           "nodes": [
             {
               "id": "u13-s3-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Diagnostic immunology"
             },
             {
               "id": "u13-s3-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Transplantation immunology"
             },
             {
               "id": "u13-s3-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Tumor immunology"
             },
             {
               "id": "u13-s3-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Live, killed and attenuated vaccines"
             },
             {
               "id": "u13-s3-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Subunit and recombinant vaccines"
             },
             {
               "id": "u13-s3-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Nucleic-acid vaccines and adjuvants"
             },
             {
               "id": "u13-s3-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Monoclonal antibodies and antibody engineering"
             },
             {
               "id": "u13-s3-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u13-s3-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u13-s3-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Cell therapy and immunotherapy"
             }
           ]
         },
         {
           "id": "u13-s04",
           "number": 4,
-          "title": "Spectroscopy and Biophysical Methods",
+          "title": "Stem cells, organoids and tissue engineering",
           "nodes": [
             {
               "id": "u13-s4-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Embryonic and adult stem cells"
             },
             {
               "id": "u13-s4-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Induced pluripotent stem cells"
             },
             {
               "id": "u13-s4-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Directed differentiation"
             },
             {
               "id": "u13-s4-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Stem cells in drug screening"
             },
             {
               "id": "u13-s4-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Disease modeling with stem cells"
             },
             {
               "id": "u13-s4-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Organoid formation and applications"
             },
             {
               "id": "u13-s4-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Tissue engineering scaffolds"
             },
             {
               "id": "u13-s4-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u13-s4-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u13-s4-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Regenerative medicine concepts"
             }
           ]
         },
         {
           "id": "u13-s05",
           "number": 5,
-          "title": "Molecular Biology and Recombinant DNA Tools",
+          "title": "Neurotechnology, devices and biosensors",
           "nodes": [
             {
               "id": "u13-s5-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Electrophysiological brain studies"
             },
             {
               "id": "u13-s5-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Behavioural testing methods"
             },
             {
               "id": "u13-s5-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Medical devices and implants"
             },
             {
               "id": "u13-s5-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Biosensor components and transduction"
             },
             {
               "id": "u13-s5-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Recognition elements in biosensors"
             },
             {
               "id": "u13-s5-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Signal processing in biosensors"
             },
             {
               "id": "u13-s5-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Diagnostic device applications"
             },
             {
               "id": "u13-s5-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u13-s5-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u13-s5-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Neurotechnology applications"
             }
           ]
         },
         {
           "id": "u13-s06",
           "number": 6,
-          "title": "Immunological and Cell-based Methods",
+          "title": "Animal and agricultural biotechnology",
           "nodes": [
             {
               "id": "u13-s6-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Transgenic animal production"
             },
             {
               "id": "u13-s6-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Animal breeding and genetic improvement"
             },
             {
               "id": "u13-s6-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Germplasm conservation"
             },
             {
               "id": "u13-s6-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Genetic health monitoring"
             },
             {
               "id": "u13-s6-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Molecular diagnosis of pathogens"
             },
             {
               "id": "u13-s6-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Animal cell and tissue culture"
             },
             {
               "id": "u13-s6-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Transgenic plants and trait engineering"
             },
             {
               "id": "u13-s6-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u13-s6-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u13-s6-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Marker-assisted selection and gene pyramiding"
             }
           ]
         },
         {
           "id": "u13-s07",
           "number": 7,
-          "title": "Omics, Sequencing and Analytical Platforms",
+          "title": "Marine and environmental biotechnology",
           "nodes": [
             {
               "id": "u13-s7-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Marine microbial diversity and resources"
             },
             {
               "id": "u13-s7-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Marine natural products and pharmacology"
             },
             {
               "id": "u13-s7-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Seafood microbiology"
             },
             {
               "id": "u13-s7-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Biofouling and corrosion"
             },
             {
               "id": "u13-s7-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Marine biofilms and oceanography"
             },
             {
               "id": "u13-s7-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Wastewater treatment biotechnology"
             },
             {
               "id": "u13-s7-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Bioremediation and phytoremediation"
             },
             {
               "id": "u13-s7-n8",
               "number": 8,
-              "title": "Applications and biological significance"
+              "title": "Biofertilizers, biopesticides, biosurfactants and biofuels"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-14",
+      "number": 14,
+      "title": "Methods in Biology",
+      "group": "diversity",
+      "subunits": [
+        {
+          "id": "u14-s01",
+          "number": 1,
+          "title": "Isolation and separation of biomolecules",
+          "nodes": [
+            {
+              "id": "u14-s1-n1",
+              "number": 1,
+              "title": "DNA and RNA isolation"
             },
             {
-              "id": "u13-s7-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
+              "id": "u14-s1-n2",
+              "number": 2,
+              "title": "Protein extraction and purification"
             },
             {
-              "id": "u13-s7-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "id": "u14-s1-n3",
+              "number": 3,
+              "title": "Carbohydrate and lipid extraction"
+            },
+            {
+              "id": "u14-s1-n4",
+              "number": 4,
+              "title": "Differential and density-gradient centrifugation"
+            },
+            {
+              "id": "u14-s1-n5",
+              "number": 5,
+              "title": "Paper and thin-layer chromatography"
+            },
+            {
+              "id": "u14-s1-n6",
+              "number": 6,
+              "title": "Ion-exchange chromatography"
+            },
+            {
+              "id": "u14-s1-n7",
+              "number": 7,
+              "title": "Size-exclusion and affinity chromatography"
+            },
+            {
+              "id": "u14-s1-n8",
+              "number": 8,
+              "title": "SDS-PAGE and native PAGE"
             }
           ]
         },
         {
-          "id": "u13-s08",
+          "id": "u14-s02",
+          "number": 2,
+          "title": "Spectroscopy and structural biophysics",
+          "nodes": [
+            {
+              "id": "u14-s2-n1",
+              "number": 1,
+              "title": "UV-visible spectroscopy"
+            },
+            {
+              "id": "u14-s2-n2",
+              "number": 2,
+              "title": "Fluorescence spectroscopy"
+            },
+            {
+              "id": "u14-s2-n3",
+              "number": 3,
+              "title": "Circular dichroism spectroscopy"
+            },
+            {
+              "id": "u14-s2-n4",
+              "number": 4,
+              "title": "NMR spectroscopy"
+            },
+            {
+              "id": "u14-s2-n5",
+              "number": 5,
+              "title": "Electron spin resonance"
+            },
+            {
+              "id": "u14-s2-n6",
+              "number": 6,
+              "title": "X-ray crystallography"
+            },
+            {
+              "id": "u14-s2-n7",
+              "number": 7,
+              "title": "Cryo-electron microscopy"
+            },
+            {
+              "id": "u14-s2-n8",
+              "number": 8,
+              "title": "Light scattering and surface plasmon resonance"
+            }
+          ]
+        },
+        {
+          "id": "u14-s03",
+          "number": 3,
+          "title": "Omics and molecular profiling",
+          "nodes": [
+            {
+              "id": "u14-s3-n1",
+              "number": 1,
+              "title": "Prokaryotic and eukaryotic genome organization"
+            },
+            {
+              "id": "u14-s3-n2",
+              "number": 2,
+              "title": "Comparative genomics"
+            },
+            {
+              "id": "u14-s3-n3",
+              "number": 3,
+              "title": "Transcriptome profiling"
+            },
+            {
+              "id": "u14-s3-n4",
+              "number": 4,
+              "title": "Differential gene expression analysis"
+            },
+            {
+              "id": "u14-s3-n5",
+              "number": 5,
+              "title": "Proteomics and protein interaction mapping"
+            },
+            {
+              "id": "u14-s3-n6",
+              "number": 6,
+              "title": "Targeted metabolomics"
+            },
+            {
+              "id": "u14-s3-n7",
+              "number": 7,
+              "title": "Untargeted metabolomics"
+            },
+            {
+              "id": "u14-s3-n8",
+              "number": 8,
+              "title": "DNA fingerprinting and DNA barcoding"
+            }
+          ]
+        },
+        {
+          "id": "u14-s04",
+          "number": 4,
+          "title": "Radiolabeling and radioactive measurements",
+          "nodes": [
+            {
+              "id": "u14-s4-n1",
+              "number": 1,
+              "title": "Common biological radioisotopes"
+            },
+            {
+              "id": "u14-s4-n2",
+              "number": 2,
+              "title": "Radioactive decay and half-life"
+            },
+            {
+              "id": "u14-s4-n3",
+              "number": 3,
+              "title": "Scintillation counting"
+            },
+            {
+              "id": "u14-s4-n4",
+              "number": 4,
+              "title": "Autoradiography"
+            },
+            {
+              "id": "u14-s4-n5",
+              "number": 5,
+              "title": "Tracer incorporation in cells and tissues"
+            },
+            {
+              "id": "u14-s4-n6",
+              "number": 6,
+              "title": "Radioactive molecular imaging"
+            },
+            {
+              "id": "u14-s4-n7",
+              "number": 7,
+              "title": "Detection and quantification principles"
+            },
+            {
+              "id": "u14-s4-n8",
+              "number": 8,
+              "title": "Radiation safety guidelines"
+            }
+          ]
+        },
+        {
+          "id": "u14-s05",
+          "number": 5,
+          "title": "Immunological and histochemical techniques",
+          "nodes": [
+            {
+              "id": "u14-s5-n1",
+              "number": 1,
+              "title": "Antibody generation and purification"
+            },
+            {
+              "id": "u14-s5-n2",
+              "number": 2,
+              "title": "ELISA formats"
+            },
+            {
+              "id": "u14-s5-n3",
+              "number": 3,
+              "title": "Radioimmunoassay"
+            },
+            {
+              "id": "u14-s5-n4",
+              "number": 4,
+              "title": "Western blotting"
+            },
+            {
+              "id": "u14-s5-n5",
+              "number": 5,
+              "title": "Immunoprecipitation"
+            },
+            {
+              "id": "u14-s5-n6",
+              "number": 6,
+              "title": "Flow cytometry"
+            },
+            {
+              "id": "u14-s5-n7",
+              "number": 7,
+              "title": "Immunofluorescence microscopy"
+            },
+            {
+              "id": "u14-s5-n8",
+              "number": 8,
+              "title": "FISH and GISH"
+            }
+          ]
+        },
+        {
+          "id": "u14-s06",
+          "number": 6,
+          "title": "Microscopy and imaging",
+          "nodes": [
+            {
+              "id": "u14-s6-n1",
+              "number": 1,
+              "title": "Bright-field and phase-contrast microscopy"
+            },
+            {
+              "id": "u14-s6-n2",
+              "number": 2,
+              "title": "Fluorescence microscopy"
+            },
+            {
+              "id": "u14-s6-n3",
+              "number": 3,
+              "title": "Confocal microscopy"
+            },
+            {
+              "id": "u14-s6-n4",
+              "number": 4,
+              "title": "Super-resolution microscopy"
+            },
+            {
+              "id": "u14-s6-n5",
+              "number": 5,
+              "title": "Transmission electron microscopy"
+            },
+            {
+              "id": "u14-s6-n6",
+              "number": 6,
+              "title": "Scanning electron microscopy"
+            },
+            {
+              "id": "u14-s6-n7",
+              "number": 7,
+              "title": "Resolving power and numerical aperture"
+            },
+            {
+              "id": "u14-s6-n8",
+              "number": 8,
+              "title": "Live-cell imaging and sample preparation"
+            }
+          ]
+        },
+        {
+          "id": "u14-s07",
+          "number": 7,
+          "title": "Electrophysiology and medical imaging",
+          "nodes": [
+            {
+              "id": "u14-s7-n1",
+              "number": 1,
+              "title": "Single-neuron recording"
+            },
+            {
+              "id": "u14-s7-n2",
+              "number": 2,
+              "title": "Patch-clamp techniques"
+            },
+            {
+              "id": "u14-s7-n3",
+              "number": 3,
+              "title": "Electrocardiography"
+            },
+            {
+              "id": "u14-s7-n4",
+              "number": 4,
+              "title": "EEG and brain activity recording"
+            },
+            {
+              "id": "u14-s7-n5",
+              "number": 5,
+              "title": "Brain lesion and stimulation methods"
+            },
+            {
+              "id": "u14-s7-n6",
+              "number": 6,
+              "title": "Pharmacological testing"
+            },
+            {
+              "id": "u14-s7-n7",
+              "number": 7,
+              "title": "PET imaging"
+            },
+            {
+              "id": "u14-s7-n8",
+              "number": 8,
+              "title": "MRI, fMRI and CT/CAT imaging"
+            }
+          ]
+        },
+        {
+          "id": "u14-s08",
           "number": 8,
-          "title": "Experimental Design, Sampling and Statistics",
+          "title": "Field biology and ecological sampling",
           "nodes": [
             {
-              "id": "u13-s8-n1",
+              "id": "u14-s8-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Quadrat and transect sampling"
             },
             {
-              "id": "u13-s8-n2",
+              "id": "u14-s8-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Mark-recapture population estimates"
             },
             {
-              "id": "u13-s8-n3",
+              "id": "u14-s8-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Distance sampling"
             },
             {
-              "id": "u13-s8-n4",
+              "id": "u14-s8-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Direct and indirect animal observations"
             },
             {
-              "id": "u13-s8-n5",
+              "id": "u14-s8-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Remote sensing in habitat studies"
             },
             {
-              "id": "u13-s8-n6",
+              "id": "u14-s8-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Habitat characterization"
             },
             {
-              "id": "u13-s8-n7",
+              "id": "u14-s8-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Behavioural sampling methods"
             },
             {
-              "id": "u13-s8-n8",
+              "id": "u14-s8-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u13-s8-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u13-s8-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Population density estimation"
             }
           ]
         },
         {
-          "id": "u13-s09",
+          "id": "u14-s09",
           "number": 9,
-          "title": "Bioinformatics and Biological Data Analysis",
+          "title": "Statistics and quantitative analysis",
           "nodes": [
             {
-              "id": "u13-s9-n1",
+              "id": "u14-s9-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Accuracy, precision and measurement error"
             },
             {
-              "id": "u13-s9-n2",
+              "id": "u14-s9-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Signal-to-noise ratio"
             },
             {
-              "id": "u13-s9-n3",
+              "id": "u14-s9-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Mean, median, mode and dispersion"
             },
             {
-              "id": "u13-s9-n4",
+              "id": "u14-s9-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Binomial, Poisson and normal distributions"
             },
             {
-              "id": "u13-s9-n5",
+              "id": "u14-s9-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Sampling distributions and confidence intervals"
             },
             {
-              "id": "u13-s9-n6",
+              "id": "u14-s9-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Parametric and non-parametric tests"
             },
             {
-              "id": "u13-s9-n7",
+              "id": "u14-s9-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "t-test, chi-square and ANOVA"
             },
             {
-              "id": "u13-s9-n8",
+              "id": "u14-s9-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u13-s9-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u13-s9-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Correlation, regression and multivariate statistics"
             }
           ]
         },
         {
-          "id": "u13-s10",
+          "id": "u14-s10",
           "number": 10,
-          "title": "Research Integrity, Biosafety and Scientific Writing",
+          "title": "IPR, biosafety and research ethics",
           "nodes": [
             {
-              "id": "u13-s10-n1",
+              "id": "u14-s10-n1",
               "number": 1,
-              "title": "Core concepts and definitions"
+              "title": "Types of intellectual property"
             },
             {
-              "id": "u13-s10-n2",
+              "id": "u14-s10-n2",
               "number": 2,
-              "title": "Classification, types and terminology"
+              "title": "Patent search and patent databases"
             },
             {
-              "id": "u13-s10-n3",
+              "id": "u14-s10-n3",
               "number": 3,
-              "title": "Structure, components and organization"
+              "title": "Patentability and biological inventions"
             },
             {
-              "id": "u13-s10-n4",
+              "id": "u14-s10-n4",
               "number": 4,
-              "title": "Mechanisms and stepwise processes"
+              "title": "Biosafety levels and containment"
             },
             {
-              "id": "u13-s10-n5",
+              "id": "u14-s10-n5",
               "number": 5,
-              "title": "Regulation, control and integration"
+              "title": "Biological risk assessment"
             },
             {
-              "id": "u13-s10-n6",
+              "id": "u14-s10-n6",
               "number": 6,
-              "title": "Key examples and model systems"
+              "title": "Animal ethics and institutional committees"
             },
             {
-              "id": "u13-s10-n7",
+              "id": "u14-s10-n7",
               "number": 7,
-              "title": "Experimental methods and techniques"
+              "title": "Research and publication ethics"
             },
             {
-              "id": "u13-s10-n8",
+              "id": "u14-s10-n8",
               "number": 8,
-              "title": "Applications and biological significance"
-            },
-            {
-              "id": "u13-s10-n9",
-              "number": 9,
-              "title": "Data interpretation and analytical problems"
-            },
-            {
-              "id": "u13-s10-n10",
-              "number": 10,
-              "title": "Revision points and exam-oriented practice"
+              "title": "Plagiarism and responsible AI use"
             }
           ]
         }
