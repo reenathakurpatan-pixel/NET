@@ -344,7 +344,7 @@ body{
 
 /* Mobile navigation interaction and scroll lock */
 @media(max-width:760px){
-  body.menu-open{overflow:hidden;touch-action:none}
+  body.menu-open{overflow:hidden}
   .mega-wrap.open .mega-panel{display:block}
   .mega-panel{overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
   .menu-toggle[aria-expanded="true"]{background:var(--text);color:var(--surface)}
