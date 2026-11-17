@@ -341,3 +341,11 @@ body{
 @media(prefers-reduced-motion:no-preference){
  .category-card,.unit-card,.primary-button,.menu-toggle{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
 }
+
+/* Mobile navigation interaction and scroll lock */
+@media(max-width:760px){
+  body.menu-open{overflow:hidden;touch-action:none}
+  .mega-wrap.open .mega-panel{display:block}
+  .mega-panel{overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+  .menu-toggle[aria-expanded="true"]{background:var(--text);color:var(--surface)}
+}
