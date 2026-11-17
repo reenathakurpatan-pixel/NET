@@ -90,3 +90,6 @@ main{max-width:1200px;margin:auto;padding:0 24px}.hero-wrap{min-height:490px;dis
  .nav-node{font-size:10px;padding:6px 2px}
 }
 @media(min-width:621px){.mega-panel{display:none}.mega-wrap.open .mega-panel,.mega-wrap:focus-within .mega-panel{display:block}}
+
+/* Keep the dropdown controlled by its explicit open state, not lingering keyboard focus. */
+.mega-wrap:focus-within:not(.open) .mega-panel{display:none}
