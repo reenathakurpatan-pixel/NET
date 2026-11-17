@@ -349,3 +349,13 @@ body{
   .mega-panel{overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
   .menu-toggle[aria-expanded="true"]{background:var(--text);color:var(--surface)}
 }
+
+/* Emergency mobile menu visibility fix */
+@media(max-width:760px){
+  #site-header .header-actions{display:flex!important;visibility:visible!important}
+  #site-header #menu-toggle{display:inline-flex!important;visibility:visible!important;opacity:1!important;position:relative;z-index:120;flex:0 0 auto;min-width:64px}
+  #site-header .mega-wrap{display:block}
+  #site-header .mega-panel{z-index:110}
+  #site-header .mega-wrap:not(.open) .mega-panel{display:none}
+  #site-header .mega-wrap.open .mega-panel{display:block}
+}
