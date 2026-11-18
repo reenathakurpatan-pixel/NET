@@ -640,282 +640,217 @@ window.SYLLABUS = {
         {
           "id": "u3-s01",
           "number": 1,
-          "title": "DNA replication",
+          "title": "DNA replication, repair and recombination",
+          "officialSection": "A",
           "nodes": [
             {
               "id": "u3-s1-n1",
               "number": 1,
-              "title": "Semiconservative replication and Meselson-Stahl experiment"
+              "title": "Unit of replication"
             },
             {
               "id": "u3-s1-n2",
               "number": 2,
-              "title": "Replication origins and replicons"
+              "title": "Enzymes involved in DNA replication"
             },
             {
               "id": "u3-s1-n3",
               "number": 3,
-              "title": "Initiation in prokaryotes"
+              "title": "Replication origins and replication forks"
             },
             {
               "id": "u3-s1-n4",
               "number": 4,
-              "title": "Initiation in eukaryotes"
+              "title": "Fidelity of DNA replication"
             },
             {
               "id": "u3-s1-n5",
               "number": 5,
-              "title": "Leading and lagging strand synthesis"
+              "title": "Extrachromosomal replicons"
             },
             {
               "id": "u3-s1-n6",
               "number": 6,
-              "title": "DNA polymerases and accessory proteins"
+              "title": "DNA damage"
             },
             {
               "id": "u3-s1-n7",
               "number": 7,
-              "title": "Replication fork dynamics and replisome"
+              "title": "DNA repair mechanisms"
             },
             {
               "id": "u3-s1-n8",
               "number": 8,
-              "title": "Telomeres and telomerase"
+              "title": "Homologous recombination"
+            },
+            {
+              "id": "u3-s1-n9",
+              "number": 9,
+              "title": "Site-specific recombination"
             }
           ]
         },
         {
           "id": "u3-s02",
           "number": 2,
-          "title": "DNA repair and recombination",
+          "title": "RNA synthesis, processing and regulation",
+          "officialSection": "B",
           "nodes": [
             {
               "id": "u3-s2-n1",
               "number": 1,
-              "title": "Direct reversal and photoreactivation"
+              "title": "Mechanism of transcription"
             },
             {
               "id": "u3-s2-n2",
               "number": 2,
-              "title": "Base excision repair"
+              "title": "Regulation of transcription"
             },
             {
               "id": "u3-s2-n3",
               "number": 3,
-              "title": "Nucleotide excision repair"
+              "title": "Transcriptional inhibitors"
             },
             {
               "id": "u3-s2-n4",
               "number": 4,
-              "title": "Mismatch repair"
+              "title": "Transcription factors and transcription machinery"
             },
             {
               "id": "u3-s2-n5",
               "number": 5,
-              "title": "Double-strand break repair"
+              "title": "Transcription activators and repressors"
             },
             {
               "id": "u3-s2-n6",
               "number": 6,
-              "title": "Homologous recombination"
+              "title": "RNA polymerases"
             },
             {
               "id": "u3-s2-n7",
               "number": 7,
-              "title": "Site-specific recombination"
+              "title": "RNA capping"
             },
             {
               "id": "u3-s2-n8",
               "number": 8,
-              "title": "Transposition and mobile genetic elements"
+              "title": "RNA processing and editing"
+            },
+            {
+              "id": "u3-s2-n9",
+              "number": 9,
+              "title": "RNA splicing and polyadenylation"
+            },
+            {
+              "id": "u3-s2-n10",
+              "number": 10,
+              "title": "Structure and functions of RNA types"
+            },
+            {
+              "id": "u3-s2-n11",
+              "number": 11,
+              "title": "RNA transport"
+            },
+            {
+              "id": "u3-s2-n12",
+              "number": 12,
+              "title": "Ribozymes"
+            },
+            {
+              "id": "u3-s2-n13",
+              "number": 13,
+              "title": "Riboswitches"
+            },
+            {
+              "id": "u3-s2-n14",
+              "number": 14,
+              "title": "Non-coding RNA"
             }
           ]
         },
         {
           "id": "u3-s03",
           "number": 3,
-          "title": "Transcription and RNA synthesis",
+          "title": "Protein synthesis, processing and degradation",
+          "officialSection": "C",
           "nodes": [
             {
               "id": "u3-s3-n1",
               "number": 1,
-              "title": "Prokaryotic RNA polymerase"
+              "title": "Ribosome structure and function"
             },
             {
               "id": "u3-s3-n2",
               "number": 2,
-              "title": "Eukaryotic RNA polymerases I, II and III"
+              "title": "Mechanism of translation"
             },
             {
               "id": "u3-s3-n3",
               "number": 3,
-              "title": "Promoters and transcription initiation"
+              "title": "Regulation of translation"
             },
             {
               "id": "u3-s3-n4",
               "number": 4,
-              "title": "Elongation and termination"
+              "title": "Translational inhibitors"
             },
             {
               "id": "u3-s3-n5",
               "number": 5,
-              "title": "Transcription factors and mediator"
+              "title": "Post-translational protein modifications"
             },
             {
               "id": "u3-s3-n6",
               "number": 6,
-              "title": "Enhancers and silencers"
+              "title": "Protein trafficking and transport"
             },
             {
               "id": "u3-s3-n7",
               "number": 7,
-              "title": "Transcriptional inhibitors"
-            },
-            {
-              "id": "u3-s3-n8",
-              "number": 8,
-              "title": "Transcriptional regulation in phages and viruses"
+              "title": "Protein degradation"
             }
           ]
         },
         {
           "id": "u3-s04",
           "number": 4,
-          "title": "RNA processing and regulation",
+          "title": "Control of gene expression at transcription and translation level",
+          "officialSection": "D",
           "nodes": [
             {
               "id": "u3-s4-n1",
               "number": 1,
-              "title": "5-prime capping and 3-prime polyadenylation"
+              "title": "Gene-expression regulation in phages"
             },
             {
               "id": "u3-s4-n2",
               "number": 2,
-              "title": "Spliceosome and pre-mRNA splicing"
+              "title": "Gene-expression regulation in viruses"
             },
             {
               "id": "u3-s4-n3",
               "number": 3,
-              "title": "Alternative splicing"
+              "title": "Gene-expression regulation in prokaryotes"
             },
             {
               "id": "u3-s4-n4",
               "number": 4,
-              "title": "RNA editing"
+              "title": "Gene-expression regulation in eukaryotes"
             },
             {
               "id": "u3-s4-n5",
               "number": 5,
-              "title": "mRNA export and localization"
+              "title": "Chromatin-mediated regulation of gene expression"
             },
             {
               "id": "u3-s4-n6",
               "number": 6,
-              "title": "tRNA and rRNA processing"
+              "title": "Gene silencing"
             },
             {
               "id": "u3-s4-n7",
               "number": 7,
-              "title": "Riboswitches and ribozymes"
-            },
-            {
-              "id": "u3-s4-n8",
-              "number": 8,
-              "title": "miRNA, siRNA and long non-coding RNA"
-            }
-          ]
-        },
-        {
-          "id": "u3-s05",
-          "number": 5,
-          "title": "Translation and protein processing",
-          "nodes": [
-            {
-              "id": "u3-s5-n1",
-              "number": 1,
-              "title": "Ribosome structure and subunits"
-            },
-            {
-              "id": "u3-s5-n2",
-              "number": 2,
-              "title": "Genetic code and codon-anticodon pairing"
-            },
-            {
-              "id": "u3-s5-n3",
-              "number": 3,
-              "title": "Aminoacyl-tRNA synthetases"
-            },
-            {
-              "id": "u3-s5-n4",
-              "number": 4,
-              "title": "Initiation, elongation and termination"
-            },
-            {
-              "id": "u3-s5-n5",
-              "number": 5,
-              "title": "Translation regulation"
-            },
-            {
-              "id": "u3-s5-n6",
-              "number": 6,
-              "title": "Translational inhibitors"
-            },
-            {
-              "id": "u3-s5-n7",
-              "number": 7,
-              "title": "Post-translational modifications"
-            },
-            {
-              "id": "u3-s5-n8",
-              "number": 8,
-              "title": "Protein targeting, trafficking and degradation"
-            }
-          ]
-        },
-        {
-          "id": "u3-s06",
-          "number": 6,
-          "title": "Gene expression control and epigenetics",
-          "nodes": [
-            {
-              "id": "u3-s6-n1",
-              "number": 1,
-              "title": "Lac and trp operons"
-            },
-            {
-              "id": "u3-s6-n2",
-              "number": 2,
-              "title": "Lambda phage gene regulation"
-            },
-            {
-              "id": "u3-s6-n3",
-              "number": 3,
-              "title": "Viral gene expression strategies"
-            },
-            {
-              "id": "u3-s6-n4",
-              "number": 4,
-              "title": "Transcriptional control in eukaryotes"
-            },
-            {
-              "id": "u3-s6-n5",
-              "number": 5,
-              "title": "Chromatin remodeling complexes"
-            },
-            {
-              "id": "u3-s6-n6",
-              "number": 6,
-              "title": "DNA methylation"
-            },
-            {
-              "id": "u3-s6-n7",
-              "number": 7,
-              "title": "Histone modifications"
-            },
-            {
-              "id": "u3-s6-n8",
-              "number": 8,
-              "title": "Genomic imprinting and epigenetic inheritance"
+              "title": "Epigenetic regulation"
             }
           ]
         }
@@ -930,282 +865,310 @@ window.SYLLABUS = {
         {
           "id": "u4-s01",
           "number": 1,
-          "title": "Receptors and signal transduction",
+          "title": "Cell signaling",
+          "officialSection": "A",
           "nodes": [
             {
               "id": "u4-s1-n1",
               "number": 1,
-              "title": "Peptide and steroid hormone receptors"
+              "title": "Hormones and their receptors"
             },
             {
               "id": "u4-s1-n2",
               "number": 2,
-              "title": "GPCR structure and activation"
+              "title": "Cell-surface receptors"
             },
             {
               "id": "u4-s1-n3",
               "number": 3,
-              "title": "G-protein GDP-GTP cycle"
+              "title": "G-protein-coupled receptors (GPCRs)"
             },
             {
               "id": "u4-s1-n4",
               "number": 4,
-              "title": "Receptor tyrosine kinases"
+              "title": "Signal-transduction pathways"
             },
             {
               "id": "u4-s1-n5",
               "number": 5,
-              "title": "Cytokine receptors and JAK-STAT"
+              "title": "Second messengers"
             },
             {
               "id": "u4-s1-n6",
               "number": 6,
-              "title": "Ligand-gated ion channels"
+              "title": "Regulation of signaling pathways"
             },
             {
               "id": "u4-s1-n7",
               "number": 7,
-              "title": "Receptor desensitization and internalization"
+              "title": "Bacterial two-component systems"
             },
             {
               "id": "u4-s1-n8",
               "number": 8,
-              "title": "Signal amplification and termination"
+              "title": "Plant two-component systems"
+            },
+            {
+              "id": "u4-s1-n9",
+              "number": 9,
+              "title": "Light signaling in plants"
+            },
+            {
+              "id": "u4-s1-n10",
+              "number": 10,
+              "title": "Bacterial chemotaxis"
+            },
+            {
+              "id": "u4-s1-n11",
+              "number": 11,
+              "title": "Quorum sensing"
             }
           ]
         },
         {
           "id": "u4-s02",
           "number": 2,
-          "title": "Second messengers and signaling pathways",
+          "title": "Cellular communication",
+          "officialSection": "B",
           "nodes": [
             {
               "id": "u4-s2-n1",
               "number": 1,
-              "title": "cAMP and protein kinase A"
+              "title": "General principles of cell communication"
             },
             {
               "id": "u4-s2-n2",
               "number": 2,
-              "title": "cGMP and protein kinase G"
+              "title": "Cell adhesion and adhesion molecules"
             },
             {
               "id": "u4-s2-n3",
               "number": 3,
-              "title": "IP3 and DAG signaling"
+              "title": "Gap junctions"
             },
             {
               "id": "u4-s2-n4",
               "number": 4,
-              "title": "Calcium-calmodulin signaling"
+              "title": "Extracellular matrix (ECM)"
             },
             {
               "id": "u4-s2-n5",
               "number": 5,
-              "title": "MAP kinase cascades"
+              "title": "Integrins"
             },
             {
               "id": "u4-s2-n6",
               "number": 6,
-              "title": "PI3K-AKT-mTOR pathway"
+              "title": "Neurotransmission"
             },
             {
               "id": "u4-s2-n7",
               "number": 7,
-              "title": "Wnt-beta-catenin pathway"
+              "title": "Regulation of neurotransmission"
             },
             {
               "id": "u4-s2-n8",
               "number": 8,
-              "title": "Notch and Hedgehog signaling"
+              "title": "Regulation of haematopoiesis"
             }
           ]
         },
         {
           "id": "u4-s03",
           "number": 3,
-          "title": "Microbial and plant signaling",
+          "title": "Innate and adaptive immune system",
+          "officialSection": "C",
           "nodes": [
             {
               "id": "u4-s3-n1",
               "number": 1,
-              "title": "Bacterial two-component systems"
+              "title": "Cells and molecules of innate immunity"
             },
             {
               "id": "u4-s3-n2",
               "number": 2,
-              "title": "Histidine kinase and response regulator"
+              "title": "Cells and molecules of adaptive immunity"
             },
             {
               "id": "u4-s3-n3",
               "number": 3,
-              "title": "Quorum sensing molecules"
+              "title": "Antigens: antigenicity and immunogenicity"
             },
             {
               "id": "u4-s3-n4",
               "number": 4,
-              "title": "Bacterial chemotaxis pathway"
+              "title": "B-cell and T-cell epitopes"
             },
             {
               "id": "u4-s3-n5",
               "number": 5,
-              "title": "Plant two-component cytokinin signaling"
+              "title": "Antibody structure and function"
             },
             {
               "id": "u4-s3-n6",
               "number": 6,
-              "title": "Phytochrome signaling"
+              "title": "Generation of antibody diversity"
             },
             {
               "id": "u4-s3-n7",
               "number": 7,
-              "title": "Cryptochrome and phototropin signaling"
+              "title": "Monoclonal antibodies and antibody engineering"
             },
             {
               "id": "u4-s3-n8",
               "number": 8,
-              "title": "Light-regulated gene expression"
+              "title": "Antigen–antibody interactions"
+            },
+            {
+              "id": "u4-s3-n9",
+              "number": 9,
+              "title": "MHC molecules"
+            },
+            {
+              "id": "u4-s3-n10",
+              "number": 10,
+              "title": "Antigen processing and presentation"
+            },
+            {
+              "id": "u4-s3-n11",
+              "number": 11,
+              "title": "B-cell and T-cell activation and differentiation"
+            },
+            {
+              "id": "u4-s3-n12",
+              "number": 12,
+              "title": "B-cell and T-cell receptors"
+            },
+            {
+              "id": "u4-s3-n13",
+              "number": 13,
+              "title": "Humoral and cell-mediated immune responses"
+            },
+            {
+              "id": "u4-s3-n14",
+              "number": 14,
+              "title": "Primary and secondary immune modulation"
+            },
+            {
+              "id": "u4-s3-n15",
+              "number": 15,
+              "title": "Complement system and Toll-like receptors"
+            },
+            {
+              "id": "u4-s3-n16",
+              "number": 16,
+              "title": "Cell-mediated effector functions and inflammation"
+            },
+            {
+              "id": "u4-s3-n17",
+              "number": 17,
+              "title": "Hypersensitivity and autoimmunity"
+            },
+            {
+              "id": "u4-s3-n18",
+              "number": 18,
+              "title": "Immune responses to bacterial, parasitic and viral infections"
+            },
+            {
+              "id": "u4-s3-n19",
+              "number": 19,
+              "title": "Congenital and acquired immunodeficiencies"
+            },
+            {
+              "id": "u4-s3-n20",
+              "number": 20,
+              "title": "Vaccines"
             }
           ]
         },
         {
           "id": "u4-s04",
           "number": 4,
-          "title": "Cell adhesion and intercellular communication",
+          "title": "Host–pathogen interaction",
+          "officialSection": "D",
           "nodes": [
             {
               "id": "u4-s4-n1",
               "number": 1,
-              "title": "Cadherins and adherens junctions"
+              "title": "Recognition and entry of pathogens into animal host cells"
             },
             {
               "id": "u4-s4-n2",
               "number": 2,
-              "title": "Integrins and focal adhesions"
+              "title": "Recognition and entry of pathogens into plant host cells"
             },
             {
               "id": "u4-s4-n3",
               "number": 3,
-              "title": "Selectins and immunoglobulin superfamily CAMs"
+              "title": "Pathogen-mediated alteration of host-cell behaviour"
             },
             {
               "id": "u4-s4-n4",
               "number": 4,
-              "title": "Tight junctions"
+              "title": "Virus-induced cell transformation"
             },
             {
               "id": "u4-s4-n5",
               "number": 5,
-              "title": "Gap junctions and connexins"
+              "title": "Pathogen-induced diseases in animals"
             },
             {
               "id": "u4-s4-n6",
               "number": 6,
-              "title": "Extracellular matrix components"
+              "title": "Pathogen-induced diseases in plants"
             },
             {
               "id": "u4-s4-n7",
               "number": 7,
-              "title": "Cell-matrix signaling"
-            },
-            {
-              "id": "u4-s4-n8",
-              "number": 8,
-              "title": "Neurotransmitter release and synaptic transmission"
+              "title": "Cell–cell fusion in normal and abnormal cells"
             }
           ]
         },
         {
           "id": "u4-s05",
           "number": 5,
-          "title": "Immunology and host-pathogen interactions",
+          "title": "Cancer",
+          "officialSection": "E",
           "nodes": [
             {
               "id": "u4-s5-n1",
               "number": 1,
-              "title": "Innate immune cells and pattern recognition receptors"
+              "title": "Genetic rearrangements in progenitor cells"
             },
             {
               "id": "u4-s5-n2",
               "number": 2,
-              "title": "Antigens, epitopes and immunogenicity"
+              "title": "Oncogenes"
             },
             {
               "id": "u4-s5-n3",
               "number": 3,
-              "title": "Antibody structure and classes"
+              "title": "Tumour-suppressor genes"
             },
             {
               "id": "u4-s5-n4",
               "number": 4,
-              "title": "V(D)J recombination and antibody diversity"
+              "title": "Cancer and the cell cycle"
             },
             {
               "id": "u4-s5-n5",
               "number": 5,
-              "title": "MHC class I and II antigen presentation"
+              "title": "Virus-induced cancer"
             },
             {
               "id": "u4-s5-n6",
               "number": 6,
-              "title": "T-cell and B-cell activation"
+              "title": "Metastasis"
             },
             {
               "id": "u4-s5-n7",
               "number": 7,
-              "title": "Complement and inflammatory pathways"
+              "title": "Interactions between cancer cells and normal cells"
             },
             {
               "id": "u4-s5-n8",
               "number": 8,
-              "title": "Vaccines, hypersensitivity and immunodeficiency"
-            }
-          ]
-        },
-        {
-          "id": "u4-s06",
-          "number": 6,
-          "title": "Cancer biology",
-          "nodes": [
-            {
-              "id": "u4-s6-n1",
-              "number": 1,
-              "title": "Proto-oncogenes and oncogenes"
-            },
-            {
-              "id": "u4-s6-n2",
-              "number": 2,
-              "title": "Tumor suppressor genes"
-            },
-            {
-              "id": "u4-s6-n3",
-              "number": 3,
-              "title": "Cell-cycle deregulation in cancer"
-            },
-            {
-              "id": "u4-s6-n4",
-              "number": 4,
-              "title": "Cancer-associated mutations and rearrangements"
-            },
-            {
-              "id": "u4-s6-n5",
-              "number": 5,
-              "title": "Viral oncogenesis"
-            },
-            {
-              "id": "u4-s6-n6",
-              "number": 6,
-              "title": "Tumor microenvironment"
-            },
-            {
-              "id": "u4-s6-n7",
-              "number": 7,
-              "title": "Invasion and metastasis"
-            },
-            {
-              "id": "u4-s6-n8",
-              "number": 8,
-              "title": "Cancer diagnosis and therapeutic strategies"
+              "title": "Therapeutic interventions for uncontrolled cell growth"
             }
           ]
         }
