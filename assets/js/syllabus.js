@@ -2483,329 +2483,281 @@ window.SYLLABUS = {
         {
           "id": "u9-s01",
           "number": 1,
-          "title": "Origin and evolution of life",
+          "title": "Evolution of life and life forms",
+          "officialSection": "A",
           "nodes": [
             {
               "id": "u9-s1-n1",
               "number": 1,
-              "title": "Prebiotic chemistry and origin-of-life hypotheses"
+              "title": "Origin of life and early evolution"
             },
             {
               "id": "u9-s1-n2",
               "number": 2,
-              "title": "RNA world hypothesis"
+              "title": "Evolution of cellular structures and functions"
             },
             {
               "id": "u9-s1-n3",
               "number": 3,
-              "title": "Origin of prokaryotic cells"
+              "title": "Evolution of multicellularity"
             },
             {
               "id": "u9-s1-n4",
               "number": 4,
-              "title": "Endosymbiotic theory"
+              "title": "Natural selection"
             },
             {
               "id": "u9-s1-n5",
               "number": 5,
-              "title": "Evolution of eukaryotic cell structures"
+              "title": "Genetic drift"
             },
             {
               "id": "u9-s1-n6",
               "number": 6,
-              "title": "Origin of multicellularity"
+              "title": "Gene flow and mutation"
             },
             {
               "id": "u9-s1-n7",
               "number": 7,
-              "title": "Major transitions in evolution"
+              "title": "Mechanisms of speciation"
             },
             {
               "id": "u9-s1-n8",
               "number": 8,
-              "title": "Human evolutionary history"
+              "title": "Extinction events and biodiversity"
+            },
+            {
+              "id": "u9-s1-n9",
+              "number": 9,
+              "title": "Adaptive radiation and convergent evolution"
+            },
+            {
+              "id": "u9-s1-n10",
+              "number": 10,
+              "title": "Coevolution and evolutionary arms races"
+            },
+            {
+              "id": "u9-s1-n11",
+              "number": 11,
+              "title": "Human evolution"
             }
           ]
         },
         {
           "id": "u9-s02",
           "number": 2,
-          "title": "Evolutionary mechanisms and speciation",
+          "title": "Principles and methods of taxonomy",
+          "officialSection": "B",
           "nodes": [
             {
               "id": "u9-s2-n1",
               "number": 1,
-              "title": "Natural selection and adaptation"
+              "title": "Species concepts and hierarchical taxa"
             },
             {
               "id": "u9-s2-n2",
               "number": 2,
-              "title": "Genetic drift and founder effect"
+              "title": "Biological nomenclature"
             },
             {
               "id": "u9-s2-n3",
               "number": 3,
-              "title": "Gene flow and migration"
+              "title": "Classical taxonomy of plants, animals and microorganisms"
             },
             {
               "id": "u9-s2-n4",
               "number": 4,
-              "title": "Mutation and standing variation"
-            },
-            {
-              "id": "u9-s2-n5",
-              "number": 5,
-              "title": "Sexual selection"
-            },
-            {
-              "id": "u9-s2-n6",
-              "number": 6,
-              "title": "Allopatric and sympatric speciation"
-            },
-            {
-              "id": "u9-s2-n7",
-              "number": 7,
-              "title": "Adaptive radiation"
-            },
-            {
-              "id": "u9-s2-n8",
-              "number": 8,
-              "title": "Extinction and mass extinction events"
+              "title": "Quantitative methods of taxonomy"
             }
           ]
         },
         {
           "id": "u9-s03",
           "number": 3,
-          "title": "Taxonomy and systematics",
+          "title": "Microbial life",
+          "officialSection": "C",
           "nodes": [
             {
               "id": "u9-s3-n1",
               "number": 1,
-              "title": "Species concepts"
+              "title": "Bacterial diversity and ecological roles"
             },
             {
               "id": "u9-s3-n2",
               "number": 2,
-              "title": "Taxonomic hierarchy"
+              "title": "Archaeal diversity and ecological roles"
             },
             {
               "id": "u9-s3-n3",
               "number": 3,
-              "title": "Binomial nomenclature and codes"
+              "title": "Virus structure"
             },
             {
               "id": "u9-s3-n4",
               "number": 4,
-              "title": "Classical morphological taxonomy"
+              "title": "Virus replication"
             },
             {
               "id": "u9-s3-n5",
               "number": 5,
-              "title": "Numerical taxonomy"
+              "title": "Impact of viruses on life"
             },
             {
               "id": "u9-s3-n6",
               "number": 6,
-              "title": "Cladistics and character analysis"
+              "title": "Economically important microbes"
             },
             {
               "id": "u9-s3-n7",
               "number": 7,
-              "title": "Molecular systematics"
-            },
-            {
-              "id": "u9-s3-n8",
-              "number": 8,
-              "title": "Phylogenetic tree interpretation"
+              "title": "Pathologically important microbes"
             }
           ]
         },
         {
           "id": "u9-s04",
           "number": 4,
-          "title": "Bacteria, Archaea and viruses",
+          "title": "Protists",
+          "officialSection": "D",
           "nodes": [
             {
               "id": "u9-s4-n1",
               "number": 1,
-              "title": "Bacterial diversity and cell plans"
+              "title": "Algae"
             },
             {
               "id": "u9-s4-n2",
               "number": 2,
-              "title": "Archaeal diversity and extremophiles"
+              "title": "Protozoa"
             },
             {
               "id": "u9-s4-n3",
               "number": 3,
-              "title": "Microbial ecological roles"
+              "title": "Slime molds"
             },
             {
               "id": "u9-s4-n4",
               "number": 4,
-              "title": "Virus structure and genome types"
+              "title": "Water molds"
             },
             {
               "id": "u9-s4-n5",
               "number": 5,
-              "title": "Viral replication strategies"
-            },
-            {
-              "id": "u9-s4-n6",
-              "number": 6,
-              "title": "Bacteriophages and lysogeny"
-            },
-            {
-              "id": "u9-s4-n7",
-              "number": 7,
-              "title": "Economically important microorganisms"
-            },
-            {
-              "id": "u9-s4-n8",
-              "number": 8,
-              "title": "Pathogenic microorganisms"
+              "title": "Ecological roles of protists"
             }
           ]
         },
         {
           "id": "u9-s05",
           "number": 5,
-          "title": "Protists and fungi",
+          "title": "Fungi",
+          "officialSection": "E",
           "nodes": [
             {
               "id": "u9-s5-n1",
               "number": 1,
-              "title": "Algal groups and life cycles"
+              "title": "Chytrids"
             },
             {
               "id": "u9-s5-n2",
               "number": 2,
-              "title": "Protozoan diversity"
+              "title": "Zygomycetes"
             },
             {
               "id": "u9-s5-n3",
               "number": 3,
-              "title": "Slime molds and water molds"
+              "title": "Glomeromycetes"
             },
             {
               "id": "u9-s5-n4",
               "number": 4,
-              "title": "Protist ecological roles"
+              "title": "Ascomycetes"
             },
             {
               "id": "u9-s5-n5",
               "number": 5,
-              "title": "Chytrids and zygomycetes"
+              "title": "Basidiomycetes"
             },
             {
               "id": "u9-s5-n6",
               "number": 6,
-              "title": "Glomeromycetes and mycorrhizae"
-            },
-            {
-              "id": "u9-s5-n7",
-              "number": 7,
-              "title": "Ascomycetes and basidiomycetes"
-            },
-            {
-              "id": "u9-s5-n8",
-              "number": 8,
-              "title": "Fungal plant and human pathogens"
+              "title": "Important fungal pathogens of plants and humans"
             }
           ]
         },
         {
           "id": "u9-s06",
           "number": 6,
-          "title": "Plant diversity and evolution",
+          "title": "Plant life",
+          "officialSection": "F",
           "nodes": [
             {
               "id": "u9-s6-n1",
               "number": 1,
-              "title": "Bryophyte characteristics and life cycles"
+              "title": "Evolution and diversity of land plants"
             },
             {
               "id": "u9-s6-n2",
               "number": 2,
-              "title": "Pteridophyte evolution"
+              "title": "Bryophytes"
             },
             {
               "id": "u9-s6-n3",
               "number": 3,
-              "title": "Gymnosperm diversity"
+              "title": "Ferns"
             },
             {
               "id": "u9-s6-n4",
               "number": 4,
-              "title": "Angiosperm origins and radiation"
+              "title": "Gymnosperms"
             },
             {
               "id": "u9-s6-n5",
               "number": 5,
-              "title": "Alternation of generations"
+              "title": "Angiosperms"
             },
             {
               "id": "u9-s6-n6",
               "number": 6,
-              "title": "Plant morphology and anatomy"
+              "title": "Plant morphology"
             },
             {
               "id": "u9-s6-n7",
               "number": 7,
-              "title": "Plant reproductive adaptations"
+              "title": "Plant anatomy"
             },
             {
               "id": "u9-s6-n8",
               "number": 8,
-              "title": "Land plant evolution"
+              "title": "Plant reproduction"
             }
           ]
         },
         {
           "id": "u9-s07",
           "number": 7,
-          "title": "Animal diversity and phylogeny",
+          "title": "Animal life",
+          "officialSection": "G",
           "nodes": [
             {
               "id": "u9-s7-n1",
               "number": 1,
-              "title": "Invertebrate body plans and symmetry"
+              "title": "Evolutionary relationships of invertebrates"
             },
             {
               "id": "u9-s7-n2",
               "number": 2,
-              "title": "Porifera and Cnidaria"
+              "title": "Key characteristics of invertebrates"
             },
             {
               "id": "u9-s7-n3",
               "number": 3,
-              "title": "Platyhelminthes, Nematoda and Annelida"
+              "title": "Evolutionary relationships of vertebrates"
             },
             {
               "id": "u9-s7-n4",
               "number": 4,
-              "title": "Mollusca and Arthropoda"
-            },
-            {
-              "id": "u9-s7-n5",
-              "number": 5,
-              "title": "Echinodermata and Hemichordata"
-            },
-            {
-              "id": "u9-s7-n6",
-              "number": 6,
-              "title": "Chordate characters and origins"
-            },
-            {
-              "id": "u9-s7-n7",
-              "number": 7,
-              "title": "Vertebrate classes and adaptations"
-            },
-            {
-              "id": "u9-s7-n8",
-              "number": 8,
-              "title": "Comparative animal phylogeny"
+              "title": "Key characteristics of vertebrates"
             }
           ]
         }
@@ -2820,47 +2772,28 @@ window.SYLLABUS = {
         {
           "id": "u10-s01",
           "number": 1,
-          "title": "Ecological foundations and adaptations",
+          "title": "Introduction to ecology",
+          "officialSection": "A",
           "nodes": [
             {
               "id": "u10-s1-n1",
               "number": 1,
-              "title": "Levels of ecological organization"
+              "title": "Levels of ecological organization: individual to biosphere"
             },
             {
               "id": "u10-s1-n2",
               "number": 2,
-              "title": "Abiotic environmental factors"
+              "title": "Abiotic ecological factors"
             },
             {
               "id": "u10-s1-n3",
               "number": 3,
-              "title": "Biotic interactions"
+              "title": "Biotic ecological factors"
             },
             {
               "id": "u10-s1-n4",
               "number": 4,
-              "title": "Ecological niche and habitat"
-            },
-            {
-              "id": "u10-s1-n5",
-              "number": 5,
-              "title": "Physiological and morphological adaptations"
-            },
-            {
-              "id": "u10-s1-n6",
-              "number": 6,
-              "title": "Limiting factors and tolerance ranges"
-            },
-            {
-              "id": "u10-s1-n7",
-              "number": 7,
-              "title": "Ecotypes and phenotypic plasticity"
-            },
-            {
-              "id": "u10-s1-n8",
-              "number": 8,
-              "title": "Biosphere and biome patterns"
+              "title": "Ecological adaptations"
             }
           ]
         },
@@ -2868,46 +2801,57 @@ window.SYLLABUS = {
           "id": "u10-s02",
           "number": 2,
           "title": "Population ecology",
+          "officialSection": "B",
           "nodes": [
             {
               "id": "u10-s2-n1",
               "number": 1,
-              "title": "Exponential and logistic growth models"
+              "title": "Exponential population growth"
             },
             {
               "id": "u10-s2-n2",
               "number": 2,
-              "title": "Intrinsic rate of increase"
+              "title": "Logistic population growth"
             },
             {
               "id": "u10-s2-n3",
               "number": 3,
-              "title": "Density-dependent regulation"
+              "title": "Density-dependent factors"
             },
             {
               "id": "u10-s2-n4",
               "number": 4,
-              "title": "Density-independent regulation"
+              "title": "Density-independent factors"
             },
             {
               "id": "u10-s2-n5",
               "number": 5,
-              "title": "Life tables and survivorship curves"
+              "title": "Life tables"
             },
             {
               "id": "u10-s2-n6",
               "number": 6,
-              "title": "Age structure and sex ratio"
+              "title": "Survivorship curves"
             },
             {
               "id": "u10-s2-n7",
               "number": 7,
-              "title": "r-selected and K-selected strategies"
+              "title": "Age structure and sex ratio"
             },
             {
               "id": "u10-s2-n8",
               "number": 8,
-              "title": "Metapopulation dynamics and connectivity"
+              "title": "Life-history strategies: r-selected and K-selected"
+            },
+            {
+              "id": "u10-s2-n9",
+              "number": 9,
+              "title": "Metapopulations"
+            },
+            {
+              "id": "u10-s2-n10",
+              "number": 10,
+              "title": "Habitat fragmentation, connectivity and extinction risk"
             }
           ]
         },
@@ -2915,31 +2859,32 @@ window.SYLLABUS = {
           "id": "u10-s03",
           "number": 3,
           "title": "Community ecology",
+          "officialSection": "C",
           "nodes": [
             {
               "id": "u10-s3-n1",
               "number": 1,
-              "title": "Community structure and diversity"
+              "title": "Community structure"
             },
             {
               "id": "u10-s3-n2",
               "number": 2,
-              "title": "Trophic levels and food webs"
+              "title": "Food webs and trophic levels"
             },
             {
               "id": "u10-s3-n3",
               "number": 3,
-              "title": "Keystone and foundation species"
+              "title": "Keystone species"
             },
             {
               "id": "u10-s3-n4",
               "number": 4,
-              "title": "Competition and niche partitioning"
+              "title": "Competition"
             },
             {
               "id": "u10-s3-n5",
               "number": 5,
-              "title": "Predation and herbivory"
+              "title": "Predation"
             },
             {
               "id": "u10-s3-n6",
@@ -2954,29 +2899,30 @@ window.SYLLABUS = {
             {
               "id": "u10-s3-n8",
               "number": 8,
-              "title": "Community stability and resilience"
+              "title": "Community stability"
             }
           ]
         },
         {
           "id": "u10-s04",
           "number": 4,
-          "title": "Ecosystem ecology and biogeochemical cycles",
+          "title": "Ecosystem ecology",
+          "officialSection": "D",
           "nodes": [
             {
               "id": "u10-s4-n1",
               "number": 1,
-              "title": "Primary productivity and decomposition"
+              "title": "Energy flow in ecosystems"
             },
             {
               "id": "u10-s4-n2",
               "number": 2,
-              "title": "Energy flow and ecological efficiencies"
+              "title": "Primary production"
             },
             {
               "id": "u10-s4-n3",
               "number": 3,
-              "title": "Ecological pyramids"
+              "title": "Trophic levels and energy pyramids"
             },
             {
               "id": "u10-s4-n4",
@@ -2991,7 +2937,7 @@ window.SYLLABUS = {
             {
               "id": "u10-s4-n6",
               "number": 6,
-              "title": "Phosphorus and sulfur cycles"
+              "title": "Phosphorus cycle"
             },
             {
               "id": "u10-s4-n7",
@@ -3001,14 +2947,15 @@ window.SYLLABUS = {
             {
               "id": "u10-s4-n8",
               "number": 8,
-              "title": "Ecosystem services"
+              "title": "Ecosystem services and human impacts"
             }
           ]
         },
         {
           "id": "u10-s05",
           "number": 5,
-          "title": "Anthropogenic impacts and global change",
+          "title": "Human impacts on ecosystems",
+          "officialSection": "E",
           "nodes": [
             {
               "id": "u10-s5-n1",
@@ -3018,59 +2965,40 @@ window.SYLLABUS = {
             {
               "id": "u10-s5-n2",
               "number": 2,
-              "title": "Climate change and ecological responses"
+              "title": "Climate change"
             },
             {
               "id": "u10-s5-n3",
               "number": 3,
-              "title": "Air, water and soil pollution"
+              "title": "Pollution"
             },
             {
               "id": "u10-s5-n4",
               "number": 4,
-              "title": "Eutrophication and biomagnification"
-            },
-            {
-              "id": "u10-s5-n5",
-              "number": 5,
-              "title": "Invasive alien species"
-            },
-            {
-              "id": "u10-s5-n6",
-              "number": 6,
-              "title": "Habitat fragmentation"
-            },
-            {
-              "id": "u10-s5-n7",
-              "number": 7,
-              "title": "Human-wildlife interactions"
-            },
-            {
-              "id": "u10-s5-n8",
-              "number": 8,
-              "title": "Ecosystem restoration"
+              "title": "Invasive species"
             }
           ]
         },
         {
           "id": "u10-s06",
           "number": 6,
-          "title": "Biodiversity and conservation biology",
+          "title": "Biodiversity and conservation",
+          "officialSection": "F",
           "nodes": [
             {
               "id": "u10-s6-n1",
               "number": 1,
-              "title": "Levels and patterns of biodiversity"
+              "title": "Biodiversity and its importance"
             },
             {
               "id": "u10-s6-n2",
               "number": 2,
-              "title": "Threat categories and IUCN Red List"
+              "title": "Threats to biodiversity"
             },
             {
               "id": "u10-s6-n3",
               "number": 3,
-              "title": "Threats and extinction risk"
+              "title": "IUCN categories of threat"
             },
             {
               "id": "u10-s6-n4",
@@ -3080,69 +3008,70 @@ window.SYLLABUS = {
             {
               "id": "u10-s6-n5",
               "number": 5,
-              "title": "Population viability analysis"
+              "title": "Population viability analysis (PVA)"
             },
             {
               "id": "u10-s6-n6",
               "number": 6,
-              "title": "In-situ conservation"
+              "title": "Ex-situ conservation"
             },
             {
               "id": "u10-s6-n7",
               "number": 7,
-              "title": "Ex-situ conservation and seed banks"
+              "title": "In-situ conservation"
             },
             {
               "id": "u10-s6-n8",
               "number": 8,
-              "title": "Community-based conservation and indigenous knowledge"
+              "title": "Community-based conservation"
+            },
+            {
+              "id": "u10-s6-n9",
+              "number": 9,
+              "title": "Indigenous knowledge in conservation"
+            },
+            {
+              "id": "u10-s6-n10",
+              "number": 10,
+              "title": "National and international conservation policies"
             }
           ]
         },
         {
           "id": "u10-s07",
           "number": 7,
-          "title": "Conservation policy and legislation",
+          "title": "Acts and policies",
+          "officialSection": "G",
           "nodes": [
             {
               "id": "u10-s7-n1",
               "number": 1,
-              "title": "Biological Diversity Act 2002"
+              "title": "Biological Diversity Act, 2002"
             },
             {
               "id": "u10-s7-n2",
               "number": 2,
-              "title": "National biodiversity governance"
+              "title": "Agricultural biodiversity"
             },
             {
               "id": "u10-s7-n3",
               "number": 3,
-              "title": "Convention on Biological Diversity"
+              "title": "International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA)"
             },
             {
               "id": "u10-s7-n4",
               "number": 4,
-              "title": "International Treaty on Plant Genetic Resources"
+              "title": "Seed gene-bank conservation strategies"
             },
             {
               "id": "u10-s7-n5",
               "number": 5,
-              "title": "Agricultural biodiversity"
+              "title": "Climate change and conservation of plant genetic resources"
             },
             {
               "id": "u10-s7-n6",
               "number": 6,
-              "title": "PPVFR framework"
-            },
-            {
-              "id": "u10-s7-n7",
-              "number": 7,
-              "title": "Plant genetic resource conservation"
-            },
-            {
-              "id": "u10-s7-n8",
-              "number": 8,
-              "title": "National and international conservation strategies"
+              "title": "Protection of Plant Varieties and Farmers' Rights (PPVFR) and biodiversity legislation"
             }
           ]
         },
@@ -3150,16 +3079,17 @@ window.SYLLABUS = {
           "id": "u10-s08",
           "number": 8,
           "title": "Behavioural ecology",
+          "officialSection": "H",
           "nodes": [
             {
               "id": "u10-s8-n1",
               "number": 1,
-              "title": "Proximate and ultimate explanations"
+              "title": "Proximate and ultimate causes of behaviour"
             },
             {
               "id": "u10-s8-n2",
               "number": 2,
-              "title": "Foraging theory and optimal foraging"
+              "title": "Foraging behaviour"
             },
             {
               "id": "u10-s8-n3",
@@ -3169,7 +3099,7 @@ window.SYLLABUS = {
             {
               "id": "u10-s8-n4",
               "number": 4,
-              "title": "Aggression and conflict"
+              "title": "Conflict and aggression"
             },
             {
               "id": "u10-s8-n5",
@@ -3179,7 +3109,7 @@ window.SYLLABUS = {
             {
               "id": "u10-s8-n6",
               "number": 6,
-              "title": "Social behaviour and cooperation"
+              "title": "Social behaviour"
             },
             {
               "id": "u10-s8-n7",
@@ -3189,7 +3119,7 @@ window.SYLLABUS = {
             {
               "id": "u10-s8-n8",
               "number": 8,
-              "title": "Parental investment and care"
+              "title": "Parental care"
             }
           ]
         }
@@ -3204,329 +3134,296 @@ window.SYLLABUS = {
         {
           "id": "u11-s01",
           "number": 1,
-          "title": "Biological databases and resources",
+          "title": "Major bioinformatic resources",
+          "officialSection": "A",
           "nodes": [
             {
               "id": "u11-s1-n1",
               "number": 1,
-              "title": "Primary nucleotide sequence databases"
+              "title": "Sequence databases"
             },
             {
               "id": "u11-s1-n2",
               "number": 2,
-              "title": "Protein sequence databases"
+              "title": "Gene-expression databases"
             },
             {
               "id": "u11-s1-n3",
               "number": 3,
-              "title": "Gene expression repositories"
+              "title": "Three-dimensional structure databases"
             },
             {
               "id": "u11-s1-n4",
               "number": 4,
-              "title": "Protein 3D structure databases"
-            },
-            {
-              "id": "u11-s1-n5",
-              "number": 5,
-              "title": "Motif and domain databases"
-            },
-            {
-              "id": "u11-s1-n6",
-              "number": 6,
-              "title": "Pathway and interaction databases"
-            },
-            {
-              "id": "u11-s1-n7",
-              "number": 7,
-              "title": "Database search strategies"
-            },
-            {
-              "id": "u11-s1-n8",
-              "number": 8,
-              "title": "Data formats and accession identifiers"
+              "title": "Pattern and sequence databases"
             }
           ]
         },
         {
           "id": "u11-s02",
           "number": 2,
-          "title": "Sequence alignment and similarity searching",
+          "title": "Basic concepts of sequence analysis",
+          "officialSection": "B",
           "nodes": [
             {
               "id": "u11-s2-n1",
               "number": 1,
-              "title": "Pairwise sequence alignment"
+              "title": "Biological database searches"
             },
             {
               "id": "u11-s2-n2",
               "number": 2,
-              "title": "Global and local alignment"
+              "title": "BLAST"
             },
             {
               "id": "u11-s2-n3",
               "number": 3,
-              "title": "BLAST algorithm and output"
+              "title": "FASTA"
             },
             {
               "id": "u11-s2-n4",
               "number": 4,
-              "title": "FASTA algorithm"
+              "title": "Sequence identity and similarity"
             },
             {
               "id": "u11-s2-n5",
               "number": 5,
-              "title": "Scoring matrices PAM and BLOSUM"
+              "title": "Homologues, orthologues and paralogues"
             },
             {
               "id": "u11-s2-n6",
               "number": 6,
-              "title": "Gap penalties and alignment statistics"
+              "title": "Repeat finding"
             },
             {
               "id": "u11-s2-n7",
               "number": 7,
-              "title": "Sequence identity, similarity and homology"
+              "title": "Scoring matrices"
             },
             {
               "id": "u11-s2-n8",
               "number": 8,
-              "title": "Orthologues, paralogues and homologues"
+              "title": "Pairwise sequence alignment"
+            },
+            {
+              "id": "u11-s2-n9",
+              "number": 9,
+              "title": "Multiple sequence alignment (MSA)"
+            },
+            {
+              "id": "u11-s2-n10",
+              "number": 10,
+              "title": "Applications in taxonomy and phylogeny"
+            },
+            {
+              "id": "u11-s2-n11",
+              "number": 11,
+              "title": "Comparative genomics"
             }
           ]
         },
         {
           "id": "u11-s03",
           "number": 3,
-          "title": "Multiple sequence analysis and phylogeny",
+          "title": "Gene annotation",
+          "officialSection": "C",
           "nodes": [
             {
               "id": "u11-s3-n1",
               "number": 1,
-              "title": "Multiple sequence alignment methods"
+              "title": "Gene-function prediction using homology"
             },
             {
               "id": "u11-s3-n2",
               "number": 2,
-              "title": "Conserved motifs and domains"
+              "title": "Gene-function prediction using genomic context"
             },
             {
               "id": "u11-s3-n3",
               "number": 3,
-              "title": "Repeat finding"
+              "title": "Structure- and network-based function prediction"
             },
             {
               "id": "u11-s3-n4",
               "number": 4,
-              "title": "Phylogenetic distance methods"
+              "title": "Genetic variation and polymorphism"
             },
             {
               "id": "u11-s3-n5",
               "number": 5,
-              "title": "Character-based phylogeny"
+              "title": "Deleterious mutations"
             },
             {
               "id": "u11-s3-n6",
               "number": 6,
-              "title": "Tree construction and bootstrap support"
-            },
-            {
-              "id": "u11-s3-n7",
-              "number": 7,
-              "title": "Molecular clock concepts"
-            },
-            {
-              "id": "u11-s3-n8",
-              "number": 8,
-              "title": "Comparative genomics applications"
+              "title": "Phylogenetics"
             }
           ]
         },
         {
           "id": "u11-s04",
           "number": 4,
-          "title": "Gene annotation and variation analysis",
+          "title": "Molecular modelling and dynamics",
+          "officialSection": "D",
           "nodes": [
             {
               "id": "u11-s4-n1",
               "number": 1,
-              "title": "Open reading frame identification"
+              "title": "Three-dimensional structure visualization"
             },
             {
               "id": "u11-s4-n2",
               "number": 2,
-              "title": "Gene prediction in prokaryotes"
+              "title": "Molecular simulation"
             },
             {
               "id": "u11-s4-n3",
               "number": 3,
-              "title": "Eukaryotic gene structure prediction"
+              "title": "Basic concepts of molecular modelling"
             },
             {
               "id": "u11-s4-n4",
               "number": 4,
-              "title": "Functional annotation by homology"
+              "title": "Molecular mechanics"
             },
             {
               "id": "u11-s4-n5",
               "number": 5,
-              "title": "Domain and motif-based annotation"
-            },
-            {
-              "id": "u11-s4-n6",
-              "number": 6,
-              "title": "Variant calling and polymorphism"
-            },
-            {
-              "id": "u11-s4-n7",
-              "number": 7,
-              "title": "Deleterious variant prediction"
-            },
-            {
-              "id": "u11-s4-n8",
-              "number": 8,
-              "title": "Gene ontology and pathway annotation"
+              "title": "Molecular force fields"
             }
           ]
         },
         {
           "id": "u11-s05",
           "number": 5,
-          "title": "Molecular modeling and dynamics",
+          "title": "Classification and comparison of protein 3D structures",
+          "officialSection": "E",
           "nodes": [
             {
               "id": "u11-s5-n1",
               "number": 1,
-              "title": "Molecular visualization tools"
+              "title": "Hierarchical organization of protein structure"
             },
             {
               "id": "u11-s5-n2",
               "number": 2,
-              "title": "Molecular mechanics principles"
+              "title": "Secondary-structure prediction"
             },
             {
               "id": "u11-s5-n3",
               "number": 3,
-              "title": "Force fields and energy minimization"
+              "title": "Tertiary-structure prediction"
             },
             {
               "id": "u11-s5-n4",
               "number": 4,
-              "title": "Molecular dynamics simulation"
+              "title": "Homology and comparative modelling"
             },
             {
               "id": "u11-s5-n5",
               "number": 5,
-              "title": "Solvent models and simulation conditions"
+              "title": "Fold recognition"
             },
             {
               "id": "u11-s5-n6",
               "number": 6,
-              "title": "Trajectory analysis"
+              "title": "Threading approaches"
             },
             {
               "id": "u11-s5-n7",
               "number": 7,
-              "title": "Protein-ligand interaction analysis"
+              "title": "Ab initio structure prediction"
             },
             {
               "id": "u11-s5-n8",
               "number": 8,
-              "title": "Molecular docking concepts"
+              "title": "AI-based structure prediction, including AlphaFold"
             }
           ]
         },
         {
           "id": "u11-s06",
           "number": 6,
-          "title": "Protein structure prediction and classification",
+          "title": "Drug design",
+          "officialSection": "F",
           "nodes": [
             {
               "id": "u11-s6-n1",
               "number": 1,
-              "title": "Protein structural hierarchy"
+              "title": "Chemical databases: NCI and PubChem"
             },
             {
               "id": "u11-s6-n2",
               "number": 2,
-              "title": "Secondary structure prediction"
+              "title": "Receptor–ligand interactions"
             },
             {
               "id": "u11-s6-n3",
               "number": 3,
-              "title": "Tertiary structure prediction"
+              "title": "Structure-based drug design"
             },
             {
               "id": "u11-s6-n4",
               "number": 4,
-              "title": "Homology and comparative modeling"
+              "title": "Ligand-based drug design"
             },
             {
               "id": "u11-s6-n5",
               "number": 5,
-              "title": "Threading and fold recognition"
+              "title": "Structure–activity relationships (SAR)"
             },
             {
               "id": "u11-s6-n6",
               "number": 6,
-              "title": "Ab initio structure prediction"
+              "title": "QSAR and pharmacophores"
             },
             {
               "id": "u11-s6-n7",
               "number": 7,
-              "title": "Protein structure classification"
+              "title": "In-silico prediction of drug activity"
             },
             {
               "id": "u11-s6-n8",
               "number": 8,
-              "title": "AI-based prediction including AlphaFold"
+              "title": "ADMET prediction"
             }
           ]
         },
         {
           "id": "u11-s07",
           "number": 7,
-          "title": "Computer-aided drug design and systems biology",
+          "title": "Systems biology",
+          "officialSection": "G",
           "nodes": [
             {
               "id": "u11-s7-n1",
               "number": 1,
-              "title": "PubChem and chemical databases"
+              "title": "Data-science applications in biology and health"
             },
             {
               "id": "u11-s7-n2",
               "number": 2,
-              "title": "Receptor-ligand interaction principles"
+              "title": "Data science in drug discovery"
             },
             {
               "id": "u11-s7-n3",
               "number": 3,
-              "title": "Structure-based drug design"
+              "title": "Mathematical modelling of metabolic pathways"
             },
             {
               "id": "u11-s7-n4",
               "number": 4,
-              "title": "Ligand-based drug design"
+              "title": "Mathematical modelling of disease"
             },
             {
               "id": "u11-s7-n5",
               "number": 5,
-              "title": "SAR and QSAR"
+              "title": "Digital health"
             },
             {
               "id": "u11-s7-n6",
               "number": 6,
-              "title": "Pharmacophore modeling"
-            },
-            {
-              "id": "u11-s7-n7",
-              "number": 7,
-              "title": "ADMET prediction"
-            },
-            {
-              "id": "u11-s7-n8",
-              "number": 8,
-              "title": "Biological network modeling and personalized medicine"
+              "title": "Personalized medicine"
             }
           ]
         }
@@ -3541,101 +3438,94 @@ window.SYLLABUS = {
         {
           "id": "u12-s01",
           "number": 1,
-          "title": "Mathematics for bioprocessing",
+          "title": "Introductory mathematics",
+          "officialSection": "A",
           "nodes": [
             {
               "id": "u12-s1-n1",
               "number": 1,
-              "title": "Differential and integral calculus"
+              "title": "Calculus review"
             },
             {
               "id": "u12-s1-n2",
               "number": 2,
-              "title": "First-order ordinary differential equations"
+              "title": "Ordinary differential equations"
             },
             {
               "id": "u12-s1-n3",
               "number": 3,
-              "title": "Higher-order differential equations"
+              "title": "Second- and higher-order differential equations"
             },
             {
               "id": "u12-s1-n4",
               "number": 4,
-              "title": "Linear algebra and matrices"
+              "title": "Linear algebra"
             },
             {
               "id": "u12-s1-n5",
               "number": 5,
-              "title": "Eigenvalues and eigenvectors"
-            },
-            {
-              "id": "u12-s1-n6",
-              "number": 6,
               "title": "Numerical methods"
-            },
-            {
-              "id": "u12-s1-n7",
-              "number": 7,
-              "title": "Curve fitting and numerical integration"
-            },
-            {
-              "id": "u12-s1-n8",
-              "number": 8,
-              "title": "Mathematical modeling of biological systems"
             }
           ]
         },
         {
           "id": "u12-s02",
           "number": 2,
-          "title": "Engineering balances and transport phenomena",
+          "title": "Engineering principles",
+          "officialSection": "B",
           "nodes": [
             {
               "id": "u12-s2-n1",
               "number": 1,
-              "title": "Units and dimensional analysis"
+              "title": "Material balance"
             },
             {
               "id": "u12-s2-n2",
               "number": 2,
-              "title": "Material balance and mass conservation"
+              "title": "Energy balance"
             },
             {
               "id": "u12-s2-n3",
               "number": 3,
-              "title": "Steady-state material balance"
+              "title": "Steady-state material and energy balances"
             },
             {
               "id": "u12-s2-n4",
               "number": 4,
-              "title": "Energy balance"
+              "title": "Properties of substances"
             },
             {
               "id": "u12-s2-n5",
               "number": 5,
-              "title": "Momentum transfer fundamentals"
+              "title": "Transport phenomena"
             },
             {
               "id": "u12-s2-n6",
               "number": 6,
-              "title": "Heat transfer mechanisms"
+              "title": "Momentum transfer"
             },
             {
               "id": "u12-s2-n7",
               "number": 7,
-              "title": "Mass transfer principles"
+              "title": "Heat transfer"
             },
             {
               "id": "u12-s2-n8",
               "number": 8,
-              "title": "Mass transfer equipment"
+              "title": "Mass transfer"
+            },
+            {
+              "id": "u12-s2-n9",
+              "number": 9,
+              "title": "Mass-transfer equipment"
             }
           ]
         },
         {
           "id": "u12-s03",
           "number": 3,
-          "title": "Thermodynamics of biological systems",
+          "title": "Thermodynamics in biological systems",
+          "officialSection": "C",
           "nodes": [
             {
               "id": "u12-s3-n1",
@@ -3645,17 +3535,17 @@ window.SYLLABUS = {
             {
               "id": "u12-s3-n2",
               "number": 2,
-              "title": "Second law and entropy"
+              "title": "Second law of thermodynamics"
             },
             {
               "id": "u12-s3-n3",
               "number": 3,
-              "title": "Biological systems as open systems"
+              "title": "Biological systems as open non-equilibrium systems"
             },
             {
               "id": "u12-s3-n4",
               "number": 4,
-              "title": "Non-equilibrium thermodynamics"
+              "title": "Limits of classical thermodynamics in biological processes"
             },
             {
               "id": "u12-s3-n5",
@@ -3675,242 +3565,252 @@ window.SYLLABUS = {
             {
               "id": "u12-s3-n8",
               "number": 8,
-              "title": "Thermodynamics of coupled reactions and glycolytic oscillations"
+              "title": "Thermodynamics of coupled biochemical reactions"
+            },
+            {
+              "id": "u12-s3-n9",
+              "number": 9,
+              "title": "Thermodynamic analysis of oxidative phosphorylation"
+            },
+            {
+              "id": "u12-s3-n10",
+              "number": 10,
+              "title": "Glycolytic oscillations and biological clocks"
             }
           ]
         },
         {
           "id": "u12-s04",
           "number": 4,
-          "title": "Bioprocess growth kinetics and reactors",
+          "title": "Bioprocess engineering and technology",
+          "officialSection": "D",
           "nodes": [
             {
               "id": "u12-s4-n1",
               "number": 1,
-              "title": "Microbial growth parameters"
+              "title": "Microbial growth principles and influencing factors"
             },
             {
               "id": "u12-s4-n2",
               "number": 2,
-              "title": "Monod equation and substrate utilization"
+              "title": "Growth kinetics in batch systems"
             },
             {
               "id": "u12-s4-n3",
               "number": 3,
-              "title": "Batch culture kinetics"
+              "title": "Fed-batch and continuous growth kinetics"
             },
             {
               "id": "u12-s4-n4",
               "number": 4,
-              "title": "Fed-batch cultivation"
+              "title": "Substrate utilization"
             },
             {
               "id": "u12-s4-n5",
               "number": 5,
-              "title": "Continuous culture and chemostat"
+              "title": "Batch, fed-batch, plug-flow and continuous bioreactors"
             },
             {
               "id": "u12-s4-n6",
               "number": 6,
-              "title": "Plug-flow and enzyme reactors"
+              "title": "Enzyme reactors"
             },
             {
               "id": "u12-s4-n7",
               "number": 7,
-              "title": "Bioreactor design principles"
+              "title": "Sterilization"
             },
             {
               "id": "u12-s4-n8",
               "number": 8,
-              "title": "Sterilization and contamination control"
+              "title": "Mass and energy balances in microbial processes"
+            },
+            {
+              "id": "u12-s4-n9",
+              "number": 9,
+              "title": "Dissolved oxygen and oxygen mass transfer"
+            },
+            {
+              "id": "u12-s4-n10",
+              "number": 10,
+              "title": "Aeration and agitation"
+            },
+            {
+              "id": "u12-s4-n11",
+              "number": 11,
+              "title": "Fluid rheology"
+            },
+            {
+              "id": "u12-s4-n12",
+              "number": 12,
+              "title": "Fermentation products: antibiotics, organic acids, alcohols, bioplastics, vitamins and enzymes"
+            },
+            {
+              "id": "u12-s4-n13",
+              "number": 13,
+              "title": "Steroid biotransformation"
+            },
+            {
+              "id": "u12-s4-n14",
+              "number": 14,
+              "title": "Process flow sheets and process economics"
             }
           ]
         },
         {
           "id": "u12-s05",
           "number": 5,
-          "title": "Fermentation and bioprocess operation",
+          "title": "Enzymes and microbial technology",
+          "officialSection": "E",
           "nodes": [
             {
               "id": "u12-s5-n1",
               "number": 1,
-              "title": "Dissolved oxygen and oxygen transfer"
+              "title": "Enzymes in organic solvents and ionic liquids"
             },
             {
               "id": "u12-s5-n2",
               "number": 2,
-              "title": "Aeration and agitation"
+              "title": "Biocatalysts and biocatalysis"
             },
             {
               "id": "u12-s5-n3",
               "number": 3,
-              "title": "Fluid rheology in fermentation"
+              "title": "Enzyme engineering"
             },
             {
               "id": "u12-s5-n4",
               "number": 4,
-              "title": "Scale of fermentation processes"
+              "title": "Random and rational protein-engineering approaches"
             },
             {
               "id": "u12-s5-n5",
               "number": 5,
-              "title": "Antibiotic and organic acid production"
+              "title": "Immobilization of enzymes and whole cells"
             },
             {
               "id": "u12-s5-n6",
               "number": 6,
-              "title": "Alcohol, vitamin and enzyme fermentation"
+              "title": "Design and operation of immobilized-enzyme reactors"
             },
             {
               "id": "u12-s5-n7",
               "number": 7,
-              "title": "Bioplastics and biotransformation"
+              "title": "Kinetics of immobilized-enzyme reactors"
             },
             {
               "id": "u12-s5-n8",
               "number": 8,
-              "title": "Process flow sheets and economics"
+              "title": "Diffusional resistance and Thiele modulus"
             }
           ]
         },
         {
           "id": "u12-s06",
           "number": 6,
-          "title": "Enzyme and whole-cell technology",
+          "title": "Downstream processing in biotechnology",
+          "officialSection": "F",
           "nodes": [
             {
               "id": "u12-s6-n1",
               "number": 1,
-              "title": "Enzymes in non-aqueous media"
+              "title": "Biomass removal"
             },
             {
               "id": "u12-s6-n2",
               "number": 2,
-              "title": "Ionic liquids and biocatalysis"
+              "title": "Cell and biomass disruption"
             },
             {
               "id": "u12-s6-n3",
               "number": 3,
-              "title": "Biocatalyst selection"
+              "title": "Precipitation using salts and solvents"
             },
             {
               "id": "u12-s6-n4",
               "number": 4,
-              "title": "Rational protein engineering"
+              "title": "Membrane-based purification"
             },
             {
               "id": "u12-s6-n5",
               "number": 5,
-              "title": "Directed evolution and random mutagenesis"
+              "title": "Adsorption"
             },
             {
               "id": "u12-s6-n6",
               "number": 6,
-              "title": "Enzyme immobilization methods"
+              "title": "Chromatography"
             },
             {
               "id": "u12-s6-n7",
               "number": 7,
-              "title": "Whole-cell immobilization"
+              "title": "Solvent extraction"
             },
             {
               "id": "u12-s6-n8",
               "number": 8,
-              "title": "Immobilized enzyme reactor kinetics and Thiele modulus"
+              "title": "Aqueous two-phase extraction"
+            },
+            {
+              "id": "u12-s6-n9",
+              "number": 9,
+              "title": "Supercritical extraction"
+            },
+            {
+              "id": "u12-s6-n10",
+              "number": 10,
+              "title": "Drying"
             }
           ]
         },
         {
           "id": "u12-s07",
           "number": 7,
-          "title": "Downstream processing",
+          "title": "Bioprocess plant design",
+          "officialSection": "G",
           "nodes": [
             {
               "id": "u12-s7-n1",
               "number": 1,
-              "title": "Cell harvesting and biomass removal"
+              "title": "General design information"
             },
             {
               "id": "u12-s7-n2",
               "number": 2,
-              "title": "Cell disruption methods"
+              "title": "Process flow sheets"
             },
             {
               "id": "u12-s7-n3",
               "number": 3,
-              "title": "Salt and solvent precipitation"
+              "title": "Scale-up and scale-down issues"
             },
             {
               "id": "u12-s7-n4",
               "number": 4,
-              "title": "Membrane filtration and separation"
+              "title": "Scale-up of downstream processes"
             },
             {
               "id": "u12-s7-n5",
               "number": 5,
-              "title": "Adsorption and chromatography"
-            },
-            {
-              "id": "u12-s7-n6",
-              "number": 6,
-              "title": "Solvent extraction"
-            },
-            {
-              "id": "u12-s7-n7",
-              "number": 7,
-              "title": "Aqueous two-phase extraction"
-            },
-            {
-              "id": "u12-s7-n8",
-              "number": 8,
-              "title": "Supercritical fluid extraction and drying"
+              "title": "Selection and specification of bioprocess equipment"
             }
           ]
         },
         {
           "id": "u12-s08",
           "number": 8,
-          "title": "Bioprocess plant design and synthetic biology",
+          "title": "Metabolic engineering and synthetic biology",
+          "officialSection": "H",
           "nodes": [
             {
               "id": "u12-s8-n1",
               "number": 1,
-              "title": "Process flow-sheet development"
+              "title": "Metabolic engineering"
             },
             {
               "id": "u12-s8-n2",
               "number": 2,
-              "title": "Equipment selection and specification"
-            },
-            {
-              "id": "u12-s8-n3",
-              "number": 3,
-              "title": "Scale-up and scale-down criteria"
-            },
-            {
-              "id": "u12-s8-n4",
-              "number": 4,
-              "title": "Scale-up of downstream operations"
-            },
-            {
-              "id": "u12-s8-n5",
-              "number": 5,
-              "title": "Plant layout and utilities"
-            },
-            {
-              "id": "u12-s8-n6",
-              "number": 6,
-              "title": "Metabolic pathway engineering"
-            },
-            {
-              "id": "u12-s8-n7",
-              "number": 7,
-              "title": "Synthetic biology design principles"
-            },
-            {
-              "id": "u12-s8-n8",
-              "number": 8,
-              "title": "Systems-level strain optimization"
+              "title": "Synthetic biology"
             }
           ]
         }
@@ -3925,329 +3825,388 @@ window.SYLLABUS = {
         {
           "id": "u13-s01",
           "number": 1,
-          "title": "Recombinant DNA and molecular cloning",
+          "title": "Recombinant DNA technology",
+          "officialSection": "A",
           "nodes": [
             {
               "id": "u13-s1-n1",
               "number": 1,
-              "title": "Restriction endonucleases and DNA ligases"
+              "title": "Molecular cloning"
             },
             {
               "id": "u13-s1-n2",
               "number": 2,
-              "title": "Cloning vectors and selectable markers"
+              "title": "Expression of recombinant proteins"
             },
             {
               "id": "u13-s1-n3",
               "number": 3,
-              "title": "Gene libraries and screening"
+              "title": "In-vitro mutagenesis"
             },
             {
               "id": "u13-s1-n4",
               "number": 4,
-              "title": "Molecular cloning workflows"
+              "title": "Deletion techniques"
             },
             {
               "id": "u13-s1-n5",
               "number": 5,
-              "title": "Recombinant protein expression systems"
+              "title": "Gene knockout in bacteria and eukaryotes"
             },
             {
               "id": "u13-s1-n6",
               "number": 6,
-              "title": "In-vitro mutagenesis and deletion"
+              "title": "Genome-editing techniques"
             },
             {
               "id": "u13-s1-n7",
               "number": 7,
-              "title": "Gene knockout in bacteria"
+              "title": "Protein-sequencing methods"
             },
             {
               "id": "u13-s1-n8",
               "number": 8,
-              "title": "Gene knockout in eukaryotes"
+              "title": "DNA-sequencing methods"
+            },
+            {
+              "id": "u13-s1-n9",
+              "number": 9,
+              "title": "Genome-sequencing strategies"
+            },
+            {
+              "id": "u13-s1-n10",
+              "number": 10,
+              "title": "Gene-expression analysis"
             }
           ]
         },
         {
           "id": "u13-s02",
           "number": 2,
-          "title": "Genome editing and sequencing technologies",
+          "title": "Medical biotechnology",
+          "officialSection": "B",
           "nodes": [
             {
               "id": "u13-s2-n1",
               "number": 1,
-              "title": "CRISPR-Cas systems"
+              "title": "Immunological applications in autoimmunity"
             },
             {
               "id": "u13-s2-n2",
               "number": 2,
-              "title": "TALEN and zinc-finger nucleases"
+              "title": "Transplantation immunology"
             },
             {
               "id": "u13-s2-n3",
               "number": 3,
-              "title": "Genome editing outcomes and validation"
+              "title": "Tumour immunology"
             },
             {
               "id": "u13-s2-n4",
               "number": 4,
-              "title": "Sanger DNA sequencing"
+              "title": "Stem-cell and cell-based therapies"
             },
             {
               "id": "u13-s2-n5",
               "number": 5,
-              "title": "Next-generation sequencing principles"
+              "title": "Live, killed, attenuated and subunit vaccines"
             },
             {
               "id": "u13-s2-n6",
               "number": 6,
-              "title": "Third-generation sequencing"
+              "title": "Recombinant nucleic-acid vaccines"
             },
             {
               "id": "u13-s2-n7",
               "number": 7,
-              "title": "Whole-genome sequencing strategies"
+              "title": "Diagnostics and adjuvants"
             },
             {
               "id": "u13-s2-n8",
               "number": 8,
-              "title": "Gene expression analysis platforms"
+              "title": "Immunotherapy and recombinant-DNA-based therapy"
+            },
+            {
+              "id": "u13-s2-n9",
+              "number": 9,
+              "title": "Antibody engineering"
+            },
+            {
+              "id": "u13-s2-n10",
+              "number": 10,
+              "title": "Phage-display libraries"
+            },
+            {
+              "id": "u13-s2-n11",
+              "number": 11,
+              "title": "Tissue engineering"
+            },
+            {
+              "id": "u13-s2-n12",
+              "number": 12,
+              "title": "Induced pluripotent stem cells (iPSCs)"
+            },
+            {
+              "id": "u13-s2-n13",
+              "number": 13,
+              "title": "Directed differentiation"
+            },
+            {
+              "id": "u13-s2-n14",
+              "number": 14,
+              "title": "Stem-cell applications in drug screening and disease biology"
+            },
+            {
+              "id": "u13-s2-n15",
+              "number": 15,
+              "title": "Organoids as self-organizing 3D models"
+            },
+            {
+              "id": "u13-s2-n16",
+              "number": 16,
+              "title": "Neurobiology: brain electrophysiology and behavioural tests"
+            },
+            {
+              "id": "u13-s2-n17",
+              "number": 17,
+              "title": "Medical devices, implants and biosensors"
             }
           ]
         },
         {
           "id": "u13-s03",
           "number": 3,
-          "title": "Medical biotechnology and immunotherapy",
+          "title": "Animal biotechnology",
+          "officialSection": "C",
           "nodes": [
             {
               "id": "u13-s3-n1",
               "number": 1,
-              "title": "Diagnostic immunology"
+              "title": "Transgenic animals"
             },
             {
               "id": "u13-s3-n2",
               "number": 2,
-              "title": "Transplantation immunology"
+              "title": "Animal breeding"
             },
             {
               "id": "u13-s3-n3",
               "number": 3,
-              "title": "Tumor immunology"
+              "title": "Germplasm conservation"
             },
             {
               "id": "u13-s3-n4",
               "number": 4,
-              "title": "Live, killed and attenuated vaccines"
+              "title": "Genetic health monitoring"
             },
             {
               "id": "u13-s3-n5",
               "number": 5,
-              "title": "Subunit and recombinant vaccines"
+              "title": "Molecular medicine and surgery"
             },
             {
               "id": "u13-s3-n6",
               "number": 6,
-              "title": "Nucleic-acid vaccines and adjuvants"
+              "title": "Molecular diagnosis of pathogens"
             },
             {
               "id": "u13-s3-n7",
               "number": 7,
-              "title": "Monoclonal antibodies and antibody engineering"
+              "title": "Cell cloning and selection"
             },
             {
               "id": "u13-s3-n8",
               "number": 8,
-              "title": "Cell therapy and immunotherapy"
+              "title": "Animal cell and tissue culture"
             }
           ]
         },
         {
           "id": "u13-s04",
           "number": 4,
-          "title": "Stem cells, organoids and tissue engineering",
+          "title": "Agricultural biotechnology",
+          "officialSection": "D",
           "nodes": [
             {
               "id": "u13-s4-n1",
               "number": 1,
-              "title": "Embryonic and adult stem cells"
+              "title": "Transgenic plants"
             },
             {
               "id": "u13-s4-n2",
               "number": 2,
-              "title": "Induced pluripotent stem cells"
+              "title": "Molecular diagnosis and strain identification"
             },
             {
               "id": "u13-s4-n3",
               "number": 3,
-              "title": "Directed differentiation"
+              "title": "Genomics in agriculture"
             },
             {
               "id": "u13-s4-n4",
               "number": 4,
-              "title": "Stem cells in drug screening"
+              "title": "Expressed sequence tags (ESTs)"
             },
             {
               "id": "u13-s4-n5",
               "number": 5,
-              "title": "Disease modeling with stem cells"
+              "title": "Molecular markers for plant genotyping and germplasm analysis"
             },
             {
               "id": "u13-s4-n6",
               "number": 6,
-              "title": "Organoid formation and applications"
+              "title": "Marker-assisted breeding"
             },
             {
               "id": "u13-s4-n7",
               "number": 7,
-              "title": "Tissue engineering scaffolds"
+              "title": "Foreground and background selection"
             },
             {
               "id": "u13-s4-n8",
               "number": 8,
-              "title": "Regenerative medicine concepts"
+              "title": "Gene introgression and pyramiding"
+            },
+            {
+              "id": "u13-s4-n9",
+              "number": 9,
+              "title": "Non-gel-based plant genotyping"
+            },
+            {
+              "id": "u13-s4-n10",
+              "number": 10,
+              "title": "Impact of genetically engineered crops on biodiversity"
+            },
+            {
+              "id": "u13-s4-n11",
+              "number": 11,
+              "title": "Plant tissue and cell culture"
+            },
+            {
+              "id": "u13-s4-n12",
+              "number": 12,
+              "title": "Plantibodies"
             }
           ]
         },
         {
           "id": "u13-s05",
           "number": 5,
-          "title": "Neurotechnology, devices and biosensors",
+          "title": "Marine biotechnology",
+          "officialSection": "E",
           "nodes": [
             {
               "id": "u13-s5-n1",
               "number": 1,
-              "title": "Electrophysiological brain studies"
+              "title": "Important marine organisms: biology and behaviour"
             },
             {
               "id": "u13-s5-n2",
               "number": 2,
-              "title": "Behavioural testing methods"
+              "title": "Marine-resource assessment"
             },
             {
               "id": "u13-s5-n3",
               "number": 3,
-              "title": "Medical devices and implants"
+              "title": "Population studies and marine-environment protection"
             },
             {
               "id": "u13-s5-n4",
               "number": 4,
-              "title": "Biosensor components and transduction"
+              "title": "Microbes in marine environments"
             },
             {
               "id": "u13-s5-n5",
               "number": 5,
-              "title": "Recognition elements in biosensors"
+              "title": "Microbial metabolites"
             },
             {
               "id": "u13-s5-n6",
               "number": 6,
-              "title": "Signal processing in biosensors"
+              "title": "Seafood microbiology"
             },
             {
               "id": "u13-s5-n7",
               "number": 7,
-              "title": "Diagnostic device applications"
+              "title": "Marine pharmacology"
             },
             {
               "id": "u13-s5-n8",
               "number": 8,
-              "title": "Neurotechnology applications"
+              "title": "Biofouling and corrosion"
+            },
+            {
+              "id": "u13-s5-n9",
+              "number": 9,
+              "title": "Biofilms"
+            },
+            {
+              "id": "u13-s5-n10",
+              "number": 10,
+              "title": "Oceanography"
             }
           ]
         },
         {
           "id": "u13-s06",
           "number": 6,
-          "title": "Animal and agricultural biotechnology",
+          "title": "Environmental biotechnology",
+          "officialSection": "F",
           "nodes": [
             {
               "id": "u13-s6-n1",
               "number": 1,
-              "title": "Transgenic animal production"
+              "title": "Wastewater-treatment systems"
             },
             {
               "id": "u13-s6-n2",
               "number": 2,
-              "title": "Animal breeding and genetic improvement"
+              "title": "Pollution control"
             },
             {
               "id": "u13-s6-n3",
               "number": 3,
-              "title": "Germplasm conservation"
+              "title": "Environment-friendly technologies"
             },
             {
               "id": "u13-s6-n4",
               "number": 4,
-              "title": "Genetic health monitoring"
+              "title": "Biosurfactants"
             },
             {
               "id": "u13-s6-n5",
               "number": 5,
-              "title": "Molecular diagnosis of pathogens"
+              "title": "Biofertilizers"
             },
             {
               "id": "u13-s6-n6",
               "number": 6,
-              "title": "Animal cell and tissue culture"
+              "title": "Biopesticides"
             },
             {
               "id": "u13-s6-n7",
               "number": 7,
-              "title": "Transgenic plants and trait engineering"
+              "title": "Microbially enhanced oil recovery"
             },
             {
               "id": "u13-s6-n8",
               "number": 8,
-              "title": "Marker-assisted selection and gene pyramiding"
-            }
-          ]
-        },
-        {
-          "id": "u13-s07",
-          "number": 7,
-          "title": "Marine and environmental biotechnology",
-          "nodes": [
-            {
-              "id": "u13-s7-n1",
-              "number": 1,
-              "title": "Marine microbial diversity and resources"
+              "title": "Integrated waste management"
             },
             {
-              "id": "u13-s7-n2",
-              "number": 2,
-              "title": "Marine natural products and pharmacology"
+              "id": "u13-s6-n9",
+              "number": 9,
+              "title": "Biogas and biofuel from waste"
             },
             {
-              "id": "u13-s7-n3",
-              "number": 3,
-              "title": "Seafood microbiology"
+              "id": "u13-s6-n10",
+              "number": 10,
+              "title": "Bioremediation"
             },
             {
-              "id": "u13-s7-n4",
-              "number": 4,
-              "title": "Biofouling and corrosion"
-            },
-            {
-              "id": "u13-s7-n5",
-              "number": 5,
-              "title": "Marine biofilms and oceanography"
-            },
-            {
-              "id": "u13-s7-n6",
-              "number": 6,
-              "title": "Wastewater treatment biotechnology"
-            },
-            {
-              "id": "u13-s7-n7",
-              "number": 7,
-              "title": "Bioremediation and phytoremediation"
-            },
-            {
-              "id": "u13-s7-n8",
-              "number": 8,
-              "title": "Biofertilizers, biopesticides, biosurfactants and biofuels"
+              "id": "u13-s6-n11",
+              "number": 11,
+              "title": "Phytoremediation"
             }
           ]
         }
@@ -4262,54 +4221,51 @@ window.SYLLABUS = {
         {
           "id": "u14-s01",
           "number": 1,
-          "title": "Isolation and separation of biomolecules",
+          "title": "Molecular biology techniques",
+          "officialSection": "A",
           "nodes": [
             {
               "id": "u14-s1-n1",
               "number": 1,
-              "title": "DNA and RNA isolation"
+              "title": "Isolation of DNA and RNA"
             },
             {
               "id": "u14-s1-n2",
               "number": 2,
-              "title": "Protein extraction and purification"
+              "title": "Isolation and analysis of proteins"
             },
             {
               "id": "u14-s1-n3",
               "number": 3,
-              "title": "Carbohydrate and lipid extraction"
+              "title": "Isolation and analysis of carbohydrates and lipids"
             },
             {
               "id": "u14-s1-n4",
               "number": 4,
-              "title": "Differential and density-gradient centrifugation"
+              "title": "Separation and analysis of biological macromolecules"
             },
             {
               "id": "u14-s1-n5",
               "number": 5,
-              "title": "Paper and thin-layer chromatography"
+              "title": "Chromatography"
             },
             {
               "id": "u14-s1-n6",
               "number": 6,
-              "title": "Ion-exchange chromatography"
+              "title": "Electrophoresis"
             },
             {
               "id": "u14-s1-n7",
               "number": 7,
-              "title": "Size-exclusion and affinity chromatography"
-            },
-            {
-              "id": "u14-s1-n8",
-              "number": 8,
-              "title": "SDS-PAGE and native PAGE"
+              "title": "Centrifugation"
             }
           ]
         },
         {
           "id": "u14-s02",
           "number": 2,
-          "title": "Spectroscopy and structural biophysics",
+          "title": "Biophysical methods",
+          "officialSection": "B",
           "nodes": [
             {
               "id": "u14-s2-n1",
@@ -4324,22 +4280,22 @@ window.SYLLABUS = {
             {
               "id": "u14-s2-n3",
               "number": 3,
-              "title": "Circular dichroism spectroscopy"
+              "title": "Circular dichroism"
             },
             {
               "id": "u14-s2-n4",
               "number": 4,
-              "title": "NMR spectroscopy"
+              "title": "Nuclear magnetic resonance (NMR)"
             },
             {
               "id": "u14-s2-n5",
               "number": 5,
-              "title": "Electron spin resonance"
+              "title": "Electron spin resonance (ESR)"
             },
             {
               "id": "u14-s2-n6",
               "number": 6,
-              "title": "X-ray crystallography"
+              "title": "X-ray diffraction for molecular structure"
             },
             {
               "id": "u14-s2-n7",
@@ -4349,123 +4305,141 @@ window.SYLLABUS = {
             {
               "id": "u14-s2-n8",
               "number": 8,
-              "title": "Light scattering and surface plasmon resonance"
+              "title": "Light-scattering methods"
+            },
+            {
+              "id": "u14-s2-n9",
+              "number": 9,
+              "title": "Mass spectrometry"
+            },
+            {
+              "id": "u14-s2-n10",
+              "number": 10,
+              "title": "Surface plasmon resonance"
             }
           ]
         },
         {
           "id": "u14-s03",
           "number": 3,
-          "title": "Omics and molecular profiling",
+          "title": "Genomics, transcriptomics, proteomics and metabolomics",
+          "officialSection": "C",
           "nodes": [
             {
               "id": "u14-s3-n1",
               "number": 1,
-              "title": "Prokaryotic and eukaryotic genome organization"
+              "title": "Prokaryotic genome organization"
             },
             {
               "id": "u14-s3-n2",
               "number": 2,
-              "title": "Comparative genomics"
+              "title": "Eukaryotic genome organization"
             },
             {
               "id": "u14-s3-n3",
               "number": 3,
-              "title": "Transcriptome profiling"
+              "title": "Comparative genomics"
             },
             {
               "id": "u14-s3-n4",
               "number": 4,
-              "title": "Differential gene expression analysis"
+              "title": "Global gene-expression analysis"
             },
             {
               "id": "u14-s3-n5",
               "number": 5,
-              "title": "Proteomics and protein interaction mapping"
+              "title": "Comparative transcriptomics"
             },
             {
               "id": "u14-s3-n6",
               "number": 6,
-              "title": "Targeted metabolomics"
+              "title": "Differential gene expression"
             },
             {
               "id": "u14-s3-n7",
               "number": 7,
-              "title": "Untargeted metabolomics"
+              "title": "Protein-interaction analysis and mapping"
             },
             {
               "id": "u14-s3-n8",
               "number": 8,
-              "title": "DNA fingerprinting and DNA barcoding"
+              "title": "Targeted metabolic profiling"
+            },
+            {
+              "id": "u14-s3-n9",
+              "number": 9,
+              "title": "Untargeted metabolic profiling"
+            },
+            {
+              "id": "u14-s3-n10",
+              "number": 10,
+              "title": "DNA fingerprinting and applications"
+            },
+            {
+              "id": "u14-s3-n11",
+              "number": 11,
+              "title": "DNA barcoding"
+            },
+            {
+              "id": "u14-s3-n12",
+              "number": 12,
+              "title": "Single-cell sequencing and single-cell omics"
             }
           ]
         },
         {
           "id": "u14-s04",
           "number": 4,
-          "title": "Radiolabeling and radioactive measurements",
+          "title": "Radiolabelling techniques",
+          "officialSection": "D",
           "nodes": [
             {
               "id": "u14-s4-n1",
               "number": 1,
-              "title": "Common biological radioisotopes"
+              "title": "Radioisotopes used in biology"
             },
             {
               "id": "u14-s4-n2",
               "number": 2,
-              "title": "Radioactive decay and half-life"
+              "title": "Detection and measurement of radioisotopes"
             },
             {
               "id": "u14-s4-n3",
               "number": 3,
-              "title": "Scintillation counting"
+              "title": "Incorporation of radioisotopes into tissues and cells"
             },
             {
               "id": "u14-s4-n4",
               "number": 4,
-              "title": "Autoradiography"
+              "title": "Molecular imaging of radioactive material"
             },
             {
               "id": "u14-s4-n5",
               "number": 5,
-              "title": "Tracer incorporation in cells and tissues"
-            },
-            {
-              "id": "u14-s4-n6",
-              "number": 6,
-              "title": "Radioactive molecular imaging"
-            },
-            {
-              "id": "u14-s4-n7",
-              "number": 7,
-              "title": "Detection and quantification principles"
-            },
-            {
-              "id": "u14-s4-n8",
-              "number": 8,
-              "title": "Radiation safety guidelines"
+              "title": "Radiation-safety guidelines"
             }
           ]
         },
         {
           "id": "u14-s05",
           "number": 5,
-          "title": "Immunological and histochemical techniques",
+          "title": "Histochemical and immunotechniques",
+          "officialSection": "E",
           "nodes": [
             {
               "id": "u14-s5-n1",
               "number": 1,
-              "title": "Antibody generation and purification"
+              "title": "Antibody generation"
             },
             {
               "id": "u14-s5-n2",
               "number": 2,
-              "title": "ELISA formats"
+              "title": "ELISA"
             },
             {
               "id": "u14-s5-n3",
               "number": 3,
-              "title": "Radioimmunoassay"
+              "title": "Radioimmunoassay (RIA)"
             },
             {
               "id": "u14-s5-n4",
@@ -4490,61 +4464,68 @@ window.SYLLABUS = {
             {
               "id": "u14-s5-n8",
               "number": 8,
-              "title": "FISH and GISH"
+              "title": "Detection of molecules in living cells"
+            },
+            {
+              "id": "u14-s5-n9",
+              "number": 9,
+              "title": "Fluorescence in-situ hybridization (FISH)"
+            },
+            {
+              "id": "u14-s5-n10",
+              "number": 10,
+              "title": "Genomic in-situ hybridization (GISH)"
             }
           ]
         },
         {
           "id": "u14-s06",
           "number": 6,
-          "title": "Microscopy and imaging",
+          "title": "Microscopic techniques",
+          "officialSection": "F",
           "nodes": [
             {
               "id": "u14-s6-n1",
               "number": 1,
-              "title": "Bright-field and phase-contrast microscopy"
+              "title": "Light microscopy"
             },
             {
               "id": "u14-s6-n2",
               "number": 2,
-              "title": "Fluorescence microscopy"
+              "title": "Advanced microscopic techniques"
             },
             {
               "id": "u14-s6-n3",
               "number": 3,
-              "title": "Confocal microscopy"
+              "title": "Resolving power of microscopes"
             },
             {
               "id": "u14-s6-n4",
               "number": 4,
-              "title": "Super-resolution microscopy"
+              "title": "Microscopy of living cells"
             },
             {
               "id": "u14-s6-n5",
               "number": 5,
-              "title": "Transmission electron microscopy"
+              "title": "Scanning electron microscopy (SEM)"
             },
             {
               "id": "u14-s6-n6",
               "number": 6,
-              "title": "Scanning electron microscopy"
+              "title": "Transmission electron microscopy (TEM)"
             },
             {
               "id": "u14-s6-n7",
               "number": 7,
-              "title": "Resolving power and numerical aperture"
-            },
-            {
-              "id": "u14-s6-n8",
-              "number": 8,
-              "title": "Live-cell imaging and sample preparation"
+              "title": "Sample preparation for microscopy"
             }
           ]
         },
         {
           "id": "u14-s07",
           "number": 7,
-          "title": "Electrophysiology and medical imaging",
+          "title": "Electrophysiological methods",
+          "officialSection": "G",
           "nodes": [
             {
               "id": "u14-s7-n1",
@@ -4554,17 +4535,17 @@ window.SYLLABUS = {
             {
               "id": "u14-s7-n2",
               "number": 2,
-              "title": "Patch-clamp techniques"
+              "title": "Patch-clamp recording"
             },
             {
               "id": "u14-s7-n3",
               "number": 3,
-              "title": "Electrocardiography"
+              "title": "Electrocardiography (ECG)"
             },
             {
               "id": "u14-s7-n4",
               "number": 4,
-              "title": "EEG and brain activity recording"
+              "title": "Brain-activity recording"
             },
             {
               "id": "u14-s7-n5",
@@ -4579,71 +4560,78 @@ window.SYLLABUS = {
             {
               "id": "u14-s7-n7",
               "number": 7,
-              "title": "PET imaging"
+              "title": "Positron emission tomography (PET)"
             },
             {
               "id": "u14-s7-n8",
               "number": 8,
-              "title": "MRI, fMRI and CT/CAT imaging"
+              "title": "Magnetic resonance imaging (MRI) and functional MRI (fMRI)"
+            },
+            {
+              "id": "u14-s7-n9",
+              "number": 9,
+              "title": "Computed axial tomography (CAT)"
             }
           ]
         },
         {
           "id": "u14-s08",
           "number": 8,
-          "title": "Field biology and ecological sampling",
+          "title": "Methods in field biology",
+          "officialSection": "H",
           "nodes": [
             {
               "id": "u14-s8-n1",
               "number": 1,
-              "title": "Quadrat and transect sampling"
+              "title": "Estimating animal population density"
             },
             {
               "id": "u14-s8-n2",
               "number": 2,
-              "title": "Mark-recapture population estimates"
+              "title": "Estimating plant population density"
             },
             {
               "id": "u14-s8-n3",
               "number": 3,
-              "title": "Distance sampling"
+              "title": "Direct observation methods"
             },
             {
               "id": "u14-s8-n4",
               "number": 4,
-              "title": "Direct and indirect animal observations"
+              "title": "Indirect observation methods"
             },
             {
               "id": "u14-s8-n5",
               "number": 5,
-              "title": "Remote sensing in habitat studies"
+              "title": "Remote observation methods"
             },
             {
               "id": "u14-s8-n6",
               "number": 6,
-              "title": "Habitat characterization"
+              "title": "Sampling animal behaviour"
             },
             {
               "id": "u14-s8-n7",
               "number": 7,
-              "title": "Behavioural sampling methods"
+              "title": "Habitat characterization"
             },
             {
               "id": "u14-s8-n8",
               "number": 8,
-              "title": "Population density estimation"
+              "title": "Ground-based and remote-sensing methods"
             }
           ]
         },
         {
           "id": "u14-s09",
           "number": 9,
-          "title": "Statistics and quantitative analysis",
+          "title": "Statistical methods",
+          "officialSection": "I",
           "nodes": [
             {
               "id": "u14-s9-n1",
               "number": 1,
-              "title": "Accuracy, precision and measurement error"
+              "title": "Precision and accuracy in experimental measurements"
             },
             {
               "id": "u14-s9-n2",
@@ -4653,79 +4641,125 @@ window.SYLLABUS = {
             {
               "id": "u14-s9-n3",
               "number": 3,
-              "title": "Mean, median, mode and dispersion"
+              "title": "Measures of central tendency and dispersion"
             },
             {
               "id": "u14-s9-n4",
               "number": 4,
-              "title": "Binomial, Poisson and normal distributions"
+              "title": "Binomial distribution"
             },
             {
               "id": "u14-s9-n5",
               "number": 5,
-              "title": "Sampling distributions and confidence intervals"
+              "title": "Poisson distribution"
             },
             {
               "id": "u14-s9-n6",
               "number": 6,
-              "title": "Parametric and non-parametric tests"
+              "title": "Normal distribution"
             },
             {
               "id": "u14-s9-n7",
               "number": 7,
-              "title": "t-test, chi-square and ANOVA"
+              "title": "Sampling distributions"
             },
             {
               "id": "u14-s9-n8",
               "number": 8,
-              "title": "Correlation, regression and multivariate statistics"
+              "title": "Parametric and non-parametric statistics"
+            },
+            {
+              "id": "u14-s9-n9",
+              "number": 9,
+              "title": "Confidence intervals"
+            },
+            {
+              "id": "u14-s9-n10",
+              "number": 10,
+              "title": "Errors and levels of significance"
+            },
+            {
+              "id": "u14-s9-n11",
+              "number": 11,
+              "title": "Regression and correlation"
+            },
+            {
+              "id": "u14-s9-n12",
+              "number": 12,
+              "title": "t-test"
+            },
+            {
+              "id": "u14-s9-n13",
+              "number": 13,
+              "title": "Analysis of variance (ANOVA)"
+            },
+            {
+              "id": "u14-s9-n14",
+              "number": 14,
+              "title": "Chi-square (χ²) test"
+            },
+            {
+              "id": "u14-s9-n15",
+              "number": 15,
+              "title": "Introduction to multivariate statistics"
             }
           ]
         },
         {
           "id": "u14-s10",
           "number": 10,
-          "title": "IPR, biosafety and research ethics",
+          "title": "IPR, biosafety and bioethics",
+          "officialSection": "J",
           "nodes": [
             {
               "id": "u14-s10-n1",
               "number": 1,
-              "title": "Types of intellectual property"
+              "title": "Intellectual property rights and types of IP"
             },
             {
               "id": "u14-s10-n2",
               "number": 2,
-              "title": "Patent search and patent databases"
+              "title": "Patent databases"
             },
             {
               "id": "u14-s10-n3",
               "number": 3,
-              "title": "Patentability and biological inventions"
+              "title": "Biological safety measures"
             },
             {
               "id": "u14-s10-n4",
               "number": 4,
-              "title": "Biosafety levels and containment"
+              "title": "Biosafety levels"
             },
             {
               "id": "u14-s10-n5",
               "number": 5,
-              "title": "Biological risk assessment"
+              "title": "Regulatory guidelines"
             },
             {
               "id": "u14-s10-n6",
               "number": 6,
-              "title": "Animal ethics and institutional committees"
+              "title": "Animal ethics"
             },
             {
               "id": "u14-s10-n7",
               "number": 7,
-              "title": "Research and publication ethics"
+              "title": "Research ethics"
             },
             {
               "id": "u14-s10-n8",
               "number": 8,
-              "title": "Plagiarism and responsible AI use"
+              "title": "Publication ethics"
+            },
+            {
+              "id": "u14-s10-n9",
+              "number": 9,
+              "title": "Plagiarism"
+            },
+            {
+              "id": "u14-s10-n10",
+              "number": 10,
+              "title": "Use of AI in research and publication"
             }
           ]
         }
