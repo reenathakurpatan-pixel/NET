@@ -1183,12 +1183,13 @@ window.SYLLABUS = {
         {
           "id": "u5-s01",
           "number": 1,
-          "title": "Principles of development",
+          "title": "Basic concepts of development",
+          "officialSection": "A",
           "nodes": [
             {
               "id": "u5-s1-n1",
               "number": 1,
-              "title": "Potency and cell fate"
+              "title": "Potency and commitment"
             },
             {
               "id": "u5-s1-n2",
@@ -1198,267 +1199,254 @@ window.SYLLABUS = {
             {
               "id": "u5-s1-n3",
               "number": 3,
-              "title": "Commitment and competence"
+              "title": "Induction and competence"
             },
             {
               "id": "u5-s1-n4",
               "number": 4,
-              "title": "Induction and signaling centers"
+              "title": "Cell differentiation"
             },
             {
               "id": "u5-s1-n5",
               "number": 5,
-              "title": "Morphogen gradients and positional information"
+              "title": "Morphogenetic gradients"
             },
             {
               "id": "u5-s1-n6",
               "number": 6,
-              "title": "Cell lineage and fate mapping"
+              "title": "Cell fate and cell lineages"
             },
             {
               "id": "u5-s1-n7",
               "number": 7,
-              "title": "Cytoplasmic determinants and genomic equivalence"
+              "title": "Stem cells"
             },
             {
               "id": "u5-s1-n8",
               "number": 8,
-              "title": "Stem cells, mutants and transgenic models"
+              "title": "Genomic equivalence and cytoplasmic determinants"
+            },
+            {
+              "id": "u5-s1-n9",
+              "number": 9,
+              "title": "Genomic imprinting"
+            },
+            {
+              "id": "u5-s1-n10",
+              "number": 10,
+              "title": "Mutants and transgenics in developmental analysis"
             }
           ]
         },
         {
           "id": "u5-s02",
           "number": 2,
-          "title": "Gametogenesis and fertilization",
+          "title": "Gametogenesis, fertilization and early development",
+          "officialSection": "B",
           "nodes": [
             {
               "id": "u5-s2-n1",
               "number": 1,
-              "title": "Spermatogenesis"
+              "title": "Production of gametes"
             },
             {
               "id": "u5-s2-n2",
               "number": 2,
-              "title": "Oogenesis"
+              "title": "Sperm–egg recognition in animals"
             },
             {
               "id": "u5-s2-n3",
               "number": 3,
-              "title": "Meiosis in gamete formation"
+              "title": "Zygote formation"
             },
             {
               "id": "u5-s2-n4",
               "number": 4,
-              "title": "Sperm-egg recognition molecules"
+              "title": "Cleavage"
             },
             {
               "id": "u5-s2-n5",
               "number": 5,
-              "title": "Acrosome reaction and egg activation"
+              "title": "Blastula formation"
             },
             {
               "id": "u5-s2-n6",
               "number": 6,
-              "title": "Prevention of polyspermy"
+              "title": "Embryonic fields"
             },
             {
               "id": "u5-s2-n7",
               "number": 7,
-              "title": "Zygote formation"
+              "title": "Gastrulation and germ-layer formation in animals"
             },
             {
               "id": "u5-s2-n8",
               "number": 8,
-              "title": "Maternal and paternal contributions"
+              "title": "Male gametophyte development in plants"
+            },
+            {
+              "id": "u5-s2-n9",
+              "number": 9,
+              "title": "Embryo-sac development"
+            },
+            {
+              "id": "u5-s2-n10",
+              "number": 10,
+              "title": "Double fertilization in plants"
+            },
+            {
+              "id": "u5-s2-n11",
+              "number": 11,
+              "title": "Plant embryogenesis and symmetry"
+            },
+            {
+              "id": "u5-s2-n12",
+              "number": 12,
+              "title": "Seed formation and embryo/endosperm development"
+            },
+            {
+              "id": "u5-s2-n13",
+              "number": 13,
+              "title": "Seed germination"
             }
           ]
         },
         {
           "id": "u5-s03",
           "number": 3,
-          "title": "Early embryonic development",
+          "title": "Morphogenesis and organogenesis in animals",
+          "officialSection": "C",
           "nodes": [
             {
               "id": "u5-s3-n1",
               "number": 1,
-              "title": "Cleavage patterns"
+              "title": "Cell aggregation and differentiation in Dictyostelium"
             },
             {
               "id": "u5-s3-n2",
               "number": 2,
-              "title": "Blastulation and blastula types"
+              "title": "Axes and pattern formation in Drosophila"
             },
             {
               "id": "u5-s3-n3",
               "number": 3,
-              "title": "Embryonic axes and fields"
+              "title": "Axes and pattern formation in amphibians and chick"
             },
             {
               "id": "u5-s3-n4",
               "number": 4,
-              "title": "Gastrulation movements"
+              "title": "Vulva formation in Caenorhabditis elegans"
             },
             {
               "id": "u5-s3-n5",
               "number": 5,
-              "title": "Germ layer formation"
+              "title": "Eye-lens induction"
             },
             {
               "id": "u5-s3-n6",
               "number": 6,
-              "title": "Neurulation"
+              "title": "Vertebrate limb development and regeneration"
             },
             {
               "id": "u5-s3-n7",
               "number": 7,
-              "title": "Extraembryonic membranes"
+              "title": "Neuron differentiation"
             },
             {
               "id": "u5-s3-n8",
               "number": 8,
-              "title": "Early vertebrate embryonic patterning"
+              "title": "Larval and post-embryonic development"
+            },
+            {
+              "id": "u5-s3-n9",
+              "number": 9,
+              "title": "Metamorphosis"
+            },
+            {
+              "id": "u5-s3-n10",
+              "number": 10,
+              "title": "Environmental regulation of normal development"
+            },
+            {
+              "id": "u5-s3-n11",
+              "number": 11,
+              "title": "Sex determination"
             }
           ]
         },
         {
           "id": "u5-s04",
           "number": 4,
-          "title": "Plant reproduction and embryogenesis",
+          "title": "Morphogenesis and organogenesis in plants",
+          "officialSection": "D",
           "nodes": [
             {
               "id": "u5-s4-n1",
               "number": 1,
-              "title": "Microsporogenesis and pollen development"
+              "title": "Shoot and root apical meristems"
             },
             {
               "id": "u5-s4-n2",
               "number": 2,
-              "title": "Male gametophyte maturation"
+              "title": "Shoot development"
             },
             {
               "id": "u5-s4-n3",
               "number": 3,
-              "title": "Megasporogenesis and embryo sac formation"
+              "title": "Root development"
             },
             {
               "id": "u5-s4-n4",
               "number": 4,
-              "title": "Pollination and pollen tube guidance"
+              "title": "Leaf development"
             },
             {
               "id": "u5-s4-n5",
               "number": 5,
-              "title": "Double fertilization"
+              "title": "Phyllotaxy"
             },
             {
               "id": "u5-s4-n6",
               "number": 6,
-              "title": "Endosperm development"
+              "title": "Transition to flowering"
             },
             {
               "id": "u5-s4-n7",
               "number": 7,
-              "title": "Plant embryo patterning and symmetry"
+              "title": "Floral meristems"
             },
             {
               "id": "u5-s4-n8",
               "number": 8,
-              "title": "Seed maturation and germination"
+              "title": "Floral organogenesis and development"
             }
           ]
         },
         {
           "id": "u5-s05",
           "number": 5,
-          "title": "Animal morphogenesis and organogenesis",
+          "title": "Programmed cell death, aging and senescence",
+          "officialSection": "E",
           "nodes": [
             {
               "id": "u5-s5-n1",
               "number": 1,
-              "title": "Drosophila segmentation and homeotic genes"
+              "title": "Programmed cell death in animals"
             },
             {
               "id": "u5-s5-n2",
               "number": 2,
-              "title": "Amphibian axis formation"
+              "title": "Programmed cell death in plants"
             },
             {
               "id": "u5-s5-n3",
               "number": 3,
-              "title": "Chick limb bud development"
+              "title": "Aging in animals and plants"
             },
             {
               "id": "u5-s5-n4",
               "number": 4,
-              "title": "C. elegans vulva development"
-            },
-            {
-              "id": "u5-s5-n5",
-              "number": 5,
-              "title": "Eye lens induction"
-            },
-            {
-              "id": "u5-s5-n6",
-              "number": 6,
-              "title": "Vertebrate limb patterning and regeneration"
-            },
-            {
-              "id": "u5-s5-n7",
-              "number": 7,
-              "title": "Neural differentiation"
-            },
-            {
-              "id": "u5-s5-n8",
-              "number": 8,
-              "title": "Metamorphosis and sex determination"
-            }
-          ]
-        },
-        {
-          "id": "u5-s06",
-          "number": 6,
-          "title": "Plant morphogenesis and aging",
-          "nodes": [
-            {
-              "id": "u5-s6-n1",
-              "number": 1,
-              "title": "Shoot apical meristem organization"
-            },
-            {
-              "id": "u5-s6-n2",
-              "number": 2,
-              "title": "Root apical meristem organization"
-            },
-            {
-              "id": "u5-s6-n3",
-              "number": 3,
-              "title": "Leaf initiation and phyllotaxy"
-            },
-            {
-              "id": "u5-s6-n4",
-              "number": 4,
-              "title": "Vascular tissue differentiation"
-            },
-            {
-              "id": "u5-s6-n5",
-              "number": 5,
-              "title": "Floral transition and floral meristems"
-            },
-            {
-              "id": "u5-s6-n6",
-              "number": 6,
-              "title": "Flower organ identity genes"
-            },
-            {
-              "id": "u5-s6-n7",
-              "number": 7,
-              "title": "Programmed cell death in plants and animals"
-            },
-            {
-              "id": "u5-s6-n8",
-              "number": 8,
-              "title": "Senescence and aging mechanisms"
+              "title": "Senescence in animals and plants"
             }
           ]
         }
@@ -1473,376 +1461,284 @@ window.SYLLABUS = {
         {
           "id": "u6-s01",
           "number": 1,
-          "title": "Photosynthesis and light harvesting",
+          "title": "Photosynthesis",
+          "officialSection": "A",
           "nodes": [
             {
               "id": "u6-s1-n1",
               "number": 1,
-              "title": "Chloroplast ultrastructure"
+              "title": "Light-harvesting complexes"
             },
             {
               "id": "u6-s1-n2",
               "number": 2,
-              "title": "Photosystems I and II"
+              "title": "Photosynthetic electron transport"
             },
             {
               "id": "u6-s1-n3",
               "number": 3,
-              "title": "Light-harvesting complexes"
+              "title": "Photoprotective mechanisms"
             },
             {
               "id": "u6-s1-n4",
               "number": 4,
-              "title": "Photolysis of water and oxygen evolution"
+              "title": "CO₂ fixation: C3 pathway"
             },
             {
               "id": "u6-s1-n5",
               "number": 5,
-              "title": "Linear and cyclic electron flow"
+              "title": "CO₂ fixation: C4 pathway"
             },
             {
               "id": "u6-s1-n6",
               "number": 6,
-              "title": "Photophosphorylation"
-            },
-            {
-              "id": "u6-s1-n7",
-              "number": 7,
-              "title": "Photoprotection and non-photochemical quenching"
-            },
-            {
-              "id": "u6-s1-n8",
-              "number": 8,
-              "title": "Chlorophyll fluorescence"
+              "title": "CO₂ fixation: CAM pathway"
             }
           ]
         },
         {
           "id": "u6-s02",
           "number": 2,
-          "title": "Carbon fixation pathways",
+          "title": "Respiration and photorespiration",
+          "officialSection": "B",
           "nodes": [
             {
               "id": "u6-s2-n1",
               "number": 1,
-              "title": "Calvin-Benson cycle"
+              "title": "Citric acid cycle"
             },
             {
               "id": "u6-s2-n2",
               "number": 2,
-              "title": "Rubisco carboxylase and oxygenase activities"
+              "title": "Plant mitochondrial electron transport"
             },
             {
               "id": "u6-s2-n3",
               "number": 3,
-              "title": "Photorespiration overview"
+              "title": "ATP synthesis in plant mitochondria"
             },
             {
               "id": "u6-s2-n4",
               "number": 4,
-              "title": "C4 pathway and Kranz anatomy"
+              "title": "Alternative oxidase pathway"
             },
             {
               "id": "u6-s2-n5",
               "number": 5,
-              "title": "CAM pathway and temporal separation"
-            },
-            {
-              "id": "u6-s2-n6",
-              "number": 6,
-              "title": "C3-C4-CAM comparison"
-            },
-            {
-              "id": "u6-s2-n7",
-              "number": 7,
-              "title": "Environmental regulation of carbon fixation"
-            },
-            {
-              "id": "u6-s2-n8",
-              "number": 8,
-              "title": "Source-sink relations"
+              "title": "Photorespiratory pathway"
             }
           ]
         },
         {
           "id": "u6-s03",
           "number": 3,
-          "title": "Plant respiration and energy metabolism",
+          "title": "Nitrogen metabolism",
+          "officialSection": "C",
           "nodes": [
             {
               "id": "u6-s3-n1",
               "number": 1,
-              "title": "Glycolysis in plants"
+              "title": "Nitrate assimilation"
             },
             {
               "id": "u6-s3-n2",
               "number": 2,
-              "title": "Pyruvate dehydrogenase complex"
+              "title": "Ammonium assimilation"
             },
             {
               "id": "u6-s3-n3",
               "number": 3,
-              "title": "TCA cycle in plant mitochondria"
+              "title": "Amino-acid biosynthesis"
             },
             {
               "id": "u6-s3-n4",
               "number": 4,
-              "title": "Mitochondrial electron transport"
-            },
-            {
-              "id": "u6-s3-n5",
-              "number": 5,
-              "title": "Alternative oxidase pathway"
-            },
-            {
-              "id": "u6-s3-n6",
-              "number": 6,
-              "title": "ATP synthesis and respiratory control"
-            },
-            {
-              "id": "u6-s3-n7",
-              "number": 7,
-              "title": "Photorespiratory carbon recovery"
-            },
-            {
-              "id": "u6-s3-n8",
-              "number": 8,
-              "title": "Respiratory quotient"
+              "title": "Biological nitrogen fixation"
             }
           ]
         },
         {
           "id": "u6-s04",
           "number": 4,
-          "title": "Nitrogen and mineral metabolism",
+          "title": "Plant hormones",
+          "officialSection": "D",
           "nodes": [
             {
               "id": "u6-s4-n1",
               "number": 1,
-              "title": "Nitrate uptake and transport"
+              "title": "Plant hormone biosynthesis"
             },
             {
               "id": "u6-s4-n2",
               "number": 2,
-              "title": "Nitrate reductase and nitrite reductase"
+              "title": "Hormone storage and breakdown"
             },
             {
               "id": "u6-s4-n3",
               "number": 3,
-              "title": "Ammonium assimilation via GS-GOGAT"
+              "title": "Hormone transport"
             },
             {
               "id": "u6-s4-n4",
               "number": 4,
-              "title": "Amino acid biosynthesis"
+              "title": "Physiological effects of plant hormones"
             },
             {
               "id": "u6-s4-n5",
               "number": 5,
-              "title": "Biological nitrogen fixation"
-            },
-            {
-              "id": "u6-s4-n6",
-              "number": 6,
-              "title": "Nodulation and leghemoglobin"
-            },
-            {
-              "id": "u6-s4-n7",
-              "number": 7,
-              "title": "Essential mineral elements"
-            },
-            {
-              "id": "u6-s4-n8",
-              "number": 8,
-              "title": "Nutrient deficiency symptoms"
+              "title": "Mechanisms of hormone action"
             }
           ]
         },
         {
           "id": "u6-s05",
           "number": 5,
-          "title": "Plant hormones and growth regulators",
+          "title": "Sensory photobiology",
+          "officialSection": "E",
           "nodes": [
             {
               "id": "u6-s5-n1",
               "number": 1,
-              "title": "Auxin biosynthesis and polar transport"
+              "title": "Light perception in plants"
             },
             {
               "id": "u6-s5-n2",
               "number": 2,
-              "title": "Gibberellin biosynthesis and signaling"
+              "title": "Phytochromes: structure and function"
             },
             {
               "id": "u6-s5-n3",
               "number": 3,
-              "title": "Cytokinin signaling and cell division"
+              "title": "Cryptochromes: structure and function"
             },
             {
               "id": "u6-s5-n4",
               "number": 4,
-              "title": "Abscisic acid and stomatal regulation"
+              "title": "Phototropins: structure and function"
             },
             {
               "id": "u6-s5-n5",
               "number": 5,
-              "title": "Ethylene biosynthesis and responses"
+              "title": "Stomatal movement"
             },
             {
               "id": "u6-s5-n6",
               "number": 6,
-              "title": "Brassinosteroids"
+              "title": "Photoperiodism"
             },
             {
               "id": "u6-s5-n7",
               "number": 7,
-              "title": "Jasmonates and salicylic acid"
-            },
-            {
-              "id": "u6-s5-n8",
-              "number": 8,
-              "title": "Hormonal crosstalk"
+              "title": "Biological clock"
             }
           ]
         },
         {
           "id": "u6-s06",
           "number": 6,
-          "title": "Photobiology and biological rhythms",
+          "title": "Solute transport and photoassimilate translocation",
+          "officialSection": "F",
           "nodes": [
             {
               "id": "u6-s6-n1",
               "number": 1,
-              "title": "Phytochrome Pr and Pfr states"
+              "title": "Water uptake and transport"
             },
             {
               "id": "u6-s6-n2",
               "number": 2,
-              "title": "Cryptochrome photoreceptors"
+              "title": "Ion and solute uptake"
             },
             {
               "id": "u6-s6-n3",
               "number": 3,
-              "title": "Phototropin-mediated responses"
+              "title": "Transport through plant cells and across membranes"
             },
             {
               "id": "u6-s6-n4",
               "number": 4,
-              "title": "Photomorphogenesis and de-etiolation"
+              "title": "Xylem transport"
             },
             {
               "id": "u6-s6-n5",
               "number": 5,
-              "title": "Photoperiodism and flowering"
+              "title": "Phloem transport"
             },
             {
               "id": "u6-s6-n6",
               "number": 6,
-              "title": "Circadian clock components"
+              "title": "Transpiration"
             },
             {
               "id": "u6-s6-n7",
               "number": 7,
-              "title": "Stomatal light responses"
-            },
-            {
-              "id": "u6-s6-n8",
-              "number": 8,
-              "title": "Biological clock entrainment"
+              "title": "Loading and unloading of photoassimilates"
             }
           ]
         },
         {
           "id": "u6-s07",
           "number": 7,
-          "title": "Water and solute transport",
+          "title": "Secondary metabolites",
+          "officialSection": "G",
           "nodes": [
             {
               "id": "u6-s7-n1",
               "number": 1,
-              "title": "Water potential components"
+              "title": "Terpene biosynthesis and roles"
             },
             {
               "id": "u6-s7-n2",
               "number": 2,
-              "title": "Root water uptake pathways"
+              "title": "Phenolic compound biosynthesis and roles"
             },
             {
               "id": "u6-s7-n3",
               "number": 3,
-              "title": "Aquaporins"
+              "title": "Alkaloid biosynthesis and roles"
             },
             {
               "id": "u6-s7-n4",
               "number": 4,
-              "title": "Xylem ascent and cohesion-tension theory"
+              "title": "Phenylpropanoid biosynthesis and roles"
             },
             {
               "id": "u6-s7-n5",
               "number": 5,
-              "title": "Transpiration and stomatal control"
+              "title": "Nitrogenous secondary compounds"
             },
             {
               "id": "u6-s7-n6",
               "number": 6,
-              "title": "Phloem pressure-flow hypothesis"
-            },
-            {
-              "id": "u6-s7-n7",
-              "number": 7,
-              "title": "Phloem loading and unloading"
-            },
-            {
-              "id": "u6-s7-n8",
-              "number": 8,
-              "title": "Mineral ion transporters"
+              "title": "Metabolic engineering of plant secondary metabolites"
             }
           ]
         },
         {
           "id": "u6-s08",
           "number": 8,
-          "title": "Secondary metabolites and plant stress",
+          "title": "Stress physiology",
+          "officialSection": "H",
           "nodes": [
             {
               "id": "u6-s8-n1",
               "number": 1,
-              "title": "Terpenoid biosynthesis"
+              "title": "Plant responses to biotic stress"
             },
             {
               "id": "u6-s8-n2",
               "number": 2,
-              "title": "Phenylpropanoid and phenolic pathways"
+              "title": "Plant responses to abiotic stress"
             },
             {
               "id": "u6-s8-n3",
               "number": 3,
-              "title": "Alkaloid biosynthesis"
+              "title": "Physiological and molecular stress responses"
             },
             {
               "id": "u6-s8-n4",
               "number": 4,
-              "title": "Plant defense metabolites"
-            },
-            {
-              "id": "u6-s8-n5",
-              "number": 5,
-              "title": "Metabolic engineering of plant products"
-            },
-            {
-              "id": "u6-s8-n6",
-              "number": 6,
-              "title": "Abiotic stress signaling"
-            },
-            {
-              "id": "u6-s8-n7",
-              "number": 7,
-              "title": "Biotic stress and plant innate immunity"
-            },
-            {
-              "id": "u6-s8-n8",
-              "number": 8,
-              "title": "Systemic acquired resistance"
+              "title": "Innate immunity in plants"
             }
           ]
         }
@@ -1857,517 +1753,441 @@ window.SYLLABUS = {
         {
           "id": "u7-s01",
           "number": 1,
-          "title": "Blood and hematopoiesis",
+          "title": "Blood and circulation",
+          "officialSection": "A",
           "nodes": [
             {
               "id": "u7-s1-n1",
               "number": 1,
-              "title": "Plasma composition and functions"
+              "title": "Blood corpuscles and formed elements"
             },
             {
               "id": "u7-s1-n2",
               "number": 2,
-              "title": "Erythrocytes and hemoglobin"
+              "title": "Haemopoiesis"
             },
             {
               "id": "u7-s1-n3",
               "number": 3,
-              "title": "Leukocyte types and functions"
+              "title": "Functions of plasma"
             },
             {
               "id": "u7-s1-n4",
               "number": 4,
-              "title": "Platelets and thrombopoiesis"
+              "title": "Blood volume and its regulation"
             },
             {
               "id": "u7-s1-n5",
               "number": 5,
-              "title": "Hematopoietic stem cells"
+              "title": "Blood groups"
             },
             {
               "id": "u7-s1-n6",
               "number": 6,
-              "title": "Blood groups and transfusion compatibility"
+              "title": "Haemoglobin"
             },
             {
               "id": "u7-s1-n7",
               "number": 7,
-              "title": "Hemostasis and coagulation cascade"
+              "title": "Blood-related immune functions"
             },
             {
               "id": "u7-s1-n8",
               "number": 8,
-              "title": "Blood volume regulation"
+              "title": "Haemostasis"
             }
           ]
         },
         {
           "id": "u7-s02",
           "number": 2,
-          "title": "Cardiovascular physiology",
+          "title": "Cardiovascular system",
+          "officialSection": "B",
           "nodes": [
             {
               "id": "u7-s2-n1",
               "number": 1,
-              "title": "Comparative heart structure"
+              "title": "Comparative anatomy of the heart"
             },
             {
               "id": "u7-s2-n2",
               "number": 2,
-              "title": "Myogenic and neurogenic hearts"
+              "title": "Myogenic heart"
             },
             {
               "id": "u7-s2-n3",
               "number": 3,
-              "title": "Cardiac conduction system"
+              "title": "Specialized cardiac tissue"
             },
             {
               "id": "u7-s2-n4",
               "number": 4,
-              "title": "Cardiac cycle and pressure-volume changes"
+              "title": "ECG: principles and significance"
             },
             {
               "id": "u7-s2-n5",
               "number": 5,
-              "title": "ECG waves and intervals"
+              "title": "Cardiac cycle"
             },
             {
               "id": "u7-s2-n6",
               "number": 6,
-              "title": "Cardiac output and venous return"
+              "title": "Heart as a pump"
             },
             {
               "id": "u7-s2-n7",
               "number": 7,
-              "title": "Blood pressure regulation"
+              "title": "Blood pressure"
             },
             {
               "id": "u7-s2-n8",
               "number": 8,
-              "title": "Autonomic and hormonal cardiovascular control"
+              "title": "Neural and chemical regulation of cardiovascular function"
             }
           ]
         },
         {
           "id": "u7-s03",
           "number": 3,
-          "title": "Respiratory physiology",
+          "title": "Respiratory system",
+          "officialSection": "C",
           "nodes": [
             {
               "id": "u7-s3-n1",
               "number": 1,
-              "title": "Respiratory surfaces across taxa"
+              "title": "Comparative respiration across species"
             },
             {
               "id": "u7-s3-n2",
               "number": 2,
-              "title": "Lung volumes and capacities"
+              "title": "Respiratory-system anatomy"
             },
             {
               "id": "u7-s3-n3",
               "number": 3,
-              "title": "Mechanics of ventilation"
+              "title": "Transport of respiratory gases"
             },
             {
               "id": "u7-s3-n4",
               "number": 4,
-              "title": "Alveolar gas exchange"
+              "title": "Gas exchange"
             },
             {
               "id": "u7-s3-n5",
               "number": 5,
-              "title": "Oxygen transport and hemoglobin binding"
+              "title": "Respiratory waste elimination"
             },
             {
               "id": "u7-s3-n6",
               "number": 6,
-              "title": "Carbon dioxide transport"
+              "title": "Neural regulation of respiration"
             },
             {
               "id": "u7-s3-n7",
               "number": 7,
-              "title": "Ventilation-perfusion matching"
-            },
-            {
-              "id": "u7-s3-n8",
-              "number": 8,
-              "title": "Neural and chemical control of breathing"
+              "title": "Chemical regulation of respiration"
             }
           ]
         },
         {
           "id": "u7-s04",
           "number": 4,
-          "title": "Nervous system and neurophysiology",
+          "title": "Nervous system",
+          "officialSection": "D",
           "nodes": [
             {
               "id": "u7-s4-n1",
               "number": 1,
-              "title": "Neuron structure and glial cells"
+              "title": "Neuron structure and function"
             },
             {
               "id": "u7-s4-n2",
               "number": 2,
-              "title": "Resting membrane potential"
+              "title": "Action potential"
             },
             {
               "id": "u7-s4-n3",
               "number": 3,
-              "title": "Action potential generation and propagation"
+              "title": "Gross neuroanatomy of the brain"
             },
             {
               "id": "u7-s4-n4",
               "number": 4,
-              "title": "Synaptic transmission"
+              "title": "Gross neuroanatomy of the spinal cord"
             },
             {
               "id": "u7-s4-n5",
               "number": 5,
-              "title": "Neurotransmitters and receptors"
+              "title": "Central nervous system"
             },
             {
               "id": "u7-s4-n6",
               "number": 6,
-              "title": "Brain and spinal cord organization"
+              "title": "Peripheral nervous system"
             },
             {
               "id": "u7-s4-n7",
               "number": 7,
-              "title": "Autonomic nervous system"
+              "title": "Neural control of muscle tone"
             },
             {
               "id": "u7-s4-n8",
               "number": 8,
-              "title": "Neural control of posture and muscle tone"
+              "title": "Neural control of posture"
             }
           ]
         },
         {
           "id": "u7-s05",
           "number": 5,
-          "title": "Sensory physiology",
+          "title": "Sense organs",
+          "officialSection": "E",
           "nodes": [
             {
               "id": "u7-s5-n1",
               "number": 1,
-              "title": "Eye structure and retinal organization"
+              "title": "Vision"
             },
             {
               "id": "u7-s5-n2",
               "number": 2,
-              "title": "Phototransduction and visual pathway"
+              "title": "Hearing"
             },
             {
               "id": "u7-s5-n3",
               "number": 3,
-              "title": "Auditory apparatus and cochlear transduction"
-            },
-            {
-              "id": "u7-s5-n4",
-              "number": 4,
-              "title": "Vestibular system and balance"
-            },
-            {
-              "id": "u7-s5-n5",
-              "number": 5,
-              "title": "Somatosensation and mechanoreception"
-            },
-            {
-              "id": "u7-s5-n6",
-              "number": 6,
-              "title": "Pain and thermoreception"
-            },
-            {
-              "id": "u7-s5-n7",
-              "number": 7,
-              "title": "Sensory adaptation"
-            },
-            {
-              "id": "u7-s5-n8",
-              "number": 8,
-              "title": "Central processing of sensory information"
+              "title": "Tactile responses"
             }
           ]
         },
         {
           "id": "u7-s06",
           "number": 6,
-          "title": "Renal and excretory physiology",
+          "title": "Excretory system",
+          "officialSection": "F",
           "nodes": [
             {
               "id": "u7-s6-n1",
               "number": 1,
-              "title": "Comparative excretory organs"
+              "title": "Comparative physiology of excretion"
             },
             {
               "id": "u7-s6-n2",
               "number": 2,
-              "title": "Nephron structure and renal blood flow"
+              "title": "Kidney structure and function"
             },
             {
               "id": "u7-s6-n3",
               "number": 3,
-              "title": "Glomerular filtration"
+              "title": "Urine formation"
             },
             {
               "id": "u7-s6-n4",
               "number": 4,
-              "title": "Tubular reabsorption and secretion"
+              "title": "Urine concentration"
             },
             {
               "id": "u7-s6-n5",
               "number": 5,
-              "title": "Countercurrent multiplication"
+              "title": "Waste elimination and micturition"
             },
             {
               "id": "u7-s6-n6",
               "number": 6,
-              "title": "Urine concentration and dilution"
+              "title": "Water-balance regulation"
             },
             {
               "id": "u7-s6-n7",
               "number": 7,
-              "title": "Micturition reflex"
+              "title": "Blood-volume and blood-pressure regulation"
             },
             {
               "id": "u7-s6-n8",
               "number": 8,
-              "title": "Water, electrolyte and acid-base balance"
+              "title": "Electrolyte and acid–base balance"
             }
           ]
         },
         {
           "id": "u7-s07",
           "number": 7,
-          "title": "Thermoregulation, stress and adaptation",
+          "title": "Thermoregulation",
+          "officialSection": "G",
           "nodes": [
             {
               "id": "u7-s7-n1",
               "number": 1,
-              "title": "Endothermy and ectothermy"
+              "title": "Thermal comfort zone"
             },
             {
               "id": "u7-s7-n2",
               "number": 2,
-              "title": "Thermal comfort zone"
+              "title": "Physical regulation of body temperature"
             },
             {
               "id": "u7-s7-n3",
               "number": 3,
-              "title": "Physical and chemical thermoregulation"
+              "title": "Chemical regulation of body temperature"
             },
             {
               "id": "u7-s7-n4",
               "number": 4,
-              "title": "Hypothalamic temperature control"
+              "title": "Neural regulation of body temperature"
             },
             {
               "id": "u7-s7-n5",
               "number": 5,
-              "title": "Heat and cold acclimatization"
-            },
-            {
-              "id": "u7-s7-n6",
-              "number": 6,
-              "title": "General adaptation syndrome"
-            },
-            {
-              "id": "u7-s7-n7",
-              "number": 7,
-              "title": "Neuroendocrine stress response"
-            },
-            {
-              "id": "u7-s7-n8",
-              "number": 8,
-              "title": "Physiological adaptation to environment"
+              "title": "Acclimatization"
             }
           ]
         },
         {
           "id": "u7-s08",
           "number": 8,
-          "title": "Digestive physiology and energy balance",
+          "title": "Stress and adaptation",
+          "officialSection": "H",
           "nodes": [
             {
               "id": "u7-s8-n1",
               "number": 1,
-              "title": "Digestive tract organization"
+              "title": "Physiological stress responses"
             },
             {
               "id": "u7-s8-n2",
               "number": 2,
-              "title": "Gastric secretion and regulation"
-            },
-            {
-              "id": "u7-s8-n3",
-              "number": 3,
-              "title": "Pancreatic and intestinal enzymes"
-            },
-            {
-              "id": "u7-s8-n4",
-              "number": 4,
-              "title": "Digestion and absorption of nutrients"
-            },
-            {
-              "id": "u7-s8-n5",
-              "number": 5,
-              "title": "Gut motility and enteric nervous system"
-            },
-            {
-              "id": "u7-s8-n6",
-              "number": 6,
-              "title": "Basal metabolic rate"
-            },
-            {
-              "id": "u7-s8-n7",
-              "number": 7,
-              "title": "Energy balance and metabolic rate"
-            },
-            {
-              "id": "u7-s8-n8",
-              "number": 8,
-              "title": "Nutrient sensing and appetite regulation"
+              "title": "Adaptation to environmental stress"
             }
           ]
         },
         {
           "id": "u7-s09",
           "number": 9,
-          "title": "Endocrinology and reproduction",
+          "title": "Digestive system",
+          "officialSection": "I",
           "nodes": [
             {
               "id": "u7-s9-n1",
               "number": 1,
-              "title": "Peptide and steroid hormone action"
+              "title": "Digestion"
             },
             {
               "id": "u7-s9-n2",
               "number": 2,
-              "title": "Hypothalamic-pituitary axes"
+              "title": "Absorption"
             },
             {
               "id": "u7-s9-n3",
               "number": 3,
-              "title": "Thyroid and adrenal physiology"
+              "title": "Energy balance"
             },
             {
               "id": "u7-s9-n4",
               "number": 4,
-              "title": "Insulin and glucagon regulation"
-            },
-            {
-              "id": "u7-s9-n5",
-              "number": 5,
-              "title": "Gonadal hormones and feedback"
-            },
-            {
-              "id": "u7-s9-n6",
-              "number": 6,
-              "title": "Spermatogenesis and oogenesis"
-            },
-            {
-              "id": "u7-s9-n7",
-              "number": 7,
-              "title": "Ovulation and menstrual/estrous cycles"
-            },
-            {
-              "id": "u7-s9-n8",
-              "number": 8,
-              "title": "Neuroendocrine control of reproduction"
+              "title": "Basal metabolic rate (BMR)"
             }
           ]
         },
         {
           "id": "u7-s10",
           "number": 10,
-          "title": "Holobionts and gut-brain axis",
+          "title": "Endocrinology and reproduction",
+          "officialSection": "J",
           "nodes": [
             {
               "id": "u7-s10-n1",
               "number": 1,
-              "title": "Metaorganism and holobiont concepts"
+              "title": "Endocrine glands"
             },
             {
               "id": "u7-s10-n2",
               "number": 2,
-              "title": "Gut microbiome composition"
+              "title": "Basic mechanisms of hormone action"
             },
             {
               "id": "u7-s10-n3",
               "number": 3,
-              "title": "Germ-free and gnotobiotic animal models"
+              "title": "Hormones and associated diseases"
             },
             {
               "id": "u7-s10-n4",
               "number": 4,
-              "title": "Microbiome sampling and profiling"
+              "title": "Reproductive processes"
             },
             {
               "id": "u7-s10-n5",
               "number": 5,
-              "title": "Microbial metabolites and host physiology"
+              "title": "Gametogenesis"
             },
             {
               "id": "u7-s10-n6",
               "number": 6,
-              "title": "Gut-brain axis signaling"
+              "title": "Ovulation"
             },
             {
               "id": "u7-s10-n7",
               "number": 7,
-              "title": "Dysbiosis and disease associations"
-            },
-            {
-              "id": "u7-s10-n8",
-              "number": 8,
-              "title": "Microbiome-host immune interactions"
+              "title": "Neuroendocrine regulation of reproduction"
             }
           ]
         },
         {
           "id": "u7-s11",
           "number": 11,
-          "title": "Interorgan communication and metabolic health",
+          "title": "Metaorganisms and holobionts",
+          "officialSection": "K",
           "nodes": [
             {
               "id": "u7-s11-n1",
               "number": 1,
-              "title": "Liver-adipose-muscle crosstalk"
+              "title": "Gut microbiome in physiology"
             },
             {
               "id": "u7-s11-n2",
               "number": 2,
-              "title": "Adipokines and myokines"
+              "title": "Methods to study the gut microbiome"
             },
             {
               "id": "u7-s11-n3",
               "number": 3,
-              "title": "Organ-to-organ endocrine signaling"
+              "title": "Germ-free animals"
             },
             {
               "id": "u7-s11-n4",
               "number": 4,
-              "title": "Glucose homeostasis"
+              "title": "Gut–brain axis"
             },
             {
               "id": "u7-s11-n5",
               "number": 5,
-              "title": "Lipid homeostasis"
+              "title": "Dysbiosis and disease"
+            }
+          ]
+        },
+        {
+          "id": "u7-s12",
+          "number": 12,
+          "title": "Interorgan communication and energy homeostasis",
+          "officialSection": "L",
+          "nodes": [
+            {
+              "id": "u7-s12-n1",
+              "number": 1,
+              "title": "Interorgan communication"
             },
             {
-              "id": "u7-s11-n6",
-              "number": 6,
-              "title": "Energy expenditure and thermogenesis"
+              "id": "u7-s12-n2",
+              "number": 2,
+              "title": "Energy homeostasis"
             },
             {
-              "id": "u7-s11-n7",
-              "number": 7,
-              "title": "Metabolic syndrome and insulin resistance"
+              "id": "u7-s12-n3",
+              "number": 3,
+              "title": "Metabolic health"
             },
             {
-              "id": "u7-s11-n8",
-              "number": 8,
-              "title": "Integrated metabolic regulation"
+              "id": "u7-s12-n4",
+              "number": 4,
+              "title": "Metabolic disorders"
             }
           ]
         }
@@ -2382,282 +2202,273 @@ window.SYLLABUS = {
         {
           "id": "u8-s01",
           "number": 1,
-          "title": "Mendelian and non-Mendelian inheritance",
+          "title": "Chromosomal and extrachromosomal inheritance",
+          "officialSection": "A",
           "nodes": [
             {
               "id": "u8-s1-n1",
               "number": 1,
-              "title": "Mendel's laws and test crosses"
+              "title": "Mendelian inheritance"
             },
             {
               "id": "u8-s1-n2",
               "number": 2,
-              "title": "Monohybrid and dihybrid ratios"
+              "title": "Codominance and incomplete dominance"
             },
             {
               "id": "u8-s1-n3",
               "number": 3,
-              "title": "Incomplete dominance and codominance"
+              "title": "Penetrance and expressivity"
             },
             {
               "id": "u8-s1-n4",
               "number": 4,
-              "title": "Multiple alleles"
+              "title": "Gene interactions"
             },
             {
               "id": "u8-s1-n5",
               "number": 5,
-              "title": "Penetrance and expressivity"
+              "title": "Pleiotropy"
             },
             {
               "id": "u8-s1-n6",
               "number": 6,
-              "title": "Epistasis and gene interactions"
+              "title": "Genomic imprinting"
             },
             {
               "id": "u8-s1-n7",
               "number": 7,
-              "title": "Pleiotropy"
+              "title": "Linkage and crossing-over"
             },
             {
               "id": "u8-s1-n8",
               "number": 8,
-              "title": "Genomic imprinting and maternal effects"
+              "title": "Sex-linked inheritance"
+            },
+            {
+              "id": "u8-s1-n9",
+              "number": 9,
+              "title": "Mitochondrial and chloroplast inheritance"
+            },
+            {
+              "id": "u8-s1-n10",
+              "number": 10,
+              "title": "Maternal inheritance"
             }
           ]
         },
         {
           "id": "u8-s02",
           "number": 2,
-          "title": "Chromosomal and extranuclear inheritance",
+          "title": "Genes and mutations",
+          "officialSection": "B",
           "nodes": [
             {
               "id": "u8-s2-n1",
               "number": 1,
-              "title": "Linkage and recombination"
+              "title": "Alleles and multiple alleles"
             },
             {
               "id": "u8-s2-n2",
               "number": 2,
-              "title": "Crossing over and recombination frequency"
+              "title": "Pseudoalleles"
             },
             {
               "id": "u8-s2-n3",
               "number": 3,
-              "title": "Sex-linked inheritance"
+              "title": "Complementation tests"
             },
             {
               "id": "u8-s2-n4",
               "number": 4,
-              "title": "Sex-limited and sex-influenced traits"
+              "title": "Mutation types, causes and detection"
             },
             {
               "id": "u8-s2-n5",
               "number": 5,
-              "title": "Mitochondrial inheritance"
+              "title": "Lethal and conditional mutants"
             },
             {
               "id": "u8-s2-n6",
               "number": 6,
-              "title": "Chloroplast inheritance"
+              "title": "Biochemical mutants"
             },
             {
               "id": "u8-s2-n7",
               "number": 7,
-              "title": "Maternal inheritance"
+              "title": "Loss-of-function and gain-of-function mutations"
             },
             {
               "id": "u8-s2-n8",
               "number": 8,
-              "title": "Organelle genome transmission"
+              "title": "Dominant-negative mutations"
+            },
+            {
+              "id": "u8-s2-n9",
+              "number": 9,
+              "title": "Germinal and somatic mutations"
             }
           ]
         },
         {
           "id": "u8-s03",
           "number": 3,
-          "title": "Genes, alleles and mutations",
+          "title": "Genetic analysis",
+          "officialSection": "C",
           "nodes": [
             {
               "id": "u8-s3-n1",
               "number": 1,
-              "title": "Alleles and multiple alleles"
+              "title": "Linkage maps"
             },
             {
               "id": "u8-s3-n2",
               "number": 2,
-              "title": "Pseudoalleles and complementation"
+              "title": "Molecular-marker mapping in plants, animals and bacteria"
             },
             {
               "id": "u8-s3-n3",
               "number": 3,
-              "title": "Point mutations and indels"
+              "title": "Tetrad analysis"
             },
             {
               "id": "u8-s3-n4",
               "number": 4,
-              "title": "Frameshift and nonsense mutations"
+              "title": "Bacterial transformation"
             },
             {
               "id": "u8-s3-n5",
               "number": 5,
-              "title": "Conditional and lethal mutations"
+              "title": "Bacterial conjugation"
             },
             {
               "id": "u8-s3-n6",
               "number": 6,
-              "title": "Loss- and gain-of-function alleles"
+              "title": "Bacterial transduction"
             },
             {
               "id": "u8-s3-n7",
               "number": 7,
-              "title": "Dominant-negative mutations"
+              "title": "Sex-duction"
             },
             {
               "id": "u8-s3-n8",
               "number": 8,
-              "title": "Germline versus somatic mutations"
+              "title": "Fine-structure analysis of genes"
+            },
+            {
+              "id": "u8-s3-n9",
+              "number": 9,
+              "title": "Mapping populations in plants"
             }
           ]
         },
         {
           "id": "u8-s04",
           "number": 4,
-          "title": "Genetic mapping and analysis",
+          "title": "Human genetics",
+          "officialSection": "D",
           "nodes": [
             {
               "id": "u8-s4-n1",
               "number": 1,
-              "title": "Two-point and three-point test crosses"
+              "title": "Pedigree analysis"
             },
             {
               "id": "u8-s4-n2",
               "number": 2,
-              "title": "Linkage maps and map distance"
+              "title": "LOD score in linkage testing"
             },
             {
               "id": "u8-s4-n3",
               "number": 3,
-              "title": "Tetrad analysis"
+              "title": "Human karyotypes"
             },
             {
               "id": "u8-s4-n4",
               "number": 4,
-              "title": "Fine-structure mapping"
-            },
-            {
-              "id": "u8-s4-n5",
-              "number": 5,
-              "title": "Transformation, conjugation and transduction"
-            },
-            {
-              "id": "u8-s4-n6",
-              "number": 6,
-              "title": "Sexduction in bacteria"
-            },
-            {
-              "id": "u8-s4-n7",
-              "number": 7,
-              "title": "Molecular marker mapping"
-            },
-            {
-              "id": "u8-s4-n8",
-              "number": 8,
-              "title": "Mapping populations in plants"
+              "title": "Genetic disorders"
             }
           ]
         },
         {
           "id": "u8-s05",
           "number": 5,
-          "title": "Human and quantitative genetics",
+          "title": "Quantitative genetics",
+          "officialSection": "E",
           "nodes": [
             {
               "id": "u8-s5-n1",
               "number": 1,
-              "title": "Pedigree symbols and inheritance patterns"
+              "title": "Population genetics"
             },
             {
               "id": "u8-s5-n2",
               "number": 2,
-              "title": "Autosomal and sex-linked disorders"
+              "title": "Hardy–Weinberg equilibrium"
             },
             {
               "id": "u8-s5-n3",
               "number": 3,
-              "title": "Karyotyping and chromosomal diagnosis"
+              "title": "Polygenic inheritance"
             },
             {
               "id": "u8-s5-n4",
               "number": 4,
-              "title": "LOD score analysis"
+              "title": "Heritability"
             },
             {
               "id": "u8-s5-n5",
               "number": 5,
-              "title": "Hardy-Weinberg equilibrium"
+              "title": "Measurement of heritability"
             },
             {
               "id": "u8-s5-n6",
               "number": 6,
-              "title": "Allele and genotype frequencies"
-            },
-            {
-              "id": "u8-s5-n7",
-              "number": 7,
-              "title": "Polygenic inheritance and threshold traits"
-            },
-            {
-              "id": "u8-s5-n8",
-              "number": 8,
-              "title": "Heritability and variance components"
+              "title": "Molecular mapping"
             }
           ]
         },
         {
           "id": "u8-s06",
           "number": 6,
-          "title": "Chromosomal structural and numerical variation",
+          "title": "Structural and numerical alterations of chromosomes",
+          "officialSection": "F",
           "nodes": [
             {
               "id": "u8-s6-n1",
               "number": 1,
-              "title": "Deletions and duplications"
+              "title": "Chromosomal recombination"
             },
             {
               "id": "u8-s6-n2",
               "number": 2,
-              "title": "Inversions and translocations"
+              "title": "Deletions"
             },
             {
               "id": "u8-s6-n3",
               "number": 3,
-              "title": "Aneuploidy and nondisjunction"
+              "title": "Duplications"
             },
             {
               "id": "u8-s6-n4",
               "number": 4,
-              "title": "Polyploidy and genome duplication"
+              "title": "Inversions"
             },
             {
               "id": "u8-s6-n5",
               "number": 5,
-              "title": "Recombination and chromosomal rearrangements"
+              "title": "Translocations"
             },
             {
               "id": "u8-s6-n6",
               "number": 6,
-              "title": "Position effects"
+              "title": "Ploidy changes"
             },
             {
               "id": "u8-s6-n7",
               "number": 7,
-              "title": "Dosage compensation"
-            },
-            {
-              "id": "u8-s6-n8",
-              "number": 8,
-              "title": "Genetic consequences of chromosome variation"
+              "title": "Genetic implications of chromosome alterations"
             }
           ]
         }
