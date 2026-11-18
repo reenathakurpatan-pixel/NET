@@ -359,3 +359,39 @@ body{
   #site-header .mega-wrap:not(.open) .mega-panel{display:none}
   #site-header .mega-wrap.open .mega-panel{display:block}
 }
+
+/* Mobile syllabus navigation: clear hierarchy, compact controls, readable touch targets */
+@media(max-width:760px){
+ #site-header .header-inner{row-gap:8px}
+ #site-header .brand{align-self:center}
+ #site-header .header-search{grid-row:2}
+ #site-header .mega-panel{inset:112px 0 0!important;left:0!important;right:0!important;bottom:0!important;border-radius:18px 18px 0 0!important;padding:12px 12px calc(18px + env(safe-area-inset-bottom))!important}
+ #site-header .mega-topbar{top:-12px;padding:12px 4px 11px!important;border-bottom:1px solid var(--line);gap:9px!important}
+ #site-header .mega-title{font-size:12px;margin:0 0 3px}
+ #site-header .mega-count{font-size:10px;line-height:1.4}
+ #site-header .mega-tools{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:7px}
+ #site-header .mega-tools input{height:40px;width:100%;font-size:13px;padding:8px 10px}
+ #site-header .mega-tools button{min-height:40px;padding:7px 10px;font-size:11px}
+ #site-header .nav-category-grid{gap:9px;padding-bottom:16px}
+ #site-header .nav-category{overflow:hidden;border-radius:12px}
+ #site-header .nav-category-heading{padding:13px 12px;gap:10px}
+ #site-header .nav-category-heading>span{width:29px;height:29px;font-size:11px}
+ #site-header .nav-category-heading h3{font-size:13px;line-height:1.3}
+ #site-header .nav-category-heading small{font-size:10px}
+ #site-header .nav-unit-list{padding:0 8px 9px!important;gap:7px}
+ #site-header .nav-unit{border-radius:10px}
+ #site-header .nav-unit>summary{padding:12px 10px;gap:9px;min-height:56px}
+ #site-header .nav-unit-no{font-size:10px;min-width:27px}
+ #site-header .nav-unit-copy strong{font-size:12px;line-height:1.35}
+ #site-header .nav-unit-copy small{font-size:10px}
+ #site-header .nav-subunits{padding:0 8px 9px;gap:6px}
+ #site-header .nav-subunit{border-radius:8px}
+ #site-header .nav-subunit>summary{padding:10px 9px;min-height:44px;gap:8px}
+ #site-header .nav-subunit>summary strong{font-size:11px;line-height:1.35}
+ #site-header .nav-subunit>summary small{font-size:9px}
+ #site-header .nav-node-list{padding:3px 8px 9px 25px}
+ #site-header .nav-node{font-size:12px;line-height:1.45;padding:9px 4px;border-bottom:1px solid var(--line)}
+ #site-header .nav-node:last-child{border-bottom:0}
+ #site-header .nav-category-heading:focus-visible,#site-header .nav-unit>summary:focus-visible,#site-header .nav-subunit>summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+}
+@media(max-width:380px){#site-header .mega-panel{inset:108px 0 0!important}#site-header .brand-tag{font-size:7px}}
