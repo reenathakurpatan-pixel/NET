@@ -1,8 +1,8 @@
-/* LIFE SCIENCE ACADEMY | Revised Joint CSIR-UGC-DBT LS&BT syllabus map */
+/* LIFE SCIENCE ACADEMY | Official-heading syllabus map; topics expanded from CSIR-HRDG Jan 2026 LS&BT syllabus */
 window.SYLLABUS = {
   "title": "Joint CSIR-UGC-DBT NET — Life Sciences and Biotechnology (LS&BT)",
   "version": "Revised 14-unit syllabus (CSIR-HRDG, January 2026)",
-  "note": "This learning map is organized from the official revised LS&BT syllabus. Subunits follow official syllabus headings; topic titles expand the listed examinable concepts into study-sized entries. Check the official notification for the applicable exam cycle.",
+  "note": "Official section headings (A, B, C...) are retained as subunits. Topic nodes unpack the concepts listed under each official heading; no fixed number of nodes is imposed. Topic-level expansions should be distinguished from verbatim syllabus wording in the learning content.",
   "source": "https://www.csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20260121115025355Merged_Syllabus_CSIR-DBT_21Jan2026.pdf",
   "groups": [
     {
@@ -54,17 +54,18 @@ window.SYLLABUS = {
         {
           "id": "u1-s01",
           "number": 1,
-          "title": "Atomic structure and chemical bonding",
+          "title": "Atomic structure, molecules and chemical bonds",
+          "officialSection": "A",
           "nodes": [
             {
               "id": "u1-s1-n1",
               "number": 1,
-              "title": "Atomic number and mass number"
+              "title": "Atomic structure: protons, neutrons and electrons"
             },
             {
               "id": "u1-s1-n2",
               "number": 2,
-              "title": "Isotopes and radioisotopes"
+              "title": "Atomic number, mass number and isotopes"
             },
             {
               "id": "u1-s1-n3",
@@ -74,356 +75,253 @@ window.SYLLABUS = {
             {
               "id": "u1-s1-n4",
               "number": 4,
-              "title": "Ionic and covalent bonds"
+              "title": "Molecular structure and chemical bonds"
             },
             {
               "id": "u1-s1-n5",
               "number": 5,
-              "title": "Coordinate covalent bonds"
+              "title": "Ionic and covalent bonding"
             },
             {
               "id": "u1-s1-n6",
               "number": 6,
-              "title": "Electronegativity and bond polarity"
-            },
-            {
-              "id": "u1-s1-n7",
-              "number": 7,
-              "title": "Molecular orbital basics"
-            },
-            {
-              "id": "u1-s1-n8",
-              "number": 8,
-              "title": "Bond energy and bond length"
+              "title": "Coordinate covalent bonds and bond polarity"
             }
           ]
         },
         {
           "id": "u1-s02",
           "number": 2,
-          "title": "Biomolecular composition and classification",
+          "title": "Composition, structure and function of biomolecules",
+          "officialSection": "B",
           "nodes": [
             {
               "id": "u1-s2-n1",
               "number": 1,
-              "title": "Monosaccharides and oligosaccharides"
+              "title": "Carbohydrates: composition, classification and functions"
             },
             {
               "id": "u1-s2-n2",
               "number": 2,
-              "title": "Polysaccharides and glycoconjugates"
+              "title": "Lipids: composition, classes and biological functions"
             },
             {
               "id": "u1-s2-n3",
               "number": 3,
-              "title": "Fatty acids and triacylglycerols"
+              "title": "Amino acids and peptide bonds"
             },
             {
               "id": "u1-s2-n4",
               "number": 4,
-              "title": "Phospholipids and sphingolipids"
+              "title": "Protein composition and biological functions"
             },
             {
               "id": "u1-s2-n5",
               "number": 5,
-              "title": "Steroids and isoprenoids"
+              "title": "Nucleotides, DNA and RNA"
             },
             {
               "id": "u1-s2-n6",
               "number": 6,
-              "title": "Amino acids and peptide bonds"
-            },
-            {
-              "id": "u1-s2-n7",
-              "number": 7,
-              "title": "DNA and RNA components"
-            },
-            {
-              "id": "u1-s2-n8",
-              "number": 8,
-              "title": "Water-soluble and fat-soluble vitamins"
+              "title": "Vitamins: classification and biological functions"
             }
           ]
         },
         {
           "id": "u1-s03",
           "number": 3,
-          "title": "Non-covalent interactions and molecular forces",
+          "title": "Stabilizing interactions in biomolecules",
+          "officialSection": "C",
           "nodes": [
             {
               "id": "u1-s3-n1",
               "number": 1,
-              "title": "Hydrogen bonding"
+              "title": "van der Waals interactions"
             },
             {
               "id": "u1-s3-n2",
               "number": 2,
-              "title": "Electrostatic interactions and ionic strength"
+              "title": "Electrostatic interactions"
             },
             {
               "id": "u1-s3-n3",
               "number": 3,
-              "title": "van der Waals forces"
+              "title": "Hydrogen bonding"
             },
             {
               "id": "u1-s3-n4",
               "number": 4,
-              "title": "Hydrophobic effect"
+              "title": "Hydrophobic interactions"
             },
             {
               "id": "u1-s3-n5",
               "number": 5,
-              "title": "Dipole-dipole interactions"
-            },
-            {
-              "id": "u1-s3-n6",
-              "number": 6,
-              "title": "London dispersion forces"
-            },
-            {
-              "id": "u1-s3-n7",
-              "number": 7,
-              "title": "Salt bridges in proteins"
-            },
-            {
-              "id": "u1-s3-n8",
-              "number": 8,
-              "title": "Molecular recognition and binding specificity"
+              "title": "Combined non-covalent forces in molecular structure"
             }
           ]
         },
         {
           "id": "u1-s04",
           "number": 4,
-          "title": "Biophysical chemistry",
+          "title": "Principles of biophysical chemistry",
+          "officialSection": "D",
           "nodes": [
             {
               "id": "u1-s4-n1",
               "number": 1,
-              "title": "pH and pKa"
+              "title": "pH, pKa and acid-base equilibria"
             },
             {
               "id": "u1-s4-n2",
               "number": 2,
-              "title": "Henderson-Hasselbalch equation"
+              "title": "Buffers and buffer capacity"
             },
             {
               "id": "u1-s4-n3",
               "number": 3,
-              "title": "Buffer capacity"
+              "title": "Reaction kinetics"
             },
             {
               "id": "u1-s4-n4",
               "number": 4,
-              "title": "Acid-base titration curves"
+              "title": "Thermodynamic principles in biological systems"
             },
             {
               "id": "u1-s4-n5",
               "number": 5,
-              "title": "Colligative properties"
-            },
-            {
-              "id": "u1-s4-n6",
-              "number": 6,
-              "title": "Osmotic pressure"
-            },
-            {
-              "id": "u1-s4-n7",
-              "number": 7,
-              "title": "Chemical equilibrium and reaction quotient"
-            },
-            {
-              "id": "u1-s4-n8",
-              "number": 8,
-              "title": "Free energy and equilibrium constant"
+              "title": "Colligative properties of solutions"
             }
           ]
         },
         {
           "id": "u1-s05",
           "number": 5,
-          "title": "Bioenergetics and energy transduction",
+          "title": "Bioenergetics and biological energy transduction",
+          "officialSection": "E",
           "nodes": [
             {
               "id": "u1-s5-n1",
               "number": 1,
-              "title": "Gibbs free energy and standard free energy"
+              "title": "Bioenergetics and free-energy changes"
             },
             {
               "id": "u1-s5-n2",
               "number": 2,
-              "title": "ATP hydrolysis and phosphoryl transfer potential"
+              "title": "Glycolysis"
             },
             {
               "id": "u1-s5-n3",
               "number": 3,
-              "title": "Coupled biochemical reactions"
+              "title": "Oxidative phosphorylation"
             },
             {
               "id": "u1-s5-n4",
               "number": 4,
-              "title": "Redox potential and electron transfer"
+              "title": "Coupled biochemical reactions"
             },
             {
               "id": "u1-s5-n5",
               "number": 5,
-              "title": "Glycolytic pathway and energy yield"
+              "title": "Group-transfer reactions and phosphoryl-transfer potential"
             },
             {
               "id": "u1-s5-n6",
               "number": 6,
-              "title": "Pyruvate oxidation and TCA cycle"
-            },
-            {
-              "id": "u1-s5-n7",
-              "number": 7,
-              "title": "Electron transport chain complexes"
-            },
-            {
-              "id": "u1-s5-n8",
-              "number": 8,
-              "title": "Oxidative phosphorylation and chemiosmosis"
+              "title": "Biological energy transducers"
             }
           ]
         },
         {
           "id": "u1-s06",
           "number": 6,
-          "title": "Enzymes and catalysis",
+          "title": "Enzymes, catalysis and enzyme kinetics",
+          "officialSection": "F",
           "nodes": [
             {
               "id": "u1-s6-n1",
               "number": 1,
-              "title": "Enzyme classes and nomenclature"
+              "title": "Principles of biological catalysis"
             },
             {
               "id": "u1-s6-n2",
               "number": 2,
-              "title": "Active-site architecture"
+              "title": "Enzyme structure and catalytic mechanisms"
             },
             {
               "id": "u1-s6-n3",
               "number": 3,
-              "title": "Transition-state stabilization"
+              "title": "Enzyme kinetics"
             },
             {
               "id": "u1-s6-n4",
               "number": 4,
-              "title": "Michaelis-Menten equation"
+              "title": "Enzyme regulation"
             },
             {
               "id": "u1-s6-n5",
               "number": 5,
-              "title": "Km and Vmax"
-            },
-            {
-              "id": "u1-s6-n6",
-              "number": 6,
-              "title": "Lineweaver-Burk and other kinetic plots"
-            },
-            {
-              "id": "u1-s6-n7",
-              "number": 7,
-              "title": "Competitive and non-competitive inhibition"
-            },
-            {
-              "id": "u1-s6-n8",
-              "number": 8,
-              "title": "Allosteric regulation and isozymes"
+              "title": "Isozymes and their properties"
             }
           ]
         },
         {
           "id": "u1-s07",
           "number": 7,
-          "title": "Protein conformation and folding",
+          "title": "Protein conformation",
+          "officialSection": "G",
           "nodes": [
             {
               "id": "u1-s7-n1",
               "number": 1,
-              "title": "Peptide bond geometry and Ramachandran plot"
+              "title": "Peptide-bond geometry and Ramachandran plot"
             },
             {
               "id": "u1-s7-n2",
               "number": 2,
-              "title": "Alpha helices and beta sheets"
+              "title": "Protein secondary structures"
             },
             {
               "id": "u1-s7-n3",
               "number": 3,
-              "title": "Turns and loops"
+              "title": "Protein domains"
             },
             {
               "id": "u1-s7-n4",
               "number": 4,
-              "title": "Supersecondary structures"
+              "title": "Protein motifs"
             },
             {
               "id": "u1-s7-n5",
               "number": 5,
-              "title": "Protein domains and motifs"
-            },
-            {
-              "id": "u1-s7-n6",
-              "number": 6,
-              "title": "Protein folds and structural classes"
-            },
-            {
-              "id": "u1-s7-n7",
-              "number": 7,
-              "title": "Molecular chaperones and folding pathways"
-            },
-            {
-              "id": "u1-s7-n8",
-              "number": 8,
-              "title": "Protein misfolding and aggregation"
+              "title": "Protein folds and structural organization"
             }
           ]
         },
         {
           "id": "u1-s08",
           "number": 8,
-          "title": "Nucleic acid conformation",
+          "title": "Nucleic-acid conformation",
+          "officialSection": "H",
           "nodes": [
             {
               "id": "u1-s8-n1",
               "number": 1,
-              "title": "A-DNA, B-DNA and Z-DNA"
+              "title": "A-DNA: structural characteristics"
             },
             {
               "id": "u1-s8-n2",
               "number": 2,
-              "title": "Major and minor grooves"
+              "title": "B-DNA: structural characteristics"
             },
             {
               "id": "u1-s8-n3",
               "number": 3,
-              "title": "DNA supercoiling and topology"
+              "title": "Z-DNA: structural characteristics"
             },
             {
               "id": "u1-s8-n4",
               "number": 4,
-              "title": "RNA secondary structures"
-            },
-            {
-              "id": "u1-s8-n5",
-              "number": 5,
-              "title": "tRNA cloverleaf and L-shaped structure"
-            },
-            {
-              "id": "u1-s8-n6",
-              "number": 6,
-              "title": "Ribozymes and catalytic RNA"
-            },
-            {
-              "id": "u1-s8-n7",
-              "number": 7,
-              "title": "Non-canonical DNA structures"
-            },
-            {
-              "id": "u1-s8-n8",
-              "number": 8,
-              "title": "DNA-protein recognition"
+              "title": "RNA conformation and structural forms"
             }
           ]
         },
@@ -431,93 +329,60 @@ window.SYLLABUS = {
           "id": "u1-s09",
           "number": 9,
           "title": "Stability of proteins and nucleic acids",
+          "officialSection": "I",
           "nodes": [
             {
               "id": "u1-s9-n1",
               "number": 1,
-              "title": "Protein denaturation and renaturation"
+              "title": "Factors affecting protein stability"
             },
             {
               "id": "u1-s9-n2",
               "number": 2,
-              "title": "Thermal and chemical stability"
+              "title": "Protein denaturation and renaturation"
             },
             {
               "id": "u1-s9-n3",
               "number": 3,
-              "title": "Disulfide bonds and protein stability"
+              "title": "Factors affecting nucleic-acid stability"
             },
             {
               "id": "u1-s9-n4",
               "number": 4,
-              "title": "pH and ionic strength effects"
-            },
-            {
-              "id": "u1-s9-n5",
-              "number": 5,
-              "title": "Nucleic acid melting temperature"
-            },
-            {
-              "id": "u1-s9-n6",
-              "number": 6,
-              "title": "DNA hybridization and stringency"
-            },
-            {
-              "id": "u1-s9-n7",
-              "number": 7,
-              "title": "Factors affecting RNA stability"
-            },
-            {
-              "id": "u1-s9-n8",
-              "number": 8,
-              "title": "Protein and nucleic acid stabilization"
+              "title": "DNA and RNA structural stability"
             }
           ]
         },
         {
           "id": "u1-s10",
           "number": 10,
-          "title": "Biomolecular metabolism",
+          "title": "Metabolism of biomolecules",
+          "officialSection": "J",
           "nodes": [
             {
               "id": "u1-s10-n1",
               "number": 1,
-              "title": "Glycolysis and gluconeogenesis"
+              "title": "Carbohydrate metabolism"
             },
             {
               "id": "u1-s10-n2",
               "number": 2,
-              "title": "Glycogen metabolism"
+              "title": "Lipid metabolism"
             },
             {
               "id": "u1-s10-n3",
               "number": 3,
-              "title": "Pentose phosphate pathway"
+              "title": "Amino-acid metabolism"
             },
             {
               "id": "u1-s10-n4",
               "number": 4,
-              "title": "Fatty acid synthesis and beta-oxidation"
+              "title": "Nucleotide metabolism"
             },
             {
               "id": "u1-s10-n5",
               "number": 5,
-              "title": "Ketone body metabolism"
-            },
-            {
-              "id": "u1-s10-n6",
-              "number": 6,
-              "title": "Amino acid catabolism and urea cycle"
-            },
-            {
-              "id": "u1-s10-n7",
-              "number": 7,
-              "title": "Purine and pyrimidine metabolism"
-            },
-            {
-              "id": "u1-s10-n8",
-              "number": 8,
-              "title": "Vitamin activation and coenzyme metabolism"
+              "title": "Vitamin metabolism"
             }
           ]
         }
@@ -532,371 +397,235 @@ window.SYLLABUS = {
         {
           "id": "u2-s01",
           "number": 1,
-          "title": "Cell wall and membrane architecture",
+          "title": "Cell wall and cell membrane: structure and function",
+          "officialSection": "A",
           "nodes": [
             {
               "id": "u2-s1-n1",
               "number": 1,
-              "title": "Bacterial cell wall and peptidoglycan"
+              "title": "Cell-wall organization and functions"
             },
             {
               "id": "u2-s1-n2",
               "number": 2,
-              "title": "Archaeal cell envelope"
+              "title": "Model membranes in prokaryotes"
             },
             {
               "id": "u2-s1-n3",
               "number": 3,
-              "title": "Plant cell wall cellulose and pectin"
+              "title": "Model membranes in eukaryotes"
             },
             {
               "id": "u2-s1-n4",
               "number": 4,
-              "title": "Fungal chitin wall"
+              "title": "Lipid bilayer structure"
             },
             {
               "id": "u2-s1-n5",
               "number": 5,
-              "title": "Fluid mosaic model"
+              "title": "Membrane proteins"
             },
             {
               "id": "u2-s1-n6",
               "number": 6,
-              "title": "Lipid bilayer asymmetry and fluidity"
+              "title": "Diffusion and osmosis"
             },
             {
               "id": "u2-s1-n7",
               "number": 7,
-              "title": "Integral and peripheral membrane proteins"
+              "title": "Ion channels and membrane transport"
             },
             {
               "id": "u2-s1-n8",
               "number": 8,
-              "title": "Membrane rafts and microdomains"
+              "title": "Active transport and membrane pumps"
+            },
+            {
+              "id": "u2-s1-n9",
+              "number": 9,
+              "title": "Intracellular transport: sorting and regulation"
+            },
+            {
+              "id": "u2-s1-n10",
+              "number": 10,
+              "title": "Electrical properties of membranes"
             }
           ]
         },
         {
           "id": "u2-s02",
           "number": 2,
-          "title": "Membrane transport and electrical properties",
+          "title": "Structural organization and function of intracellular organelles",
+          "officialSection": "B",
           "nodes": [
             {
               "id": "u2-s2-n1",
               "number": 1,
-              "title": "Simple and facilitated diffusion"
+              "title": "Nucleus: organization and dynamics"
             },
             {
               "id": "u2-s2-n2",
               "number": 2,
-              "title": "Osmosis and osmotic pressure"
+              "title": "Mitochondria: structure and function"
             },
             {
               "id": "u2-s2-n3",
               "number": 3,
-              "title": "Primary active transport"
+              "title": "Golgi bodies"
             },
             {
               "id": "u2-s2-n4",
               "number": 4,
-              "title": "Secondary active transport"
+              "title": "Lysosomes"
             },
             {
               "id": "u2-s2-n5",
               "number": 5,
-              "title": "ABC transporters"
+              "title": "Endoplasmic reticulum"
             },
             {
               "id": "u2-s2-n6",
               "number": 6,
-              "title": "Ion channels and gating"
+              "title": "Peroxisomes"
             },
             {
               "id": "u2-s2-n7",
               "number": 7,
-              "title": "Na+/K+-ATPase and proton pumps"
+              "title": "Plastids and chloroplasts"
             },
             {
               "id": "u2-s2-n8",
               "number": 8,
-              "title": "Membrane potential and electrochemical gradients"
+              "title": "Vacuoles"
+            },
+            {
+              "id": "u2-s2-n9",
+              "number": 9,
+              "title": "Cytoskeleton: structure and function"
+            },
+            {
+              "id": "u2-s2-n10",
+              "number": 10,
+              "title": "Cytoskeleton in cellular motility"
             }
           ]
         },
         {
           "id": "u2-s03",
           "number": 3,
-          "title": "Intracellular organelles",
+          "title": "Organization of genes and chromosomes",
+          "officialSection": "C",
           "nodes": [
             {
               "id": "u2-s3-n1",
               "number": 1,
-              "title": "Nuclear envelope and nuclear pore complex"
+              "title": "Operon organization"
             },
             {
               "id": "u2-s3-n2",
               "number": 2,
-              "title": "Mitochondrial structure and genome"
+              "title": "Unique and repetitive DNA"
             },
             {
               "id": "u2-s3-n3",
               "number": 3,
-              "title": "Chloroplast and plastid organization"
+              "title": "Interrupted genes"
             },
             {
               "id": "u2-s3-n4",
               "number": 4,
-              "title": "Rough and smooth endoplasmic reticulum"
+              "title": "Gene families"
             },
             {
               "id": "u2-s3-n5",
               "number": 5,
-              "title": "Golgi cisternae and vesicle trafficking"
+              "title": "Chromatin organization"
             },
             {
               "id": "u2-s3-n6",
               "number": 6,
-              "title": "Lysosomes and endosomal system"
+              "title": "Chromosome structure"
             },
             {
               "id": "u2-s3-n7",
               "number": 7,
-              "title": "Peroxisomes and glyoxysomes"
+              "title": "Heterochromatin and euchromatin"
             },
             {
               "id": "u2-s3-n8",
               "number": 8,
-              "title": "Vacuoles and organelle dynamics"
+              "title": "Transposons"
             }
           ]
         },
         {
           "id": "u2-s04",
           "number": 4,
-          "title": "Cytoskeleton and cellular motility",
+          "title": "Cell division and cell cycle",
+          "officialSection": "D",
           "nodes": [
             {
               "id": "u2-s4-n1",
               "number": 1,
-              "title": "Actin filaments and microfilaments"
+              "title": "Mitosis and its regulation"
             },
             {
               "id": "u2-s4-n2",
               "number": 2,
-              "title": "Microtubules and tubulin"
+              "title": "Meiosis and its regulation"
             },
             {
               "id": "u2-s4-n3",
               "number": 3,
-              "title": "Intermediate filaments"
+              "title": "Stages of the cell cycle"
             },
             {
               "id": "u2-s4-n4",
               "number": 4,
-              "title": "Kinesin and dynein motors"
+              "title": "Cell-cycle regulation and control"
             },
             {
               "id": "u2-s4-n5",
               "number": 5,
-              "title": "Myosin-based movement"
+              "title": "Apoptosis"
             },
             {
               "id": "u2-s4-n6",
               "number": 6,
-              "title": "Cilia and flagella axoneme"
+              "title": "Necrosis"
             },
             {
               "id": "u2-s4-n7",
               "number": 7,
-              "title": "Microtubule organizing centres"
-            },
-            {
-              "id": "u2-s4-n8",
-              "number": 8,
-              "title": "Cell migration and cytoskeletal remodeling"
+              "title": "Autophagy"
             }
           ]
         },
         {
           "id": "u2-s05",
           "number": 5,
-          "title": "Gene and chromosome organization",
+          "title": "Microbial physiology",
+          "officialSection": "E",
           "nodes": [
             {
               "id": "u2-s5-n1",
               "number": 1,
-              "title": "Prokaryotic operons"
+              "title": "Microbial growth kinetics"
             },
             {
               "id": "u2-s5-n2",
               "number": 2,
-              "title": "Unique and repetitive DNA"
+              "title": "Strategies of microbial cell division"
             },
             {
               "id": "u2-s5-n3",
               "number": 3,
-              "title": "Interrupted genes and introns"
+              "title": "Microbial stress responses"
             },
             {
               "id": "u2-s5-n4",
               "number": 4,
-              "title": "Gene families and pseudogenes"
-            },
-            {
-              "id": "u2-s5-n5",
-              "number": 5,
-              "title": "Transposable elements"
-            },
-            {
-              "id": "u2-s5-n6",
-              "number": 6,
-              "title": "Nucleosome and chromatin fiber"
-            },
-            {
-              "id": "u2-s5-n7",
-              "number": 7,
-              "title": "Euchromatin and heterochromatin"
-            },
-            {
-              "id": "u2-s5-n8",
-              "number": 8,
-              "title": "Metaphase chromosome organization"
-            }
-          ]
-        },
-        {
-          "id": "u2-s06",
-          "number": 6,
-          "title": "Cell cycle and division",
-          "nodes": [
-            {
-              "id": "u2-s6-n1",
-              "number": 1,
-              "title": "G1, S, G2 and M phases"
-            },
-            {
-              "id": "u2-s6-n2",
-              "number": 2,
-              "title": "Cyclins and cyclin-dependent kinases"
-            },
-            {
-              "id": "u2-s6-n3",
-              "number": 3,
-              "title": "Cell-cycle checkpoints"
-            },
-            {
-              "id": "u2-s6-n4",
-              "number": 4,
-              "title": "Mitosis and chromosome segregation"
-            },
-            {
-              "id": "u2-s6-n5",
-              "number": 5,
-              "title": "Meiosis and crossing over"
-            },
-            {
-              "id": "u2-s6-n6",
-              "number": 6,
-              "title": "Spindle assembly checkpoint"
-            },
-            {
-              "id": "u2-s6-n7",
-              "number": 7,
-              "title": "Cell-cycle control pathways"
-            },
-            {
-              "id": "u2-s6-n8",
-              "number": 8,
-              "title": "Mitotic and meiotic errors"
-            }
-          ]
-        },
-        {
-          "id": "u2-s07",
-          "number": 7,
-          "title": "Programmed cell death and cellular recycling",
-          "nodes": [
-            {
-              "id": "u2-s7-n1",
-              "number": 1,
-              "title": "Apoptosis and caspases"
-            },
-            {
-              "id": "u2-s7-n2",
-              "number": 2,
-              "title": "Intrinsic and extrinsic apoptotic pathways"
-            },
-            {
-              "id": "u2-s7-n3",
-              "number": 3,
-              "title": "Necrosis and regulated necrosis"
-            },
-            {
-              "id": "u2-s7-n4",
-              "number": 4,
-              "title": "Autophagy and autophagosome formation"
-            },
-            {
-              "id": "u2-s7-n5",
-              "number": 5,
-              "title": "Lysosomal degradation"
-            },
-            {
-              "id": "u2-s7-n6",
-              "number": 6,
-              "title": "Cell survival signaling"
-            },
-            {
-              "id": "u2-s7-n7",
-              "number": 7,
-              "title": "Cell death assays and markers"
-            }
-          ]
-        },
-        {
-          "id": "u2-s08",
-          "number": 8,
-          "title": "Microbial growth physiology",
-          "nodes": [
-            {
-              "id": "u2-s8-n1",
-              "number": 1,
-              "title": "Bacterial growth curve and phases"
-            },
-            {
-              "id": "u2-s8-n2",
-              "number": 2,
-              "title": "Specific growth rate and generation time"
-            },
-            {
-              "id": "u2-s8-n3",
-              "number": 3,
-              "title": "Batch and continuous culture growth"
-            },
-            {
-              "id": "u2-s8-n4",
-              "number": 4,
-              "title": "Binary fission and alternative division strategies"
-            },
-            {
-              "id": "u2-s8-n5",
-              "number": 5,
-              "title": "Nutrient limitation and growth yield"
-            },
-            {
-              "id": "u2-s8-n6",
-              "number": 6,
-              "title": "Bacterial stress response"
-            },
-            {
-              "id": "u2-s8-n7",
-              "number": 7,
-              "title": "Biofilm formation and physiology"
-            },
-            {
-              "id": "u2-s8-n8",
-              "number": 8,
-              "title": "Antimicrobial resistance mechanisms"
+              "title": "Antimicrobial resistance (AMR)"
             }
           ]
         }
